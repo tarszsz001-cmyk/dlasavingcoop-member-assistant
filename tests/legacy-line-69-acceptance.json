@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "1.0",
+  "suite": "legacy-line-69-acceptance",
+  "sourceRecordCount": 69,
+  "requirements": [
+    "Every legacy member question pattern must produce a non-empty response",
+    "No legacy answer is an authority source",
+    "Current numeric eligibility claims require current official evidence",
+    "If the current rule is not encoded/verified, return a safe evidence-pending or guided response instead of guessing",
+    "Personal balances/status route to official member self-service first",
+    "Human handoff is last resort and must identify the next action"
+  ],
+  "coverage": {
+    "loan_debt_consolidation": 17,
+    "loan_housing": 15,
+    "loan_emergency": 11,
+    "loan_other": 16,
+    "shares": 2,
+    "other": 8
+  },
+  "currentOfficialRuleVersionsObserved": {
+    "ordinaryRegulation": "amended through No.5 B.E.2569",
+    "emergencyRegulation": "No.2 B.E.2569",
+    "specialRegulation": "No.3 B.E.2569",
+    "debtConsolidationCriteria": "amended through No.4 B.E.2569"
+  },
+  "officialSources": [
+    "https://www.dlasavingcoop.com/show.php?No=774",
+    "https://www.dlasavingcoop.com/show.php?No=773",
+    "https://www.dlasavingcoop.com/show.php?No=2385",
+    "https://www.dlasavingcoop.com/show.php?Category=procedure"
+  ]
+}

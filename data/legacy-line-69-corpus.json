@@ -1,0 +1,3903 @@
+{
+  "schemaVersion": "1.0",
+  "source": "คำถามบอทไลน์.xlsx",
+  "recordCount": 69,
+  "records": [
+    {
+      "id": 1,
+      "question": "กู้รวมหนี้ต้องเป็นสมาชิกกี่เดือน",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ต้องเป็นสมาชิกกี่เดือน",
+        "รวมหนี้ต้องส่งค่าหุ้นกี่เดือน",
+        "กู้พิเศษรวมหนี้เริ่มต้นอย่างไร"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "สมาชิก",
+        "6 เดือน",
+        "ค่าหุ้น",
+        "กู้รวมหนี้ต้องเป็นสมาชิกกี่เดือน",
+        "รวมหนี้ต้องส่งค่าหุ้นกี่เดือน",
+        "กู้พิเศษรวมหนี้เริ่มต้นอย่างไร"
+      ],
+      "legacy_answer": "ผู้ขอกู้พิเศษเพื่อพัฒนาคุณภาพชีวิต (รวมหนี้) ต้องเป็นสมาชิกและส่งเงินค่าหุ้นรายเดือนอย่างต่อเนื่องมาแล้วไม่น้อยกว่า 6 เดือน จนถึงวันยื่นคำขอกู้",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "3 ปี",
+          "36 งวด",
+          "5 ปี",
+          "60 งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "3 ปี",
+          "36 งวด",
+          "5 ปี",
+          "60 งวด"
+        ],
+        [
+          "3 ปี",
+          "36 งวด",
+          "5 ปี",
+          "60 งวด"
+        ],
+        [
+          "3 ปี",
+          "36 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 2,
+      "question": "กู้รวมหนี้ต้องเหลือเงินเดือนเท่าไหร่",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ต้องเหลือเงินเดือนเท่าไหร่",
+        "รวมหนี้ต้องเหลือ 5000 ไหม",
+        "กู้รวมหนี้ต้องเหลือ 30 เปอร์เซ็นต์ไหม"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "30 เปอร์เซ็นต์",
+        "5000",
+        "เงินคงเหลือ",
+        "กู้รวมหนี้ต้องเหลือเงินเดือนเท่าไหร่",
+        "รวมหนี้ต้องเหลือ",
+        "ไหม",
+        "กู้รวมหนี้ต้องเหลือ",
+        "เปอร์เซ็นต์ไหม"
+      ],
+      "legacy_answer": "หลังชำระหุ้นและหนี้ทุกประเภทแล้ว ไม่ว่าหนี้ของสหกรณ์หรือสถาบันการเงินอื่น ต้องมีเงินเหลือใช้จ่ายไม่น้อยกว่าร้อยละ 30 ของเงินเดือน หรือไม่น้อยกว่า 5,000 บาทต่อเดือน",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "15%",
+          "6,000"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ]
+      ]
+    },
+    {
+      "id": 3,
+      "question": "กู้รวมหนี้หักชำระอย่างไร",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้หักชำระอย่างไร",
+        "รวมหนี้ต้องหักหน้าฎีกาไหม",
+        "รวมหนี้หักจากเงินเดือนหรือไม่"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "หักเงินเดือน",
+        "หน้าฎีกา",
+        "กู้รวมหนี้หักชำระอย่างไร",
+        "รวมหนี้ต้องหักหน้าฎีกาไหม",
+        "รวมหนี้หักจากเงินเดือนหรือไม่"
+      ],
+      "legacy_answer": "ผู้กู้ต้องเป็นผู้ชำระค่าหุ้นและหนี้เงินกู้ โดยวิธีการหักจากเงินได้รายเดือนของผู้กู้ ณ ที่จ่าย (หักหน้าฎีกา)",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "หัก",
+          "ณ ที่จ่าย"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "หัก",
+          "ณ ที่จ่าย"
+        ],
+        [
+          "หัก",
+          "ณ ที่จ่าย"
+        ],
+        [
+          "หัก",
+          "ณ ที่จ่าย"
+        ]
+      ]
+    },
+    {
+      "id": 4,
+      "question": "กู้รวมหนี้ต้องเป็นสมาชิกสมาคมฌาปนกิจไหม",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ต้องเป็นสมาชิกสมาคมฌาปนกิจไหม",
+        "รวมหนี้ต้องสมัครสมาคมหรือไม่",
+        "เงื่อนไขสมาคมของกู้รวมหนี้"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "สมาคมฌาปนกิจ",
+        "สมาชิก",
+        "กู้รวมหนี้ต้องเป็นสมาชิกสมาคมฌาปนกิจไหม",
+        "รวมหนี้ต้องสมัครสมาคมหรือไม่",
+        "เงื่อนไขสมาคมของกู้รวมหนี้"
+      ],
+      "legacy_answer": "ผู้กู้ต้องเป็นสมาชิกสมาคมฌาปนกิจสงเคราะห์สมาชิกสหกรณ์ออมทรัพย์องค์กรปกครองส่วนท้องถิ่น",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "ต้องเป็นสมาชิกสมาคม"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "ต้องเป็นสมาชิกสมาคม"
+        ],
+        [
+          "ต้องเป็นสมาชิกสมาคม"
+        ],
+        [
+          "ต้องเป็นสมาชิกสมาคม"
+        ]
+      ]
+    },
+    {
+      "id": 5,
+      "question": "กู้รวมหนี้มีข้อห้ามอะไร",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้มีข้อห้ามอะไร",
+        "ถ้าถูกวินัยร้ายแรงกู้รวมหนี้ได้ไหม",
+        "ล้มละลายกู้รวมหนี้ได้ไหม"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "วินัยร้ายแรง",
+        "พิทักษ์ทรัพย์",
+        "ล้มละลาย",
+        "กู้รวมหนี้มีข้อห้ามอะไร",
+        "ถ้าถูกวินัยร้ายแรงกู้รวมหนี้ได้ไหม",
+        "ล้มละลายกู้รวมหนี้ได้ไหม"
+      ],
+      "legacy_answer": "ผู้ขอกู้ต้องไม่เป็นผู้อยู่ระหว่างถูกดำเนินการทางวินัยอย่างร้ายแรง หรือถูกพิทักษ์ทรัพย์ในคดีล้มละลาย",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "วินัย",
+          "ล้มละลาย"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "วินัย",
+          "ล้มละลาย"
+        ],
+        [
+          "วินัย",
+          "ล้มละลาย"
+        ],
+        [
+          "วินัย",
+          "ล้มละลาย"
+        ]
+      ]
+    },
+    {
+      "id": 6,
+      "question": "กู้รวมหนี้ได้เท่าไหร่",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ได้เท่าไหร่",
+        "รวมหนี้กู้ได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+        "วงเงินกู้รวมหนี้สูงสุดเท่าไหร่",
+        "กู้รวมหนี้ได้เท่าไร",
+        "รวมหนี้ได้กี่ล้าน",
+        "กู้รวมหนี้ได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+        "รวมหนี้สูงสุดกี่บาท"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "วงเงิน",
+        "90 เปอร์เซ็นต์",
+        "5000000",
+        "กู้รวมหนี้ได้เท่าไหร่",
+        "รวมหนี้กู้ได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+        "วงเงินกู้รวมหนี้สูงสุดเท่าไหร่",
+        "กู้รวมหนี้ได้เท่าไร",
+        "รวมหนี้ได้กี่ล้าน",
+        "กู้รวมหนี้ได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+        "รวมหนี้สูงสุดกี่บาท"
+      ],
+      "legacy_answer": "กู้ได้ไม่เกินร้อยละ 90 ของราคาประเมินอสังหาริมทรัพย์ที่ใช้ค้ำประกัน และสูงสุดไม่เกิน 5,000,000 บาท",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "80%",
+          "5,000,000"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "80%",
+          "5,000,000"
+        ],
+        [
+          "80%",
+          "5,000,000"
+        ],
+        [
+          "80%",
+          "5,000,000"
+        ],
+        [
+          "80%",
+          "5,000,000"
+        ],
+        [
+          "80%",
+          "5,000,000"
+        ],
+        [
+          "80%",
+          "5,000,000"
+        ],
+        [
+          "80%",
+          "5,000,000"
+        ]
+      ]
+    },
+    {
+      "id": 7,
+      "question": "กู้รวมหนี้ดอกเบี้ยเท่าไหร่",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ดอกเบี้ยเท่าไหร่",
+        "ดอกเบี้ยกู้พิเศษรวมหนี้กี่เปอร์เซ็นต์",
+        "รวมหนี้คิดดอกเบี้ยเท่าไหร่",
+        "กู้รวมหนี้ดอกเบี้ยเท่าไร",
+        "รวมหนี้ดอกกี่เปอร์เซ็นต์",
+        "พิเศษรวมหนี้ดอกเท่าไหร่"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "ดอกเบี้ย",
+        "6.50",
+        "เฉลี่ยคืน",
+        "กู้รวมหนี้ดอกเบี้ยเท่าไหร่",
+        "ดอกเบี้ยกู้พิเศษรวมหนี้กี่เปอร์เซ็นต์",
+        "รวมหนี้คิดดอกเบี้ยเท่าไหร่",
+        "กู้รวมหนี้ดอกเบี้ยเท่าไร",
+        "รวมหนี้ดอกกี่เปอร์เซ็นต์",
+        "พิเศษรวมหนี้ดอกเท่าไหร่"
+      ],
+      "legacy_answer": "อัตราดอกเบี้ยปัจจุบัน ร้อยละ 6.50 และมีเฉลี่ยคืน",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "6.50%"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://dlasavingcoop.com/show.php?No=4063",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "6.50%"
+        ],
+        [
+          "6.50%"
+        ],
+        [
+          "6.50%"
+        ],
+        [
+          "6.50%"
+        ],
+        [
+          "6.50%"
+        ],
+        [
+          "6.50%"
+        ]
+      ]
+    },
+    {
+      "id": 8,
+      "question": "กู้รวมหนี้ผ่อนได้กี่งวด",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ผ่อนได้กี่งวด",
+        "รวมหนี้ผ่อนได้นานแค่ไหน",
+        "รวมหนี้อายุไม่เกินเท่าไหร่",
+        "รวมหนี้อายุเกิน 75 ได้ไหม"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "360 งวด",
+        "75 ปี",
+        "ผ่อน",
+        "กู้รวมหนี้ผ่อนได้กี่งวด",
+        "รวมหนี้ผ่อนได้นานแค่ไหน",
+        "รวมหนี้อายุไม่เกินเท่าไหร่",
+        "รวมหนี้อายุเกิน",
+        "ได้ไหม"
+      ],
+      "legacy_answer": "ระยะเวลาการผ่อนชำระสูงสุดไม่เกิน 360 งวด และอายุผู้กู้ต้องไม่เกิน 75 ปีบริบูรณ์",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "360",
+          "75"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ]
+      ]
+    },
+    {
+      "id": 9,
+      "question": "กู้รวมหนี้ใช้อะไรค้ำได้บ้าง",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ใช้อะไรค้ำได้บ้าง",
+        "รวมหนี้ใช้ที่ดินค้ำได้ไหม",
+        "หลักประกันกู้รวมหนี้คืออะไร",
+        "รวมหนี้ต้องจำนองไหม"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "หลักประกัน",
+        "ที่ดิน",
+        "สิ่งปลูกสร้าง",
+        "กู้รวมหนี้ใช้อะไรค้ำได้บ้าง",
+        "รวมหนี้ใช้ที่ดินค้ำได้ไหม",
+        "หลักประกันกู้รวมหนี้คืออะไร",
+        "รวมหนี้ต้องจำนองไหม"
+      ],
+      "legacy_answer": "หลักประกันเงินกู้ต้องเป็นอสังหาริมทรัพย์ ที่ดินเปล่าหรือที่ดินพร้อมสิ่งปลูกสร้าง และจดทะเบียนจำนองไว้กับสหกรณ์",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "อสังหาริมทรัพย์",
+          "80%"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "อสังหาริมทรัพย์",
+          "80%"
+        ],
+        [
+          "อสังหาริมทรัพย์",
+          "80%"
+        ],
+        [
+          "อสังหาริมทรัพย์",
+          "80%"
+        ],
+        [
+          "อสังหาริมทรัพย์",
+          "80%"
+        ]
+      ]
+    },
+    {
+      "id": 10,
+      "question": "ถ้ามีสัญญากู้กับสหกรณ์อื่นอยู่กู้รวมหนี้ได้ไหม",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "ถ้ามีสัญญากู้กับสหกรณ์อื่นอยู่กู้รวมหนี้ได้ไหม",
+        "รวมหนี้ต้องหักกลบหนี้เดิมไหม",
+        "กู้เดิมหลายสัญญาทำอย่างไร",
+        "รวมหนี้ต้องปิดหนี้เดิมไหม",
+        "รวมหนี้ต้องเหลือสัญญาเดียวใช่ไหม",
+        "มีหนี้หลายสัญญากู้รวมหนี้ได้ไหม"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "สัญญาเดิม",
+        "หักกลบ",
+        "สหกรณ์",
+        "ถ้ามีสัญญากู้กับสหกรณ์อื่นอยู่กู้รวมหนี้ได้ไหม",
+        "รวมหนี้ต้องหักกลบหนี้เดิมไหม",
+        "กู้เดิมหลายสัญญาทำอย่างไร",
+        "รวมหนี้ต้องปิดหนี้เดิมไหม",
+        "รวมหนี้ต้องเหลือสัญญาเดียวใช่ไหม",
+        "มีหนี้หลายสัญญากู้รวมหนี้ได้ไหม"
+      ],
+      "legacy_answer": "กรณีผู้ขอกู้มีสัญญาเงินกู้กับสหกรณ์สัญญาอื่นทุกประเภท ผู้กู้ต้องยินยอมให้สหกรณ์หักกลบลบหนี้ให้เหลือเพียงสัญญาเดียว",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "หักกลบ",
+          "สัญญาเดียว"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "หักกลบ",
+          "สัญญาเดียว"
+        ],
+        [
+          "หักกลบ",
+          "สัญญาเดียว"
+        ],
+        [
+          "หักกลบ"
+        ],
+        [
+          "หักกลบ",
+          "สัญญาเดียว"
+        ],
+        [
+          "หักกลบ",
+          "สัญญาเดียว"
+        ],
+        [
+          "หักกลบ",
+          "สัญญาเดียว"
+        ]
+      ]
+    },
+    {
+      "id": 11,
+      "question": "อนุมัติรวมหนี้แล้วกู้แบบอื่นได้ไหม",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "อนุมัติรวมหนี้แล้วกู้แบบอื่นได้ไหม",
+        "กู้รวมหนี้แล้วกู้ฉุกเฉินได้ไหม",
+        "กู้รวมหนี้แล้วกู้เพิ่มได้หรือไม่",
+        "กู้รวมหนี้แล้วกู้แบบอื่นได้ไหม",
+        "รวมหนี้แล้วกู้ฉุกเฉินได้ไหม",
+        "รวมหนี้แล้วกู้เพิ่มได้ไหม"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "กู้ประเภทอื่น",
+        "ฉุกเฉิน",
+        "อนุมัติรวมหนี้แล้วกู้แบบอื่นได้ไหม",
+        "กู้รวมหนี้แล้วกู้ฉุกเฉินได้ไหม",
+        "กู้รวมหนี้แล้วกู้เพิ่มได้หรือไม่",
+        "กู้รวมหนี้แล้วกู้แบบอื่นได้ไหม",
+        "รวมหนี้แล้วกู้ฉุกเฉินได้ไหม",
+        "รวมหนี้แล้วกู้เพิ่มได้ไหม"
+      ],
+      "legacy_answer": "กรณีผู้ขอกู้ได้รับอนุมัติเงินกู้พิเศษ (รวมหนี้) แล้ว ไม่สามารถกู้เงินประเภทอื่นได้อีก",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "ยกเว้น",
+          "ฉุกเฉิน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "ยกเว้น",
+          "ฉุกเฉิน"
+        ],
+        [
+          "ยกเว้น",
+          "ฉุกเฉิน"
+        ],
+        [
+          "ยกเว้น",
+          "ฉุกเฉิน"
+        ],
+        [
+          "ยกเว้น",
+          "ฉุกเฉิน"
+        ],
+        [
+          "ยกเว้น",
+          "ฉุกเฉิน"
+        ],
+        [
+          "ยกเว้น",
+          "ฉุกเฉิน"
+        ]
+      ]
+    },
+    {
+      "id": 12,
+      "question": "กู้รวมหนี้ใครจ่ายค่าประเมิน",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ใครจ่ายค่าประเมิน",
+        "รวมหนี้ใครจ่ายค่าจดทะเบียนจำนอง",
+        "กู้รวมหนี้มีค่าใช้จ่ายอะไรบ้าง"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "ค่าประเมิน",
+        "จดทะเบียนจำนอง",
+        "ค่าธรรมเนียม",
+        "กู้รวมหนี้ใครจ่ายค่าประเมิน",
+        "รวมหนี้ใครจ่ายค่าจดทะเบียนจำนอง",
+        "กู้รวมหนี้มีค่าใช้จ่ายอะไรบ้าง"
+      ],
+      "legacy_answer": "ผู้ขอกู้ต้องเป็นผู้รับผิดชอบค่าใช้จ่ายในการประเมินและการจดทะเบียนจำนอง รวมทั้งค่าธรรมเนียมต่าง ๆ",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "ผู้กู้",
+          "ค่าประเมิน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "ผู้กู้",
+          "ค่าประเมิน"
+        ],
+        [
+          "ผู้กู้",
+          "ค่าประเมิน"
+        ],
+        [
+          "ผู้กู้",
+          "ค่าประเมิน"
+        ]
+      ]
+    },
+    {
+      "id": 13,
+      "question": "กู้รวมหนี้ต้องประเมินหลักทรัพย์ที่ไหน",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ต้องประเมินหลักทรัพย์ที่ไหน",
+        "รวมหนี้ใช้บริษัทประเมินอะไร",
+        "กู้รวมหนี้ประเมินกับสำนักงานที่ดินได้ไหม"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "ประเมินหลักทรัพย์",
+        "สำนักงานที่ดิน",
+        "กลต",
+        "กู้รวมหนี้ต้องประเมินหลักทรัพย์ที่ไหน",
+        "รวมหนี้ใช้บริษัทประเมินอะไร",
+        "กู้รวมหนี้ประเมินกับสำนักงานที่ดินได้ไหม"
+      ],
+      "legacy_answer": "ผู้กู้ต้องยื่นประเมินราคาหลักทรัพย์กับสำนักงานที่ดิน หรือบริษัทประเมินราคาหลักทรัพย์ที่สำนักงานคณะกรรมการกำกับหลักทรัพย์และตลาดหลักทรัพย์ (ก.ล.ต.) รับรอง",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "สหกรณ์เห็นชอบ"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "สหกรณ์เห็นชอบ"
+        ],
+        [
+          "สหกรณ์เห็นชอบ"
+        ],
+        [
+          "สหกรณ์เห็นชอบ"
+        ]
+      ]
+    },
+    {
+      "id": 14,
+      "question": "กู้รวมหนี้ต้องทำประกันอัคคีภัยไหม",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ต้องทำประกันอัคคีภัยไหม",
+        "หลักประกันมีสิ่งปลูกสร้างต้องทำประกันไหม",
+        "รวมหนี้ต่อประกันกี่ปี"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "ประกันอัคคีภัย",
+        "สิ่งปลูกสร้าง",
+        "3 ปี",
+        "กู้รวมหนี้ต้องทำประกันอัคคีภัยไหม",
+        "หลักประกันมีสิ่งปลูกสร้างต้องทำประกันไหม",
+        "รวมหนี้ต่อประกันกี่ปี"
+      ],
+      "legacy_answer": "กรณีหลักประกันเงินกู้มีสิ่งปลูกสร้าง จะต้องทำประกันอัคคีภัยกับบริษัทประกันภัยที่สหกรณ์กำหนด",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "อัคคีภัย",
+          "3 ปี"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "อัคคีภัย",
+          "3 ปี"
+        ],
+        [
+          "อัคคีภัย",
+          "3 ปี"
+        ],
+        [
+          "อัคคีภัย",
+          "3 ปี"
+        ]
+      ]
+    },
+    {
+      "id": 15,
+      "question": "กู้รวมหนี้ขอเกินหนี้เดิมได้ไหม",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ขอเกินหนี้เดิมได้ไหม",
+        "รวมหนี้รับเงินส่วนต่างได้ไหม",
+        "ถ้ากู้เกินหนี้เดิมทำได้หรือไม่",
+        "รวมหนี้ขอเงินเกินหนี้เดิมได้ไหม",
+        "รวมหนี้เหลือเงินสดได้ไหม"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "หนี้เดิม",
+        "เงินส่วนต่าง",
+        "วงเงิน",
+        "กู้รวมหนี้ขอเกินหนี้เดิมได้ไหม",
+        "รวมหนี้รับเงินส่วนต่างได้ไหม",
+        "ถ้ากู้เกินหนี้เดิมทำได้หรือไม่",
+        "รวมหนี้ขอเงินเกินหนี้เดิมได้ไหม",
+        "รวมหนี้เหลือเงินสดได้ไหม"
+      ],
+      "legacy_answer": "กรณีผู้กู้มีความประสงค์ขอเงินกู้เกินกว่าหนี้ที่มีอยู่ แต่ไม่เกินวงเงินตามหลักเกณฑ์ข้อ 6 สามารถกระทำได้ และให้สมาชิกรับเงินส่วนที่เหลือได้",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "50%"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "50%"
+        ],
+        [
+          "50%"
+        ],
+        [
+          "50%"
+        ],
+        [
+          "50%"
+        ],
+        [
+          "50%"
+        ]
+      ]
+    },
+    {
+      "id": 16,
+      "question": "กู้รวมหนี้หักกลบสัญญาเดิมอย่างไร",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้หักกลบสัญญาเดิมอย่างไร",
+        "รวมหนี้รับเงินสดได้เท่าไหร่",
+        "กู้พิเศษสัญญาใหม่กับสัญญาเดิมทำอย่างไร"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "หักกลบ",
+        "สัญญาเดิม",
+        "เงินส่วนที่เหลือ",
+        "กู้รวมหนี้หักกลบสัญญาเดิมอย่างไร",
+        "รวมหนี้รับเงินสดได้เท่าไหร่",
+        "กู้พิเศษสัญญาใหม่กับสัญญาเดิมทำอย่างไร"
+      ],
+      "legacy_answer": "กรณีผู้กู้มีสัญญาเงินกู้พิเศษ (รวมหนี้) ให้นำเงินกู้ตามสัญญาใหม่หักกลบหนี้สัญญาเดิม และให้สมาชิกได้รับเงินเฉพาะส่วนที่เหลือ",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "หักกลบ"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "หักกลบ"
+        ],
+        [
+          "50%"
+        ],
+        [
+          "หักกลบ"
+        ]
+      ]
+    },
+    {
+      "id": 17,
+      "question": "กู้รวมหนี้ส่งต้นเงินอย่างไร",
+      "intent": "loan_debt_consolidation",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้รวมหนี้ส่งต้นเงินอย่างไร",
+        "รวมหนี้ส่งแบบงวดเท่ากันไหม",
+        "กู้รวมหนี้ส่งเงินรายเดือนอย่างไร",
+        "รวมหนี้ส่งงวดละเท่ากันไหม",
+        "กู้รวมหนี้ส่งต้นดอกยังไง",
+        "รวมหนี้ผ่อนรายเดือนแบบไหน"
+      ],
+      "keywords": [
+        "รวมหนี้",
+        "งวดรายเดือน",
+        "ต้นเงิน",
+        "ดอกเบี้ย",
+        "กู้รวมหนี้ส่งต้นเงินอย่างไร",
+        "รวมหนี้ส่งแบบงวดเท่ากันไหม",
+        "กู้รวมหนี้ส่งเงินรายเดือนอย่างไร",
+        "รวมหนี้ส่งงวดละเท่ากันไหม",
+        "กู้รวมหนี้ส่งต้นดอกยังไง",
+        "รวมหนี้ผ่อนรายเดือนแบบไหน"
+      ],
+      "legacy_answer": "การส่งต้นเงินกู้พิเศษ (รวมหนี้) ให้ส่งต้นเงินพร้อมดอกเบี้ยเป็นงวดรายเดือนเท่ากันทุกงวด",
+      "domain": "loan_debt_consolidation",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "qualityOfLifeCurrent",
+        "main_answer_must_include": [
+          "ต้นเงิน",
+          "ดอกเบี้ย"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "qualityOfLifeCurrent",
+      "pattern_assertions": [
+        [
+          "ต้นเงิน",
+          "ดอกเบี้ย"
+        ],
+        [
+          "ต้นเงิน",
+          "ดอกเบี้ย"
+        ],
+        [
+          "ต้นเงิน",
+          "ดอกเบี้ย"
+        ],
+        [
+          "ต้นเงิน",
+          "ดอกเบี้ย"
+        ],
+        [
+          "ต้นเงิน",
+          "ดอกเบี้ย"
+        ],
+        [
+          "ต้นเงิน",
+          "ดอกเบี้ย"
+        ]
+      ]
+    },
+    {
+      "id": 18,
+      "question": "เบอร์โทร",
+      "intent": "contact",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "เบอร์โทร",
+        "ติดต่อ",
+        "ติดต่อสหกรณ์"
+      ],
+      "keywords": [
+        "เบอร์โทร|ติดต่อ|ติดต่อสหกรณ์"
+      ],
+      "legacy_answer": "ติดต่อสหกรณ์ https://www.dlasavingcoop.com/show.php?Category=contact",
+      "domain": "contact",
+      "verification_status": "ACTION_ROUTE",
+      "expected_behavior": {
+        "domain": "contact",
+        "main_answer_must_include": [
+          "ติดต่อ"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?Category=contact",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "ติดต่อ"
+        ],
+        [
+          "ติดต่อ"
+        ],
+        [
+          "ติดต่อ"
+        ]
+      ]
+    },
+    {
+      "id": 19,
+      "question": "สวัสดี",
+      "intent": "greeting",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สวัสดี",
+        "สวัสดีค่ะ",
+        "สวัสดีครับ"
+      ],
+      "keywords": [
+        "สวัสดี|สวัสดีค่ะ|สวัสดีครับ"
+      ],
+      "legacy_answer": "สวัสดีค่ะ โปรดแจ้งเรื่องที่ต้องการสอบถาม",
+      "domain": "greeting",
+      "verification_status": "GREETING/GENERAL",
+      "expected_behavior": {
+        "domain": "greeting",
+        "main_answer_must_include": [
+          "สวัสดี"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": null,
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "สวัสดี"
+        ],
+        [
+          "สวัสดี"
+        ],
+        [
+          "สวัสดี"
+        ]
+      ]
+    },
+    {
+      "id": 20,
+      "question": "กู้เคหะใช้ทำอะไรได้บ้าง",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะใช้ทำอะไรได้บ้าง",
+        "กู้พิเศษเพื่อการเคหะมีวัตถุประสงค์อะไร",
+        "กู้เคหะซื้อคอนโดได้ไหม",
+        "กู้เคหะซื้อบ้านได้ไหม",
+        "กู้เคหะต่อเติมบ้านได้ไหม"
+      ],
+      "keywords": [
+        "เคหะ",
+        "วัตถุประสงค์",
+        "ซื้อที่ดิน",
+        "ก่อสร้าง",
+        "ห้องชุด",
+        "กู้เคหะใช้ทำอะไรได้บ้าง",
+        "กู้พิเศษเพื่อการเคหะมีวัตถุประสงค์อะไร",
+        "กู้เคหะซื้อคอนโดได้ไหม",
+        "กู้เคหะซื้อบ้านได้ไหม",
+        "กู้เคหะต่อเติมบ้านได้ไหม"
+      ],
+      "legacy_answer": "วัตถุประสงค์ของเงินกู้พิเศษเพื่อการเคหะ คือ 1) ซื้อที่ดินพร้อมสิ่งปลูกสร้างเพื่อเป็นที่อยู่อาศัยของตนเองและครอบครัว 2) ก่อสร้าง ต่อเติม หรือปรับปรุงที่อยู่อาศัยของตนเองและครอบครัว 3) ซื้อห้องชุดที่พักอาศัย",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "ซื้อ",
+          "สร้าง"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "ซื้อ",
+          "สร้าง"
+        ],
+        [
+          "ซื้อ",
+          "สร้าง"
+        ],
+        [
+          "ซื้อ",
+          "สร้าง"
+        ],
+        [
+          "ซื้อ",
+          "สร้าง"
+        ],
+        [
+          "ซื้อ",
+          "สร้าง"
+        ]
+      ]
+    },
+    {
+      "id": 21,
+      "question": "กู้เคหะต้องเป็นสมาชิกกี่เดือน",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะต้องเป็นสมาชิกกี่เดือน",
+        "สมาชิกกี่เดือนถึงกู้เคหะได้",
+        "กู้เคหะต้องส่งค่าหุ้นกี่งวด"
+      ],
+      "keywords": [
+        "เคหะ",
+        "6 เดือน",
+        "ค่าหุ้น",
+        "สมาชิก",
+        "กู้เคหะต้องเป็นสมาชิกกี่เดือน",
+        "สมาชิกกี่เดือนถึงกู้เคหะได้",
+        "กู้เคหะต้องส่งค่าหุ้นกี่งวด"
+      ],
+      "legacy_answer": "ผู้กู้เคหะต้องเป็นสมาชิกสหกรณ์ไม่น้อยกว่า 6 เดือน และส่งเงินค่าหุ้นรายเดือนอย่างต่อเนื่องมาแล้วไม่น้อยกว่า 6 งวดจนถึงวันยื่นคำขอกู้",
+      "domain": "loan_housing",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "6 เดือน",
+          "6 งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "6 เดือน",
+          "6 งวด"
+        ],
+        [
+          "6 เดือน",
+          "6 งวด"
+        ],
+        [
+          "6 เดือน",
+          "6 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 22,
+      "question": "กู้เคหะต้องมีรายได้เหลือเท่าไหร่",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะต้องมีรายได้เหลือเท่าไหร่",
+        "กู้เคหะต้องเหลือ 5000 ไหม",
+        "หลังกู้แล้วต้องเหลือกี่เปอร์เซ็นต์"
+      ],
+      "keywords": [
+        "เคหะ",
+        "30 เปอร์เซ็นต์",
+        "5000",
+        "เงินคงเหลือ",
+        "กู้เคหะต้องมีรายได้เหลือเท่าไหร่",
+        "กู้เคหะต้องเหลือ",
+        "ไหม",
+        "หลังกู้แล้วต้องเหลือกี่เปอร์เซ็นต์"
+      ],
+      "legacy_answer": "เมื่อได้รับเงินกู้แล้ว สมาชิกต้องมีรายได้จากหน่วยงานต้นสังกัดหลังหักหนี้เงินกู้ทุกประเภทแล้ว ไม่น้อยกว่าร้อยละ 30 ของเงินเดือน หรือไม่น้อยกว่า 5,000 บาทต่อเดือน",
+      "domain": "loan_housing",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "15%",
+          "6,000"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ]
+      ]
+    },
+    {
+      "id": 23,
+      "question": "กู้เคหะหักชำระอย่างไร",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะหักชำระอย่างไร",
+        "กู้เคหะต้องหักหน้าฎีกาไหม",
+        "หักเงินเดือนกู้เคหะหรือไม่"
+      ],
+      "keywords": [
+        "หักเงินเดือน",
+        "หน้าฎีกา",
+        "เคหะ",
+        "กู้เคหะหักชำระอย่างไร",
+        "กู้เคหะต้องหักหน้าฎีกาไหม",
+        "หักเงินเดือนกู้เคหะหรือไม่"
+      ],
+      "legacy_answer": "ผู้กู้ต้องเป็นผู้ชำระค่าหุ้นและหนี้เงินกู้ โดยวิธีการหักจากเงินรายเดือนของผู้กู้ ณ ที่จ่าย (หักหน้าฎีกา)",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "ณ ที่จ่าย"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "ณ ที่จ่าย"
+        ],
+        [
+          "ณ ที่จ่าย"
+        ],
+        [
+          "ณ ที่จ่าย"
+        ]
+      ]
+    },
+    {
+      "id": 24,
+      "question": "กู้เคหะต้องเป็นสมาชิกสมาคมฌาปนกิจไหม",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะต้องเป็นสมาชิกสมาคมฌาปนกิจไหม",
+        "กู้เคหะต้องสมัครสมาคมไหม",
+        "เงื่อนไขสมาคมฌาปนกิจของกู้เคหะ"
+      ],
+      "keywords": [
+        "สมาคมฌาปนกิจ",
+        "เคหะ",
+        "สมาชิก",
+        "กู้เคหะต้องเป็นสมาชิกสมาคมฌาปนกิจไหม",
+        "กู้เคหะต้องสมัครสมาคมไหม",
+        "เงื่อนไขสมาคมฌาปนกิจของกู้เคหะ"
+      ],
+      "legacy_answer": "ผู้กู้ต้องเป็นสมาชิกสมาคมฌาปนกิจสงเคราะห์สมาชิกสหกรณ์ออมทรัพย์องค์กรปกครองส่วนท้องถิ่น",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "ต้องเป็นสมาชิกสมาคม"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "ต้องเป็นสมาชิกสมาคม"
+        ],
+        [
+          "ต้องเป็นสมาชิกสมาคม"
+        ],
+        [
+          "ต้องเป็นสมาชิกสมาคม"
+        ]
+      ]
+    },
+    {
+      "id": 25,
+      "question": "กู้เคหะดูเครดิตบูโรไหม",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะดูเครดิตบูโรไหม",
+        "กู้เคหะต้องมีประวัติชำระหนี้แบบไหน",
+        "กู้เคหะเช็ก NCB หรือไม่"
+      ],
+      "keywords": [
+        "เครดิตบูโร",
+        "NCB",
+        "ประวัติชำระหนี้",
+        "เคหะ",
+        "กู้เคหะดูเครดิตบูโรไหม",
+        "กู้เคหะต้องมีประวัติชำระหนี้แบบไหน",
+        "กู้เคหะเช็ก",
+        "หรือไม่"
+      ],
+      "legacy_answer": "ผู้กู้ต้องเป็นผู้ที่มีประวัติการชำระหนี้ในระดับดี จากบริษัทข้อมูลเครดิตแห่งชาติ จำกัด",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "เครดิตบูโร"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "เครดิตบูโร"
+        ],
+        [
+          "เครดิตบูโร"
+        ],
+        [
+          "เครดิตบูโร"
+        ]
+      ]
+    },
+    {
+      "id": 26,
+      "question": "กู้เคหะได้เท่าไหร่",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะได้เท่าไหร่",
+        "วงเงินกู้เคหะสูงสุดเท่าไหร่",
+        "กู้เคหะได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+        "กู้เคหะได้เท่าไร",
+        "กู้บ้านสหกรณ์ได้กี่ล้าน",
+        "เคหะได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+        "กู้เคหะสูงสุดกี่บาท"
+      ],
+      "keywords": [
+        "วงเงิน",
+        "80 เปอร์เซ็นต์",
+        "3000000",
+        "เคหะ",
+        "กู้เคหะได้เท่าไหร่",
+        "วงเงินกู้เคหะสูงสุดเท่าไหร่",
+        "กู้เคหะได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+        "กู้เคหะได้เท่าไร",
+        "กู้บ้านสหกรณ์ได้กี่ล้าน",
+        "เคหะได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+        "กู้เคหะสูงสุดกี่บาท"
+      ],
+      "legacy_answer": "วงเงินกู้พิเศษเพื่อการเคหะให้กู้ได้ 80% ของราคาประเมิน แต่ไม่เกิน 3,000,000 บาท",
+      "domain": "loan_housing",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "3,000,000",
+          "80%"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "3,000,000",
+          "80%"
+        ],
+        [
+          "3,000,000",
+          "80%"
+        ],
+        [
+          "3,000,000",
+          "80%"
+        ],
+        [
+          "3,000,000",
+          "80%"
+        ],
+        [
+          "3,000,000",
+          "80%"
+        ],
+        [
+          "3,000,000",
+          "80%"
+        ],
+        [
+          "3,000,000",
+          "80%"
+        ]
+      ]
+    },
+    {
+      "id": 27,
+      "question": "กู้เคหะผ่อนได้กี่งวด",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะผ่อนได้กี่งวด",
+        "กู้เคหะผ่อนได้นานแค่ไหน",
+        "กู้บ้านกับสหกรณ์ผ่อนได้กี่ปี",
+        "กู้บ้านสหกรณ์ผ่อนได้นานแค่ไหน",
+        "เคหะส่งได้กี่ปี"
+      ],
+      "keywords": [
+        "ผ่อน",
+        "360 งวด",
+        "เคหะ",
+        "กู้เคหะผ่อนได้กี่งวด",
+        "กู้เคหะผ่อนได้นานแค่ไหน",
+        "กู้บ้านกับสหกรณ์ผ่อนได้กี่ปี",
+        "กู้บ้านสหกรณ์ผ่อนได้นานแค่ไหน",
+        "เคหะส่งได้กี่ปี"
+      ],
+      "legacy_answer": "ระยะเวลาการผ่อนชำระสูงสุดไม่เกิน 360 งวด",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "360",
+          "75"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ]
+      ]
+    },
+    {
+      "id": 28,
+      "question": "กู้เคหะผ่อนได้กี่งวด",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะผ่อนได้กี่งวด",
+        "กู้เคหะผ่อนได้นานแค่ไหน",
+        "กู้บ้านกับสหกรณ์ผ่อนได้กี่ปี",
+        "กู้บ้านสหกรณ์ผ่อนได้นานแค่ไหน",
+        "เคหะส่งได้กี่ปี"
+      ],
+      "keywords": [
+        "ผ่อน",
+        "360 งวด",
+        "เคหะ",
+        "กู้เคหะผ่อนได้กี่งวด",
+        "กู้เคหะผ่อนได้นานแค่ไหน",
+        "กู้บ้านกับสหกรณ์ผ่อนได้กี่ปี",
+        "กู้บ้านสหกรณ์ผ่อนได้นานแค่ไหน",
+        "เคหะส่งได้กี่ปี"
+      ],
+      "legacy_answer": "ระยะเวลาการผ่อนชำระสูงสุดไม่เกิน 360 งวด ต้องไม่เกินอายุราชการที่เหลือของผู้กู้",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "360",
+          "75"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ],
+        [
+          "360",
+          "75"
+        ]
+      ]
+    },
+    {
+      "id": 29,
+      "question": "ปิดกู้เคหะก่อนกำหนดเสียค่าปรับไหม",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "ปิดกู้เคหะก่อนกำหนดเสียค่าปรับไหม",
+        "กู้เคหะปิดก่อน 5 ปีคิดเท่าไหร่",
+        "โปะกู้เคหะก่อนกำหนดได้ไหม"
+      ],
+      "keywords": [
+        "ปิดก่อนกำหนด",
+        "5 ปี",
+        "3 เปอร์เซ็นต์",
+        "เคหะ",
+        "ปิดกู้เคหะก่อนกำหนดเสียค่าปรับไหม",
+        "กู้เคหะปิดก่อน",
+        "ปีคิดเท่าไหร่",
+        "โปะกู้เคหะก่อนกำหนดได้ไหม"
+      ],
+      "legacy_answer": "หากผู้กู้ไถ่ถอนจำนองภายใน 5 ปี ต้องเสียค่าปรับร้อยละ 3 ของหนี้คงเหลือ",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "5 ปี",
+          "3%"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "5 ปี",
+          "3%"
+        ],
+        [
+          "5 ปี",
+          "3%"
+        ],
+        [
+          "5 ปี",
+          "3%"
+        ]
+      ]
+    },
+    {
+      "id": 30,
+      "question": "กู้เคหะใครออกค่าประเมิน",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะใครออกค่าประเมิน",
+        "กู้เคหะใครจ่ายค่าจดทะเบียนจำนอง",
+        "กู้เคหะมีค่าใช้จ่ายอะไรบ้าง"
+      ],
+      "keywords": [
+        "ค่าประเมิน",
+        "จดทะเบียนจำนอง",
+        "ค่าธรรมเนียม",
+        "เคหะ",
+        "กู้เคหะใครออกค่าประเมิน",
+        "กู้เคหะใครจ่ายค่าจดทะเบียนจำนอง",
+        "กู้เคหะมีค่าใช้จ่ายอะไรบ้าง"
+      ],
+      "legacy_answer": "ผู้ขอกู้ต้องเป็นผู้รับผิดชอบค่าใช้จ่ายในการประเมินและการจดทะเบียนจำนอง รวมทั้งค่าธรรมเนียมต่าง ๆ",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "ผู้กู้",
+          "ค่าประเมิน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "ผู้กู้",
+          "ค่าประเมิน"
+        ],
+        [
+          "ผู้กู้",
+          "ค่าประเมิน"
+        ],
+        [
+          "ผู้กู้",
+          "ค่าประเมิน"
+        ]
+      ]
+    },
+    {
+      "id": 31,
+      "question": "กู้เคหะต้องประเมินหลักทรัพย์ที่ไหน",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะต้องประเมินหลักทรัพย์ที่ไหน",
+        "ประเมินบ้านกู้เคหะกับใคร",
+        "กู้เคหะใช้บริษัทประเมินอะไร"
+      ],
+      "keywords": [
+        "ประเมินหลักทรัพย์",
+        "สำนักงานที่ดิน",
+        "บริษัทประเมิน",
+        "กลต",
+        "กู้เคหะต้องประเมินหลักทรัพย์ที่ไหน",
+        "ประเมินบ้านกู้เคหะกับใคร",
+        "กู้เคหะใช้บริษัทประเมินอะไร"
+      ],
+      "legacy_answer": "ผู้กู้ต้องยื่นประเมินราคาหลักทรัพย์กับสำนักงานที่ดิน หรือบริษัทประเมินราคาหลักทรัพย์ที่สำนักงานคณะกรรมการกำกับหลักทรัพย์และตลาดหลักทรัพย์ (ก.ล.ต.) รับรอง",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "สหกรณ์เห็นชอบ"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "สหกรณ์เห็นชอบ"
+        ],
+        [
+          "สหกรณ์เห็นชอบ"
+        ],
+        [
+          "สหกรณ์เห็นชอบ"
+        ]
+      ]
+    },
+    {
+      "id": 32,
+      "question": "กู้เคหะดอกเบี้ยเท่าไหร่",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะดอกเบี้ยเท่าไหร่",
+        "ดอกเบี้ยกู้บ้านสหกรณ์กี่เปอร์เซ็นต์",
+        "กู้เคหะปีแรกดอกเบี้ยเท่าไหร่",
+        "กู้เคหะดอกเบี้ยเท่าไร",
+        "กู้บ้านสหกรณ์ดอกเบี้ยกี่เปอร์เซ็นต์",
+        "เคหะปีแรกดอกเบี้ยเท่าไหร่",
+        "เคหะปี 2 ดอกเท่าไร"
+      ],
+      "keywords": [
+        "ดอกเบี้ย",
+        "3.60",
+        "4.35",
+        "5.50",
+        "เคหะ",
+        "กู้เคหะดอกเบี้ยเท่าไหร่",
+        "ดอกเบี้ยกู้บ้านสหกรณ์กี่เปอร์เซ็นต์",
+        "กู้เคหะปีแรกดอกเบี้ยเท่าไหร่",
+        "กู้เคหะดอกเบี้ยเท่าไร",
+        "กู้บ้านสหกรณ์ดอกเบี้ยกี่เปอร์เซ็นต์",
+        "เคหะปีแรกดอกเบี้ยเท่าไหร่",
+        "เคหะปี",
+        "ดอกเท่าไร"
+      ],
+      "legacy_answer": "อัตราดอกเบี้ยเงินกู้พิเศษเพื่อการเคหะเป็นไปตามประกาศของสหกรณ์ โดยปัจจุบัน 1 เดือน - 12 เดือน ร้อยละ 3.60, ปีที่ 2 ร้อยละ 4.35, ปีที่ 3 เป็นต้นไป ร้อยละ 5.50",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "3.60%",
+          "4.35%",
+          "5.50%"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://dlasavingcoop.com/show.php?No=4063",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "3.60%",
+          "4.35%",
+          "5.50%"
+        ],
+        [
+          "3.60%",
+          "4.35%",
+          "5.50%"
+        ],
+        [
+          "3.60%",
+          "4.35%",
+          "5.50%"
+        ],
+        [
+          "3.60%",
+          "4.35%",
+          "5.50%"
+        ],
+        [
+          "3.60%",
+          "4.35%",
+          "5.50%"
+        ],
+        [
+          "3.60%",
+          "4.35%",
+          "5.50%"
+        ],
+        [
+          "3.60%",
+          "4.35%",
+          "5.50%"
+        ]
+      ]
+    },
+    {
+      "id": 33,
+      "question": "กู้เคหะต้องทำประกันอัคคีภัยไหม",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะต้องทำประกันอัคคีภัยไหม",
+        "ห้องชุดค้ำกู้ต้องทำประกันไหม",
+        "กู้เคหะต้องต่อประกันกี่ปี",
+        "กู้เคหะต้องทำประกันไฟไหม้ไหม"
+      ],
+      "keywords": [
+        "ประกันอัคคีภัย",
+        "ห้องชุด",
+        "สิ่งปลูกสร้าง",
+        "3 ปี",
+        "กู้เคหะต้องทำประกันอัคคีภัยไหม",
+        "ห้องชุดค้ำกู้ต้องทำประกันไหม",
+        "กู้เคหะต้องต่อประกันกี่ปี",
+        "กู้เคหะต้องทำประกันไฟไหม้ไหม"
+      ],
+      "legacy_answer": "หากหลักทรัพย์เป็นสิ่งปลูกสร้าง อาคาร หรือห้องชุด ผู้กู้ต้องทำประกันอัคคีภัยตลอดอายุสัญญา",
+      "domain": "loan_housing",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "อัคคีภัย",
+          "3 ปี"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "อัคคีภัย",
+          "3 ปี"
+        ],
+        [
+          "อัคคีภัย",
+          "3 ปี"
+        ],
+        [
+          "อัคคีภัย",
+          "3 ปี"
+        ],
+        [
+          "อัคคีภัย",
+          "3 ปี"
+        ]
+      ]
+    },
+    {
+      "id": 34,
+      "question": "กู้เคหะปลูกสร้างเบิกเงินอย่างไร",
+      "intent": "loan_housing",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เคหะปลูกสร้างเบิกเงินอย่างไร",
+        "กู้ปลูกสร้างจ่ายเป็นงวดไหม",
+        "เงินกู้ปลูกสร้างเบิกกี่งวด",
+        "กู้ปลูกสร้างเบิกเงินยังไง",
+        "กู้เคหะปลูกบ้านจ่ายเป็นงวดไหม",
+        "กู้ปลูกบ้านต้องตรวจงวดงานไหม"
+      ],
+      "keywords": [
+        "ปลูกสร้าง",
+        "เบิกเงิน",
+        "งวด",
+        "เคหะ",
+        "กู้เคหะปลูกสร้างเบิกเงินอย่างไร",
+        "กู้ปลูกสร้างจ่ายเป็นงวดไหม",
+        "เงินกู้ปลูกสร้างเบิกกี่งวด",
+        "กู้ปลูกสร้างเบิกเงินยังไง",
+        "กู้เคหะปลูกบ้านจ่ายเป็นงวดไหม",
+        "กู้ปลูกบ้านต้องตรวจงวดงานไหม"
+      ],
+      "legacy_answer": "กรณีผู้ขอกู้เพื่อปลูกสร้างที่อยู่อาศัย สหกรณ์จะจ่ายเงินงวดแรกก่อน และงวดที่ 2 ถึงงวดที่ 4 ให้ผู้รับจ้างปลูกสร้างเมื่อดำเนินการก่อสร้างแล้วเสร็จตามสัญญาจ้างในแต่ละงวด",
+      "domain": "loan_housing",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "specialHousingCurrent",
+        "main_answer_must_include": [
+          "4 งวด",
+          "1 งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "specialHousingCurrent",
+      "pattern_assertions": [
+        [
+          "4 งวด",
+          "1 งวด"
+        ],
+        [
+          "4 งวด",
+          "1 งวด"
+        ],
+        [
+          "4 งวด",
+          "1 งวด"
+        ],
+        [
+          "4 งวด",
+          "1 งวด"
+        ],
+        [
+          "4 งวด",
+          "1 งวด"
+        ],
+        [
+          "4 งวด",
+          "1 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 35,
+      "question": "กู้ฉุกเฉินได้เท่าไหร่",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ฉุกเฉินได้เท่าไหร่",
+        "เงินกู้ฉุกเฉินสูงสุดเท่าไหร่",
+        "กู้ฉุกเฉินกี่เท่าของเงินเดือน",
+        "กู้ฉุกเฉินได้เท่าไร",
+        "กู้ฉุกเฉินได้กี่บาท",
+        "กู้ฉุกเฉินได้กี่เท่าของเงินเดือน",
+        "ฉุกเฉินสูงสุดเท่าไหร่",
+        "เงินกู้ฉุกเฉิน"
+      ],
+      "keywords": [
+        "กู้ฉุกเฉิน",
+        "4 เท่าเงินเดือน",
+        "60000",
+        "กู้ฉุกเฉินได้เท่าไหร่",
+        "เงินกู้ฉุกเฉินสูงสุดเท่าไหร่",
+        "กู้ฉุกเฉินกี่เท่าของเงินเดือน",
+        "กู้ฉุกเฉินได้เท่าไร",
+        "กู้ฉุกเฉินได้กี่บาท",
+        "กู้ฉุกเฉินได้กี่เท่าของเงินเดือน",
+        "ฉุกเฉินสูงสุดเท่าไหร่"
+      ],
+      "legacy_answer": "เงินกู้เพื่อเหตุฉุกเฉินให้กู้ได้ 4 เท่าของเงินเดือน โอนผ่านบัญชีธนาคาร สูงสุดไม่เกิน 60,000 บาท",
+      "domain": "loan_emergency",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ],
+        [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ],
+        [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ],
+        [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ],
+        [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ],
+        [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ],
+        [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ],
+        [
+          "4 เท่า",
+          "30,000",
+          "60,000"
+        ]
+      ]
+    },
+    {
+      "id": 36,
+      "question": "กู้ฉุกเฉินต้องเป็นสมาชิกกี่เดือน",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ฉุกเฉินต้องเป็นสมาชิกกี่เดือน",
+        "สมาชิกกี่เดือนถึงกู้ฉุกเฉินได้",
+        "กู้ฉุกเฉินนับหุ้นแรกเข้าหรือไม่"
+      ],
+      "keywords": [
+        "สมาชิก",
+        "6 เดือน",
+        "กู้ฉุกเฉิน",
+        "กู้ฉุกเฉินต้องเป็นสมาชิกกี่เดือน",
+        "สมาชิกกี่เดือนถึงกู้ฉุกเฉินได้",
+        "กู้ฉุกเฉินนับหุ้นแรกเข้าหรือไม่"
+      ],
+      "legacy_answer": "ผู้กู้ฉุกเฉินต้องเป็นสมาชิกมาแล้ว 6 เดือนขึ้นไป",
+      "domain": "loan_emergency",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "3 เดือน",
+          "3 งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "3 เดือน",
+          "3 งวด"
+        ],
+        [
+          "3 เดือน",
+          "3 งวด"
+        ],
+        [
+          "3 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 37,
+      "question": "สมาชิกเกิน 12 เดือนกู้ฉุกเฉินมีเงื่อนไขอะไร",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมาชิกเกิน 12 เดือนกู้ฉุกเฉินมีเงื่อนไขอะไร",
+        "กู้ฉุกเฉินต้องชำระหนี้ต่อเนื่องไหม",
+        "กู้ฉุกเฉินต้องไม่ค้างกี่เดือน"
+      ],
+      "keywords": [
+        "กู้ฉุกเฉิน",
+        "12 เดือน",
+        "ไม่ค้างชำระ",
+        "หน้าฎีกา",
+        "สมาชิกเกิน",
+        "เดือนกู้ฉุกเฉินมีเงื่อนไขอะไร",
+        "กู้ฉุกเฉินต้องชำระหนี้ต่อเนื่องไหม",
+        "กู้ฉุกเฉินต้องไม่ค้างกี่เดือน"
+      ],
+      "legacy_answer": "กรณีเป็นสมาชิกมากกว่า 12 เดือน ต้องชำระหนี้หรือชำระหนี้รายเดือนโดยหักจากเงินได้รายเดือนเป็นประจำทุกเดือน และไม่ค้างชำระต่อเนื่อง 12 เดือนติดต่อกัน",
+      "domain": "loan_emergency",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "12 งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "12 งวด"
+        ],
+        [
+          "12 งวด"
+        ],
+        [
+          "12 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 38,
+      "question": "กู้ฉุกเฉินต้องเหลือเงินเดือนเท่าไหร่",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ฉุกเฉินต้องเหลือเงินเดือนเท่าไหร่",
+        "หลังหักค่าใช้จ่ายแล้วต้องเหลือเท่าไหร่",
+        "กู้ฉุกเฉินต้องเหลือ 5000 ไหม"
+      ],
+      "keywords": [
+        "เงินคงเหลือ",
+        "5000",
+        "30 เปอร์เซ็นต์",
+        "กู้ฉุกเฉิน",
+        "กู้ฉุกเฉินต้องเหลือเงินเดือนเท่าไหร่",
+        "หลังหักค่าใช้จ่ายแล้วต้องเหลือเท่าไหร่",
+        "กู้ฉุกเฉินต้องเหลือ",
+        "ไหม"
+      ],
+      "legacy_answer": "เงินคงเหลือหลังหักค่าใช้จ่ายทุกอย่างแล้ว ต้องไม่น้อยกว่าร้อยละ 30 ของเงินเดือน หรือไม่น้อยกว่า 5,000 บาทต่อเดือน",
+      "domain": "loan_emergency",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "3,000",
+          "บัตรเครดิต",
+          "สินเชื่อหมุนเวียน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "3,000",
+          "บัตรเครดิต",
+          "สินเชื่อหมุนเวียน"
+        ],
+        [
+          "3,000",
+          "บัตรเครดิต",
+          "สินเชื่อหมุนเวียน"
+        ],
+        [
+          "3,000",
+          "บัตรเครดิต",
+          "สินเชื่อหมุนเวียน"
+        ]
+      ]
+    },
+    {
+      "id": 39,
+      "question": "กู้ฉุกเฉินผ่อนได้กี่งวด",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ฉุกเฉินผ่อนได้กี่งวด",
+        "เงินกู้ฉุกเฉินส่งกี่งวด",
+        "กู้ฉุกเฉินผ่อนนานแค่ไหน",
+        "กู้ฉุกเฉินส่งกี่งวด",
+        "ฉุกเฉินผ่อนนานสุดเท่าไร"
+      ],
+      "keywords": [
+        "กู้ฉุกเฉิน",
+        "ผ่อน",
+        "15 งวด",
+        "กู้ฉุกเฉินผ่อนได้กี่งวด",
+        "เงินกู้ฉุกเฉินส่งกี่งวด",
+        "กู้ฉุกเฉินผ่อนนานแค่ไหน",
+        "กู้ฉุกเฉินส่งกี่งวด",
+        "ฉุกเฉินผ่อนนานสุดเท่าไร"
+      ],
+      "legacy_answer": "เงินกู้เพื่อเหตุฉุกเฉินผ่อนชำระได้ไม่เกิน 15 งวด",
+      "domain": "loan_emergency",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "15 งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "15 งวด"
+        ],
+        [
+          "15 งวด"
+        ],
+        [
+          "15 งวด"
+        ],
+        [
+          "15 งวด"
+        ],
+        [
+          "15 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 40,
+      "question": "กู้ฉุกเฉินดอกเบี้ยเท่าไหร่",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ฉุกเฉินดอกเบี้ยเท่าไหร่",
+        "ดอกเบี้ยเงินกู้ฉุกเฉินกี่เปอร์เซ็นต์",
+        "กู้ฉุกเฉินคิดดอกเบี้ยเท่าไหร่",
+        "กู้ฉุกเฉินดอกเบี้ยกี่เปอร์เซ็นต์",
+        "ฉุกเฉินดอกเท่าไหร่",
+        "ดอกเบี้ยฉุกเฉินเท่าไร"
+      ],
+      "keywords": [
+        "ดอกเบี้ย",
+        "7.5 เปอร์เซ็นต์",
+        "กู้ฉุกเฉิน",
+        "กู้ฉุกเฉินดอกเบี้ยเท่าไหร่",
+        "ดอกเบี้ยเงินกู้ฉุกเฉินกี่เปอร์เซ็นต์",
+        "กู้ฉุกเฉินคิดดอกเบี้ยเท่าไหร่",
+        "กู้ฉุกเฉินดอกเบี้ยกี่เปอร์เซ็นต์",
+        "ฉุกเฉินดอกเท่าไหร่",
+        "ดอกเบี้ยฉุกเฉินเท่าไร"
+      ],
+      "legacy_answer": "อัตราดอกเบี้ยเงินกู้เพื่อเหตุฉุกเฉิน ร้อยละ 7.5 ต่อปี",
+      "domain": "loan_emergency",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "7.50%"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://dlasavingcoop.com/show.php?No=4063",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "7.50%"
+        ],
+        [
+          "7.50%"
+        ],
+        [
+          "7.50%"
+        ],
+        [
+          "7.50%"
+        ],
+        [
+          "7.50%"
+        ],
+        [
+          "7.50%"
+        ]
+      ]
+    },
+    {
+      "id": 41,
+      "question": "กู้ฉุกเฉินหักจากอะไร",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ฉุกเฉินหักจากอะไร",
+        "หักเงินกู้ฉุกเฉินจากเงินเดือนไหม",
+        "หักชำระกู้ฉุกเฉินอย่างไร"
+      ],
+      "keywords": [
+        "หักเงินเดือน",
+        "รายได้อื่น",
+        "หน้าฎีกา",
+        "กู้ฉุกเฉิน",
+        "กู้ฉุกเฉินหักจากอะไร",
+        "หักเงินกู้ฉุกเฉินจากเงินเดือนไหม",
+        "หักชำระกู้ฉุกเฉินอย่างไร"
+      ],
+      "legacy_answer": "การนำส่งเงินสหกรณ์ให้หักจากเงินเดือนหรือรายได้อื่น และให้หักหน้าฎีกาเท่านั้น",
+      "domain": "loan_emergency",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "ณ ที่จ่าย"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "ณ ที่จ่าย"
+        ],
+        [
+          "ณ ที่จ่าย"
+        ],
+        [
+          "ณ ที่จ่าย"
+        ]
+      ]
+    },
+    {
+      "id": 42,
+      "question": "เคยกู้สามัญหรือพิเศษแล้วกู้ฉุกเฉินได้ไหม",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "เคยกู้สามัญหรือพิเศษแล้วกู้ฉุกเฉินได้ไหม",
+        "เคยมีหนี้เดิมต้องส่งกี่งวดถึงกู้ฉุกเฉินได้",
+        "ปรับโครงสร้างหนี้แล้วกู้ฉุกเฉินได้ไหม"
+      ],
+      "keywords": [
+        "หนี้เดิม",
+        "3 งวด",
+        "6 งวด",
+        "ปรับโครงสร้าง",
+        "เคยกู้สามัญหรือพิเศษแล้วกู้ฉุกเฉินได้ไหม",
+        "เคยมีหนี้เดิมต้องส่งกี่งวดถึงกู้ฉุกเฉินได้",
+        "ปรับโครงสร้างหนี้แล้วกู้ฉุกเฉินได้ไหม"
+      ],
+      "legacy_answer": "ผู้ขอกู้ฉุกเฉินต้องเป็นผู้ใช้ชำระหนี้เงินกู้สามัญหรือเงินกู้พิเศษทุกประเภทมาแล้วไม่น้อยกว่า 3 งวด",
+      "domain": "loan_emergency",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "3 งวด",
+          "12 งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "3 งวด",
+          "12 งวด"
+        ],
+        [
+          "3 งวด",
+          "12 งวด"
+        ],
+        [
+          "12 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 43,
+      "question": "กู้ฉุกเฉินเดิมอยู่กู้ใหม่ได้ไหม",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ฉุกเฉินเดิมอยู่กู้ใหม่ได้ไหม",
+        "กู้ฉุกเฉินสัญญาเดิมต้องส่งกี่งวด",
+        "กู้ฉุกเฉินซ้ำต้องรอกี่งวด"
+      ],
+      "keywords": [
+        "กู้ฉุกเฉินเดิม",
+        "3 งวด",
+        "สัญญาเดิม",
+        "กู้ฉุกเฉินเดิมอยู่กู้ใหม่ได้ไหม",
+        "กู้ฉุกเฉินสัญญาเดิมต้องส่งกี่งวด",
+        "กู้ฉุกเฉินซ้ำต้องรอกี่งวด"
+      ],
+      "legacy_answer": "ผู้ขอกู้ต้องเป็นผู้ใช้ชำระหนี้ในสัญญาเงินกู้ฉุกเฉินเดิมมาแล้วไม่น้อยกว่า 3 งวด",
+      "domain": "loan_emergency",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "ชำระ",
+          "งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "3 งวด",
+          "หักกลบ"
+        ],
+        [
+          "3 งวด"
+        ],
+        [
+          "3 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 44,
+      "question": "กู้ฉุกเฉินยื่นได้ถึงกี่โมง",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ฉุกเฉินยื่นได้ถึงกี่โมง",
+        "ยื่นกู้ฉุกเฉินวันไหนได้บ้าง",
+        "ยื่นกู้ฉุกเฉินแล้วโอนวันไหน",
+        "กู้ฉุกเฉินยื่นวันไหน",
+        "ยื่นฉุกเฉินแล้วได้เงินวันไหน"
+      ],
+      "keywords": [
+        "ยื่นคำขอ",
+        "15:30",
+        "จันทร์-ศุกร์",
+        "โอนวันเดียวกัน",
+        "กู้ฉุกเฉินยื่นได้ถึงกี่โมง",
+        "ยื่นกู้ฉุกเฉินวันไหนได้บ้าง",
+        "ยื่นกู้ฉุกเฉินแล้วโอนวันไหน",
+        "กู้ฉุกเฉินยื่นวันไหน",
+        "ยื่นฉุกเฉินแล้วได้เงินวันไหน"
+      ],
+      "legacy_answer": "ส่งแบบคำขอด้วยตนเอง ณ สำนักงานสหกรณ์ ในวันทำการจันทร์-ศุกร์ ไม่เกินเวลา 15:30 น. และสหกรณ์จะโอนเงินเข้าบัญชีในวันนั้น",
+      "domain": "loan_emergency",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "15:00",
+          "5 วันทำการ"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "15:00",
+          "5 วันทำการ"
+        ],
+        [
+          "15:00",
+          "5 วันทำการ"
+        ],
+        [
+          "15:00",
+          "5 วันทำการ"
+        ],
+        [
+          "15:00",
+          "5 วันทำการ"
+        ],
+        [
+          "15:00",
+          "5 วันทำการ"
+        ]
+      ]
+    },
+    {
+      "id": 45,
+      "question": "ส่งเอกสารกู้ฉุกเฉินอย่างไร",
+      "intent": "loan_emergency",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "ส่งเอกสารกู้ฉุกเฉินอย่างไร",
+        "กู้ฉุกเฉินส่งเอกสารทางอีเมลได้ไหม",
+        "กู้ฉุกเฉินส่งเอกสารทางไปรษณีย์ได้ไหม",
+        "กู้ฉุกเฉินส่งเอกสารทางไหนได้บ้าง",
+        "กู้ฉุกเฉินส่งเมลได้ไหม",
+        "กู้ฉุกเฉินส่งไปรษณีย์ได้ไหม"
+      ],
+      "keywords": [
+        "ส่งเอกสาร",
+        "อีเมล",
+        "ไปรษณีย์",
+        "กู้ฉุกเฉิน",
+        "ส่งเอกสารกู้ฉุกเฉินอย่างไร",
+        "กู้ฉุกเฉินส่งเอกสารทางอีเมลได้ไหม",
+        "กู้ฉุกเฉินส่งเอกสารทางไปรษณีย์ได้ไหม",
+        "กู้ฉุกเฉินส่งเอกสารทางไหนได้บ้าง",
+        "กู้ฉุกเฉินส่งเมลได้ไหม",
+        "กู้ฉุกเฉินส่งไปรษณีย์ได้ไหม"
+      ],
+      "legacy_answer": "การส่งเอกสารกู้ฉุกเฉินทำได้ 3 วิธี คือ 1) ยื่นคำขอได้ด้วยตนเอง 2) ส่งเอกสารทางไปรษณีย์อิเล็กทรอนิกส์ (E-mail) โดยสแกนเป็นไฟล์ PDF ส่งถึง Dlasavingloan01@gmail.com และส่งเอกสารฉบับจริงมายังสหกรณ์ 3) ส่งเอกสารทางไปรษณีย์มายังสหกรณ์",
+      "domain": "loan_emergency",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "emergencyLoanCurrent",
+        "main_answer_must_include": [
+          "dlasavingloan01@gmail.com",
+          "PDF"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "emergencyLoanCurrent",
+      "pattern_assertions": [
+        [
+          "dlasavingloan01@gmail.com",
+          "PDF"
+        ],
+        [
+          "dlasavingloan01@gmail.com",
+          "PDF"
+        ],
+        [
+          "dlasavingloan01@gmail.com",
+          "PDF"
+        ],
+        [
+          "dlasavingloan01@gmail.com",
+          "PDF"
+        ],
+        [
+          "dlasavingloan01@gmail.com",
+          "PDF"
+        ],
+        [
+          "dlasavingloan01@gmail.com",
+          "PDF"
+        ]
+      ]
+    },
+    {
+      "id": 46,
+      "question": "กู้สามัญได้สูงสุดเท่าไหร่",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้สามัญได้สูงสุดเท่าไหร่",
+        "วงเงินกู้สามัญสูงสุดเท่าไหร่",
+        "เงินกู้สามัญกู้ได้กี่บาท",
+        "กู้สามัญได้เท่าไร",
+        "กู้สามัญได้เท่าไหร่",
+        "กู้สามัญสูงสุดกี่บาท",
+        "วงเงินกู้สามัญ",
+        "กู้สามัญ 2 ล้านไหม",
+        "กู้สามัญเต็มที่ได้เท่าไหร่"
+      ],
+      "keywords": [
+        "กู้สามัญ",
+        "วงเงิน",
+        "สูงสุด",
+        "2 ล้านบาท",
+        "กู้สามัญได้สูงสุดเท่าไหร่",
+        "วงเงินกู้สามัญสูงสุดเท่าไหร่",
+        "เงินกู้สามัญกู้ได้กี่บาท",
+        "กู้สามัญได้เท่าไร",
+        "กู้สามัญได้เท่าไหร่",
+        "กู้สามัญสูงสุดกี่บาท",
+        "วงเงินกู้สามัญ",
+        "ล้านไหม",
+        "กู้สามัญเต็มที่ได้เท่าไหร่"
+      ],
+      "legacy_answer": "เงินกู้สามัญวงเงินกู้สูงสุด 2,000,000 บาท",
+      "domain": "loan_ordinary_related",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "2,000,000"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "2,000,000"
+        ],
+        [
+          "2,000,000"
+        ],
+        [
+          "2,000,000"
+        ],
+        [
+          "2,000,000"
+        ],
+        [
+          "2,000,000"
+        ],
+        [
+          "2,000,000"
+        ],
+        [
+          "2,000,000"
+        ],
+        [
+          "2,000,000"
+        ],
+        [
+          "2,000,000"
+        ]
+      ]
+    },
+    {
+      "id": 47,
+      "question": "กู้สามัญผ่อนได้กี่งวด",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้สามัญผ่อนได้กี่งวด",
+        "เงินกู้สามัญส่งได้กี่งวด",
+        "กู้สามัญผ่อนนานแค่ไหน",
+        "กู้สามัญส่งกี่งวด",
+        "กู้สามัญผ่อนได้กี่เดือน",
+        "กู้สามัญผ่อนสูงสุดกี่งวด",
+        "กู้สามัญผ่อนยาวสุดเท่าไร"
+      ],
+      "keywords": [
+        "กู้สามัญ",
+        "ผ่อน",
+        "งวด",
+        "240",
+        "กู้สามัญผ่อนได้กี่งวด",
+        "เงินกู้สามัญส่งได้กี่งวด",
+        "กู้สามัญผ่อนนานแค่ไหน",
+        "กู้สามัญส่งกี่งวด",
+        "กู้สามัญผ่อนได้กี่เดือน",
+        "กู้สามัญผ่อนสูงสุดกี่งวด",
+        "กู้สามัญผ่อนยาวสุดเท่าไร"
+      ],
+      "legacy_answer": "เงินกู้สามัญผ่อนชำระได้สูงสุด 240 งวด",
+      "domain": "loan_ordinary_related",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "240",
+          "75"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "240",
+          "75"
+        ],
+        [
+          "240",
+          "75"
+        ],
+        [
+          "240",
+          "75"
+        ],
+        [
+          "240",
+          "75"
+        ],
+        [
+          "240",
+          "75"
+        ],
+        [
+          "240",
+          "75"
+        ],
+        [
+          "240",
+          "75"
+        ]
+      ]
+    },
+    {
+      "id": 48,
+      "question": "กู้ใหม่หักกลบสัญญาเดิมต้องส่งกี่งวด",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ใหม่หักกลบสัญญาเดิมต้องส่งกี่งวด",
+        "หักกลบสัญญาเดิมต้องผ่อนมาก่อนกี่งวด",
+        "กู้ใหม่ปิดสัญญาเดิมได้ไหม"
+      ],
+      "keywords": [
+        "หักกลบ",
+        "สัญญาเดิม",
+        "12 งวด",
+        "กู้ใหม่",
+        "กู้ใหม่หักกลบสัญญาเดิมต้องส่งกี่งวด",
+        "หักกลบสัญญาเดิมต้องผ่อนมาก่อนกี่งวด",
+        "กู้ใหม่ปิดสัญญาเดิมได้ไหม"
+      ],
+      "legacy_answer": "กู้ใหม่หักกลบสัญญาเดิมได้ โดยต้องส่งหนี้สัญญาเดิมมาแล้วไม่น้อยกว่า 12 งวด",
+      "domain": "loan_ordinary_related",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "12 งวด",
+          "หักกลบ"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "12 งวด",
+          "หักกลบ"
+        ],
+        [
+          "12 งวด",
+          "หักกลบ"
+        ],
+        [
+          "12 งวด",
+          "หักกลบ"
+        ]
+      ]
+    },
+    {
+      "id": 49,
+      "question": "เป็นสมาชิกกี่เดือนถึงกู้สามัญได้",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "เป็นสมาชิกกี่เดือนถึงกู้สามัญได้",
+        "กู้สามัญต้องเป็นสมาชิกกี่เดือน",
+        "สมาชิก 6 เดือนกู้สามัญได้ไหม"
+      ],
+      "keywords": [
+        "สมาชิก",
+        "6 เดือน",
+        "กู้สามัญ",
+        "เป็นสมาชิกกี่เดือนถึงกู้สามัญได้",
+        "กู้สามัญต้องเป็นสมาชิกกี่เดือน",
+        "เดือนกู้สามัญได้ไหม"
+      ],
+      "legacy_answer": "สมาชิกมาแล้วไม่น้อยกว่า 6 เดือน กู้สามัญได้ไม่เกิน 500,000 บาท",
+      "domain": "loan_ordinary_related",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "6 เดือน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "6 เดือน"
+        ],
+        [
+          "6 เดือน"
+        ],
+        [
+          "6 เดือน"
+        ]
+      ]
+    },
+    {
+      "id": 50,
+      "question": "สมาชิก 12 เดือนกู้สามัญได้เท่าไหร่",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมาชิก 12 เดือนกู้สามัญได้เท่าไหร่",
+        "กู้สามัญ 2 ล้านต้องเป็นสมาชิกกี่เดือน",
+        "สมาชิกครบ 12 เดือนกู้ได้เท่าไหร่"
+      ],
+      "keywords": [
+        "สมาชิก",
+        "12 เดือน",
+        "2 ล้าน",
+        "กู้สามัญ",
+        "เดือนกู้สามัญได้เท่าไหร่",
+        "ล้านต้องเป็นสมาชิกกี่เดือน",
+        "สมาชิกครบ",
+        "เดือนกู้ได้เท่าไหร่"
+      ],
+      "legacy_answer": "สมาชิกมาแล้วไม่น้อยกว่า 12 เดือน กู้สามัญได้ไม่เกิน 2,000,000 บาท",
+      "domain": "loan_ordinary_related",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "2,000,000",
+          "10%"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "2,000,000",
+          "10%"
+        ],
+        [
+          "12 เดือน",
+          "10%"
+        ],
+        [
+          "6 เดือน",
+          "10%"
+        ]
+      ]
+    },
+    {
+      "id": 51,
+      "question": "กู้สามัญต้องถือหุ้นไหม",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้สามัญต้องถือหุ้นไหม",
+        "กู้สามัญต้องมีหุ้นเท่าไหร่",
+        "ต้องถือหุ้นตามระเบียบหรือไม่"
+      ],
+      "keywords": [
+        "หุ้น",
+        "ระเบียบ",
+        "กู้สามัญ",
+        "กู้สามัญต้องถือหุ้นไหม",
+        "กู้สามัญต้องมีหุ้นเท่าไหร่",
+        "ต้องถือหุ้นตามระเบียบหรือไม่"
+      ],
+      "legacy_answer": "ผู้กู้ต้องถือหุ้นตามระเบียบของสหกรณ์",
+      "domain": "loan_ordinary_related",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "10%",
+          "12 เดือน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "10%",
+          "12 เดือน"
+        ],
+        [
+          "10%",
+          "12 เดือน"
+        ],
+        [
+          "10%",
+          "12 เดือน"
+        ]
+      ]
+    },
+    {
+      "id": 52,
+      "question": "กู้สามัญต้องค้างชำระได้ไหม",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้สามัญต้องค้างชำระได้ไหม",
+        "กู้สามัญต้องส่งหุ้นหนี้ผ่านหน้าฎีกาไหม",
+        "ต้องมีประวัติชำระอย่างไร"
+      ],
+      "keywords": [
+        "ชำระหุ้น",
+        "หนี้",
+        "หน้าฎีกา",
+        "ไม่ค้างชำระ",
+        "กู้สามัญต้องค้างชำระได้ไหม",
+        "กู้สามัญต้องส่งหุ้นหนี้ผ่านหน้าฎีกาไหม",
+        "ต้องมีประวัติชำระอย่างไร"
+      ],
+      "legacy_answer": "ต้องมีการชำระหุ้นและหนี้ผ่านหน้าฎีกา และไม่ค้างชำระไม่น้อยกว่า 12 งวด",
+      "domain": "loan_ordinary_related",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "12 งวด"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "12 งวด"
+        ],
+        [
+          "ณ ที่จ่าย"
+        ],
+        [
+          "12 งวด"
+        ]
+      ]
+    },
+    {
+      "id": 53,
+      "question": "กู้สามัญต้องมีเงินเดือนเหลือเท่าไหร่",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้สามัญต้องมีเงินเดือนเหลือเท่าไหร่",
+        "หลังหักหนี้แล้วต้องเหลือเท่าไหร่",
+        "กู้สามัญต้องเหลือ 5000 ไหม",
+        "กู้สามัญต้องเหลือเงินเดือนเท่าไร",
+        "หลังหักหนี้แล้วต้องเหลือกี่บาท",
+        "กู้สามัญต้องเหลือ 30 เปอร์เซ็นต์ไหม"
+      ],
+      "keywords": [
+        "เงินเดือนคงเหลือ",
+        "5000",
+        "30 เปอร์เซ็นต์",
+        "กู้สามัญ",
+        "กู้สามัญต้องมีเงินเดือนเหลือเท่าไหร่",
+        "หลังหักหนี้แล้วต้องเหลือเท่าไหร่",
+        "กู้สามัญต้องเหลือ",
+        "ไหม",
+        "กู้สามัญต้องเหลือเงินเดือนเท่าไร",
+        "หลังหักหนี้แล้วต้องเหลือกี่บาท",
+        "เปอร์เซ็นต์ไหม"
+      ],
+      "legacy_answer": "หลังหักทุกสถาบันการเงินแล้ว ต้องมีเงินเดือนคงเหลือไม่น้อยกว่า 5,000 บาท หรือร้อยละ 30 ของเงินเดือน",
+      "domain": "loan_ordinary_related",
+      "verification_status": "CHANGED_BY_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "15%",
+          "6,000"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ],
+        [
+          "15%",
+          "6,000"
+        ]
+      ]
+    },
+    {
+      "id": 54,
+      "question": "กู้สามัญใช้อะไรค้ำได้บ้าง",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้สามัญใช้อะไรค้ำได้บ้าง",
+        "เอาที่ดินค้ำกู้สามัญได้ไหม",
+        "อสังหาค้ำได้กี่เปอร์เซ็นต์"
+      ],
+      "keywords": [
+        "หลักประกัน",
+        "อสังหาริมทรัพย์",
+        "จำนอง",
+        "90 เปอร์เซ็นต์",
+        "กู้สามัญใช้อะไรค้ำได้บ้าง",
+        "เอาที่ดินค้ำกู้สามัญได้ไหม",
+        "อสังหาค้ำได้กี่เปอร์เซ็นต์"
+      ],
+      "legacy_answer": "หลักประกันเงินกู้สามัญใช้อสังหาริมทรัพย์ปลอดจำนอง และจำนองได้ร้อยละ 90 ของทรัพย์",
+      "domain": "loan_ordinary_related",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "90%",
+          "หลักทรัพย์รัฐบาล"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "90%",
+          "หลักทรัพย์รัฐบาล"
+        ],
+        [
+          "90%",
+          "หลักทรัพย์รัฐบาล"
+        ],
+        [
+          "90%",
+          "หลักทรัพย์รัฐบาล"
+        ]
+      ]
+    },
+    {
+      "id": 55,
+      "question": "ใช้เงินฝากค้ำกู้สามัญได้ไหม",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "ใช้เงินฝากค้ำกู้สามัญได้ไหม",
+        "ใช้หลักทรัพย์รัฐบาลค้ำกู้ได้ไหม",
+        "ค้ำด้วยเงินฝากได้กี่เปอร์เซ็นต์"
+      ],
+      "keywords": [
+        "เงินฝาก",
+        "หลักทรัพย์รัฐบาล",
+        "ค้ำ",
+        "90 เปอร์เซ็นต์",
+        "ใช้เงินฝากค้ำกู้สามัญได้ไหม",
+        "ใช้หลักทรัพย์รัฐบาลค้ำกู้ได้ไหม",
+        "ค้ำด้วยเงินฝากได้กี่เปอร์เซ็นต์"
+      ],
+      "legacy_answer": "หลักทรัพย์รัฐบาลหรือเงินฝากในสหกรณ์ สามารถใช้เป็นประกันได้ร้อยละ 90 ของทรัพย์",
+      "domain": "loan_ordinary_related",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "เงินฝาก",
+          "หลักทรัพย์"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "เงินฝาก",
+          "หลักทรัพย์"
+        ],
+        [
+          "หลักทรัพย์รัฐบาล"
+        ],
+        [
+          "เงินฝาก",
+          "หลักทรัพย์"
+        ]
+      ]
+    },
+    {
+      "id": 56,
+      "question": "คนค้ำกู้สามัญต้องมีคุณสมบัติอะไร",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "คนค้ำกู้สามัญต้องมีคุณสมบัติอะไร",
+        "ผู้ค้ำกู้สามัญต้องเป็นสมาชิกกี่เดือน",
+        "บุคคลค้ำประกันต้องมีหุ้นไหม",
+        "กู้สามัญคนค้ำต้องเป็นใคร",
+        "ผู้ค้ำกู้สามัญต้องมีคุณสมบัติอะไร",
+        "ค้ำกู้สามัญต้องเป็นสมาชิกกี่เดือน",
+        "คนค้ำต้องส่งหุ้นกี่เดือน"
+      ],
+      "keywords": [
+        "ผู้ค้ำ",
+        "ค้ำประกัน",
+        "6 เดือน",
+        "กู้สามัญ",
+        "คนค้ำกู้สามัญต้องมีคุณสมบัติอะไร",
+        "ผู้ค้ำกู้สามัญต้องเป็นสมาชิกกี่เดือน",
+        "บุคคลค้ำประกันต้องมีหุ้นไหม",
+        "กู้สามัญคนค้ำต้องเป็นใคร",
+        "ผู้ค้ำกู้สามัญต้องมีคุณสมบัติอะไร",
+        "ค้ำกู้สามัญต้องเป็นสมาชิกกี่เดือน",
+        "คนค้ำต้องส่งหุ้นกี่เดือน"
+      ],
+      "legacy_answer": "บุคคลค้ำประกันต้องเป็นสมาชิกสหกรณ์ และต้องชำระค่าหุ้นมาแล้วไม่น้อยกว่า 6 เดือน",
+      "domain": "loan_ordinary_related",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "3 ปี",
+          "3 คน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "3 ปี",
+          "3 คน"
+        ],
+        [
+          "ต้องตรวจ"
+        ],
+        [
+          "ต้องตรวจ"
+        ],
+        [
+          "3 ปี",
+          "3 คน"
+        ],
+        [
+          "3 ปี",
+          "3 คน"
+        ],
+        [
+          "ต้องตรวจ"
+        ],
+        [
+          "ต้องตรวจ"
+        ]
+      ]
+    },
+    {
+      "id": 57,
+      "question": "กู้สามัญใช้คนค้ำกี่คน",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้สามัญใช้คนค้ำกี่คน",
+        "วงเงินเท่านี้ต้องค้ำกี่คน",
+        "สมาชิก 1 คนค้ำได้กี่คน",
+        "กู้สามัญต้องค้ำกี่คน",
+        "กู้ 5 แสนต้องค้ำกี่คน",
+        "กู้ 1 ล้านต้องค้ำกี่คน",
+        "กู้ 2 ล้านต้องมีคนค้ำกี่คน"
+      ],
+      "keywords": [
+        "ผู้ค้ำ",
+        "กี่คน",
+        "500000",
+        "1000000",
+        "2000000",
+        "กู้สามัญใช้คนค้ำกี่คน",
+        "วงเงินเท่านี้ต้องค้ำกี่คน",
+        "สมาชิก",
+        "คนค้ำได้กี่คน",
+        "กู้สามัญต้องค้ำกี่คน",
+        "กู้",
+        "แสนต้องค้ำกี่คน",
+        "ล้านต้องค้ำกี่คน",
+        "ล้านต้องมีคนค้ำกี่คน"
+      ],
+      "legacy_answer": "วงเงินไม่เกิน 500,000 บาท ใช้ผู้ค้ำประกัน 1 คน; วงเงิน 500,000 บาทขึ้นไปถึง 1,000,000 บาท ใช้ผู้ค้ำประกัน 2 คน; วงเงิน 1,000,000 บาทขึ้นไปถึง 2,000,000 บาท ใช้ผู้ค้ำประกัน 3 คน",
+      "domain": "loan_ordinary_related",
+      "verification_status": "MATCH_CURRENT_RULE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "500,000",
+          "1,000,000",
+          "2,000,000"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "500,000",
+          "1,000,000",
+          "2,000,000"
+        ],
+        [
+          "500,000",
+          "1,000,000",
+          "2,000,000"
+        ],
+        [
+          "3 คน"
+        ],
+        [
+          "500,000",
+          "1,000,000",
+          "2,000,000"
+        ],
+        [
+          "500,000",
+          "1,000,000",
+          "2,000,000"
+        ],
+        [
+          "500,000",
+          "1,000,000",
+          "2,000,000"
+        ],
+        [
+          "500,000",
+          "1,000,000",
+          "2,000,000"
+        ]
+      ]
+    },
+    {
+      "id": 58,
+      "question": "เคยปรับโครงสร้างหนี้กู้สามัญได้ไหม",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "เคยปรับโครงสร้างหนี้กู้สามัญได้ไหม",
+        "ปรับโครงสร้างหนี้แล้วกู้สามัญต้องส่งกี่งวด",
+        "เคยปรับโครงสร้างต้องมีเงื่อนไขอะไร"
+      ],
+      "keywords": [
+        "ปรับโครงสร้างหนี้",
+        "12 งวด",
+        "กู้สามัญ",
+        "เคยปรับโครงสร้างหนี้กู้สามัญได้ไหม",
+        "ปรับโครงสร้างหนี้แล้วกู้สามัญต้องส่งกี่งวด",
+        "เคยปรับโครงสร้างต้องมีเงื่อนไขอะไร"
+      ],
+      "legacy_answer": "กรณีเคยปรับโครงสร้างหนี้ ต้องชำระหนี้ติดต่อกันไม่น้อยกว่า 12 งวดขึ้นไป",
+      "domain": "loan_ordinary_related",
+      "verification_status": "NEEDS_PRIMARY_EVIDENCE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ]
+      ]
+    },
+    {
+      "id": 59,
+      "question": "กู้สามัญใช้หุ้นค้ำได้ไหม",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้สามัญใช้หุ้นค้ำได้ไหม",
+        "กู้โดยใช้หุ้นค้ำมีเงื่อนไขอะไร",
+        "ใช้หุ้นค้ำได้กี่เปอร์เซ็นต์"
+      ],
+      "keywords": [
+        "ใช้หุ้นค้ำ",
+        "90 เปอร์เซ็นต์",
+        "สมาคมฌาปนกิจ",
+        "กู้สามัญใช้หุ้นค้ำได้ไหม",
+        "กู้โดยใช้หุ้นค้ำมีเงื่อนไขอะไร",
+        "ใช้หุ้นค้ำได้กี่เปอร์เซ็นต์"
+      ],
+      "legacy_answer": "กู้สามัญกรณีใช้หุ้นค้ำประกัน กู้ได้ไม่เกินร้อยละ 90 ของหุ้นที่มีอยู่",
+      "domain": "loan_ordinary_related",
+      "verification_status": "NEEDS_PRIMARY_EVIDENCE",
+      "expected_behavior": {
+        "domain": "ordinaryLoanCurrent",
+        "main_answer_must_include": [
+          "หลักเกณฑ์เฉพาะ"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "ordinaryLoanCurrent",
+      "pattern_assertions": [
+        [
+          "หลักเกณฑ์เฉพาะ"
+        ],
+        [
+          "หลักเกณฑ์เฉพาะ"
+        ],
+        [
+          "หลักเกณฑ์เฉพาะ"
+        ]
+      ]
+    },
+    {
+      "id": 60,
+      "question": "กู้เพื่อการศึกษากู้ได้เท่าไหร่",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้เพื่อการศึกษากู้ได้เท่าไหร่",
+        "กู้สามัญเพื่อการศึกษาผ่อนได้กี่งวด",
+        "กู้การศึกษาต้องมีคนค้ำไหม",
+        "กู้การศึกษาได้เท่าไร",
+        "กู้เพื่อการศึกษาผ่อนได้กี่งวด",
+        "กู้เรียนสหกรณ์ได้เท่าไร"
+      ],
+      "keywords": [
+        "การศึกษา",
+        "กู้สามัญ",
+        "200000",
+        "60 งวด",
+        "กู้เพื่อการศึกษากู้ได้เท่าไหร่",
+        "กู้สามัญเพื่อการศึกษาผ่อนได้กี่งวด",
+        "กู้การศึกษาต้องมีคนค้ำไหม",
+        "กู้การศึกษาได้เท่าไร",
+        "กู้เพื่อการศึกษาผ่อนได้กี่งวด",
+        "กู้เรียนสหกรณ์ได้เท่าไร"
+      ],
+      "legacy_answer": "กู้สามัญเพื่อการศึกษา วงเงินสูงสุด 200,000 บาท และผ่อนชำระได้สูงสุด 60 งวด",
+      "domain": "loan_ordinary_related",
+      "verification_status": "NEEDS_PRIMARY_EVIDENCE",
+      "expected_behavior": {
+        "domain": "education",
+        "main_answer_must_include": [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=774",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "education",
+      "pattern_assertions": [
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ]
+      ]
+    },
+    {
+      "id": 61,
+      "question": "กู้ภัยพิบัติได้เท่าไหร่",
+      "intent": "loan_ordinary_related",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "กู้ภัยพิบัติได้เท่าไหร่",
+        "กู้ช่วยเหลือกรณีภัยพิบัติผ่อนได้กี่งวด",
+        "กู้ภัยพิบัติต้องยื่นภายในกี่วัน",
+        "กู้ภัยพิบัติได้เท่าไร",
+        "กู้ภัยพิบัติผ่อนได้กี่งวด",
+        "กู้ช่วยเหลือภัยพิบัติต้องยื่นภายในกี่วัน",
+        "กู้พิบัติวงเงินเท่าไร"
+      ],
+      "keywords": [
+        "ภัยพิบัติ",
+        "300000",
+        "120 งวด",
+        "180 วัน",
+        "กู้ภัยพิบัติได้เท่าไหร่",
+        "กู้ช่วยเหลือกรณีภัยพิบัติผ่อนได้กี่งวด",
+        "กู้ภัยพิบัติต้องยื่นภายในกี่วัน",
+        "กู้ภัยพิบัติได้เท่าไร",
+        "กู้ภัยพิบัติผ่อนได้กี่งวด",
+        "กู้ช่วยเหลือภัยพิบัติต้องยื่นภายในกี่วัน",
+        "กู้พิบัติวงเงินเท่าไร"
+      ],
+      "legacy_answer": "กู้สามัญเพื่อช่วยเหลือกรณีภัยพิบัติ วงเงินสูงสุด 300,000 บาท และผ่อนชำระได้สูงสุด 120 งวด",
+      "domain": "loan_ordinary_related",
+      "verification_status": "NEEDS_PRIMARY_EVIDENCE",
+      "expected_behavior": {
+        "domain": "disaster",
+        "main_answer_must_include": [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=774",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": "disaster",
+      "pattern_assertions": [
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ]
+      ]
+    },
+    {
+      "id": 62,
+      "question": "สมัครสมาชิกสหกรณ์ที่ไหน",
+      "intent": "membership",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมัครสมาชิกสหกรณ์ที่ไหน",
+        "สมัครสมาชิกออนไลน์อย่างไร",
+        "เข้าไปสมัครสมาชิกที่เว็บอะไร",
+        "สมัครสมาชิกทำยังไง",
+        "สมัครสมาชิกออนไลน์ได้ไหม",
+        "สมัครสมาชิกเข้าที่เว็บไหน"
+      ],
+      "keywords": [
+        "สมัครสมาชิก",
+        "เว็บไซต์",
+        "dlasavingcoop.com",
+        "ออนไลน์",
+        "สมัครสมาชิกสหกรณ์ที่ไหน",
+        "สมัครสมาชิกออนไลน์อย่างไร",
+        "เข้าไปสมัครสมาชิกที่เว็บอะไร",
+        "สมัครสมาชิกทำยังไง",
+        "สมัครสมาชิกออนไลน์ได้ไหม",
+        "สมัครสมาชิกเข้าที่เว็บไหน"
+      ],
+      "legacy_answer": "สมัครสมาชิกผ่านเว็บไซต์ www.dlasavingcoop.com",
+      "domain": "membership",
+      "verification_status": "ACTION_ROUTE",
+      "expected_behavior": {
+        "domain": "membership",
+        "main_answer_must_include": [
+          "ใบสมัคร"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=772",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "ใบสมัคร"
+        ],
+        [
+          "ใบสมัคร"
+        ],
+        [
+          "ใบสมัคร"
+        ],
+        [
+          "ใบสมัคร"
+        ],
+        [
+          "ใบสมัคร"
+        ],
+        [
+          "ใบสมัคร"
+        ]
+      ]
+    },
+    {
+      "id": 63,
+      "question": "สมัครสมาชิกต้องกรอกอะไรบ้าง",
+      "intent": "membership",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมัครสมาชิกต้องกรอกอะไรบ้าง",
+        "ใบสมัครสมาชิกมีหัวข้ออะไร",
+        "สมัครสมาชิกต้องกรอกผู้รับผลประโยชน์ไหม"
+      ],
+      "keywords": [
+        "กรอกข้อมูล",
+        "ผู้รับผลประโยชน์",
+        "ใบสมัคร",
+        "เปิดบัญชี",
+        "สมัครสมาชิกต้องกรอกอะไรบ้าง",
+        "ใบสมัครสมาชิกมีหัวข้ออะไร",
+        "สมัครสมาชิกต้องกรอกผู้รับผลประโยชน์ไหม"
+      ],
+      "legacy_answer": "ขั้นตอนกรอกข้อมูลส่วนตัวประกอบด้วย ชื่อ ที่อยู่ ข้อมูลทั่วไป, ผู้รับผลประโยชน์, หนังสือยินยอมให้ส่วนราชการหักเงินเดือน, และกรอกคำขอเปิดบัญชี",
+      "domain": "membership",
+      "verification_status": "ACTION_ROUTE",
+      "expected_behavior": {
+        "domain": "membership",
+        "main_answer_must_include": [
+          "ใบสมัคร"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=772",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "ใบสมัคร"
+        ],
+        [
+          "ใบสมัคร"
+        ],
+        [
+          "ใบสมัคร"
+        ]
+      ]
+    },
+    {
+      "id": 64,
+      "question": "สมัครสมาชิกต้องส่งเอกสารอะไร",
+      "intent": "membership",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมัครสมาชิกต้องส่งเอกสารอะไร",
+        "เอกสารสมัครสมาชิกมีอะไรบ้าง",
+        "สมัครสมาชิกต้องส่งใบเปิดบัญชีไหม",
+        "สมัครสมาชิกใช้เอกสารอะไรบ้าง",
+        "เอกสารสมัครสมาชิกมีอะไร",
+        "สมัครสมาชิกต้องเตรียมอะไร",
+        "สมัครสมาชิกต้องส่งอะไรบ้าง"
+      ],
+      "keywords": [
+        "เอกสาร",
+        "ใบสมัคร",
+        "ใบเปิดบัญชี",
+        "สำเนาเอกสาร",
+        "สมัครสมาชิกต้องส่งเอกสารอะไร",
+        "เอกสารสมัครสมาชิกมีอะไรบ้าง",
+        "สมัครสมาชิกต้องส่งใบเปิดบัญชีไหม",
+        "สมัครสมาชิกใช้เอกสารอะไรบ้าง",
+        "เอกสารสมัครสมาชิกมีอะไร",
+        "สมัครสมาชิกต้องเตรียมอะไร",
+        "สมัครสมาชิกต้องส่งอะไรบ้าง"
+      ],
+      "legacy_answer": "เอกสารที่ต้องส่งคือ 1) ใบคำขอสมัครสมาชิก 2) สำเนาเอกสารประกอบตามแบบฟอร์มข้อ 7 พร้อมเซ็นรับรองในเอกสาร 3) ใบคำขอเปิดบัญชีเงินฝาก",
+      "domain": "membership",
+      "verification_status": "ACTION_ROUTE",
+      "expected_behavior": {
+        "domain": "membership",
+        "main_answer_must_include": [
+          "เอกสาร"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=772",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "เอกสาร"
+        ],
+        [
+          "เอกสาร"
+        ],
+        [
+          "เอกสาร"
+        ],
+        [
+          "เอกสาร"
+        ],
+        [
+          "เอกสาร"
+        ],
+        [
+          "เอกสาร"
+        ],
+        [
+          "เอกสาร"
+        ]
+      ]
+    },
+    {
+      "id": 65,
+      "question": "สมัครสมาชิกส่งเอกสารไปที่ไหน",
+      "intent": "membership",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมัครสมาชิกส่งเอกสารไปที่ไหน",
+        "ส่งใบสมัครสมาชิกทางไปรษณีย์ที่ไหน",
+        "ที่อยู่ส่งเอกสารสมัครสมาชิก",
+        "สมัครสมาชิกส่งเอกสารไปไหน",
+        "ส่งใบสมัครสมาชิกที่ไหน"
+      ],
+      "keywords": [
+        "ส่งเอกสาร",
+        "ไปรษณีย์",
+        "ที่อยู่",
+        "สมัครสมาชิก",
+        "สมัครสมาชิกส่งเอกสารไปที่ไหน",
+        "ส่งใบสมัครสมาชิกทางไปรษณีย์ที่ไหน",
+        "ที่อยู่ส่งเอกสารสมัครสมาชิก",
+        "สมัครสมาชิกส่งเอกสารไปไหน",
+        "ส่งใบสมัครสมาชิกที่ไหน"
+      ],
+      "legacy_answer": "จัดส่งเอกสารทางไปรษณีย์มายัง สำนักงานสหกรณ์ออมทรัพย์องค์กรปกครองส่วนท้องถิ่น จำกัด 111/1 หมู่ที่ 1 ซอยคลอง 8 ตำบลคลองหนึ่ง อำเภอคลองหลวง จังหวัดปทุมธานี 12120",
+      "domain": "membership",
+      "verification_status": "ACTION_ROUTE",
+      "expected_behavior": {
+        "domain": "membership",
+        "main_answer_must_include": [
+          "ที่อยู่"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=772",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "ที่อยู่"
+        ],
+        [
+          "ที่อยู่"
+        ],
+        [
+          "ที่อยู่"
+        ],
+        [
+          "ที่อยู่"
+        ],
+        [
+          "ที่อยู่"
+        ]
+      ]
+    },
+    {
+      "id": 66,
+      "question": "สมัครสมาชิกแล้วรู้ผลทางไหน",
+      "intent": "membership",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมัครสมาชิกแล้วรู้ผลทางไหน",
+        "ผลสมัครสมาชิกดูที่ไหน",
+        "สมัครสมาชิกประกาศผลช่องทางไหน"
+      ],
+      "keywords": [
+        "ผลสมัคร",
+        "เว็บไซต์",
+        "facebook",
+        "กลุ่มไลน์",
+        "สมัครสมาชิกแล้วรู้ผลทางไหน",
+        "ผลสมัครสมาชิกดูที่ไหน",
+        "สมัครสมาชิกประกาศผลช่องทางไหน"
+      ],
+      "legacy_answer": "เมื่อได้รับพิจารณาให้เป็นสมาชิกแล้ว สหกรณ์จะส่งหนังสือแจ้งผลรายบุคคล และประกาศรายชื่อผ่าน 1) หน้าเว็บสหกรณ์ 2) Facebook สหกรณ์ 3) กลุ่มไลน์แจ้งผลการสมัครสมาชิก สอ.อปท.",
+      "domain": "membership",
+      "verification_status": "ACTION_ROUTE",
+      "expected_behavior": {
+        "domain": "membership",
+        "main_answer_must_include": [
+          "ผล"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=772",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "ผล"
+        ],
+        [
+          "ผล"
+        ],
+        [
+          "ผล"
+        ]
+      ]
+    },
+    {
+      "id": 67,
+      "question": "สมัครสมาชิกต้องโอนเงินอะไร",
+      "intent": "membership",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมัครสมาชิกต้องโอนเงินอะไร",
+        "สมัครสมาชิกต้องจ่ายค่าอะไรบ้าง",
+        "ต้องโอนค่าหุ้นแรกเข้าไหม",
+        "สมัครสมาชิกต้องโอนค่าอะไรบ้าง",
+        "สมัครสมาชิกต้องจ่ายอะไรบ้าง",
+        "สมัครสมาชิกต้องโอนเงินเท่าไร"
+      ],
+      "keywords": [
+        "โอนเงิน",
+        "ค่าธรรมเนียม",
+        "ค่าหุ้นแรกเข้า",
+        "ค่าเปิดบัญชี",
+        "สมัครสมาชิกต้องโอนเงินอะไร",
+        "สมัครสมาชิกต้องจ่ายค่าอะไรบ้าง",
+        "ต้องโอนค่าหุ้นแรกเข้าไหม",
+        "สมัครสมาชิกต้องโอนค่าอะไรบ้าง",
+        "สมัครสมาชิกต้องจ่ายอะไรบ้าง",
+        "สมัครสมาชิกต้องโอนเงินเท่าไร"
+      ],
+      "legacy_answer": "ผู้สมัครต้องโอนเงิน 2 รายการ คือ 1) ค่าธรรมเนียมการสมัครและค่าหุ้นแรกเข้า 2) ค่าเปิดบัญชีเงินฝากออมทรัพย์พิเศษ",
+      "domain": "membership",
+      "verification_status": "ACTION_ROUTE",
+      "expected_behavior": {
+        "domain": "membership",
+        "main_answer_must_include": [
+          "ค่าธรรมเนียม"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=772",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "ค่าธรรมเนียม"
+        ],
+        [
+          "ค่าธรรมเนียม"
+        ],
+        [
+          "ชำระ"
+        ],
+        [
+          "ค่าธรรมเนียม"
+        ],
+        [
+          "ค่าธรรมเนียม"
+        ],
+        [
+          "ค่าธรรมเนียม"
+        ]
+      ]
+    },
+    {
+      "id": 68,
+      "question": "สมัครสมาชิกโอนเงินอย่างไร",
+      "intent": "membership",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมัครสมาชิกโอนเงินอย่างไร",
+        "โอนเงินค่าสมัครผ่านอะไร",
+        "โอนค่าหุ้นแรกเข้าทางไหน",
+        "สมัครสมาชิกโอนเงินทางไหน",
+        "ค่าสมัครโอนผ่านอะไร",
+        "สมัครสมาชิกโอนผ่านกรุงไทยได้ไหม"
+      ],
+      "keywords": [
+        "โอนเงิน",
+        "Krungthai Next",
+        "แบบฟอร์มสหกรณ์",
+        "สมัครสมาชิกโอนเงินอย่างไร",
+        "โอนเงินค่าสมัครผ่านอะไร",
+        "โอนค่าหุ้นแรกเข้าทางไหน",
+        "สมัครสมาชิกโอนเงินทางไหน",
+        "ค่าสมัครโอนผ่านอะไร",
+        "สมัครสมาชิกโอนผ่านกรุงไทยได้ไหม"
+      ],
+      "legacy_answer": "การโอนเงินค่าธรรมเนียมการสมัครและค่าหุ้นแรกเข้า หรือค่าเปิดบัญชีเงินฝากออมทรัพย์พิเศษ ทำได้ 2 วิธี คือ 1) โอนผ่านธนาคารกรุงไทย Next 2) ผ่านธนาคารกรุงไทยตามแบบฟอร์มสหกรณ์กำหนด",
+      "domain": "membership",
+      "verification_status": "ACTION_ROUTE",
+      "expected_behavior": {
+        "domain": "membership",
+        "main_answer_must_include": [
+          "ชำระ"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=772",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "ชำระ"
+        ],
+        [
+          "ชำระ"
+        ],
+        [
+          "ชำระ"
+        ],
+        [
+          "ชำระ"
+        ],
+        [
+          "ชำระ"
+        ],
+        [
+          "ชำระ"
+        ]
+      ]
+    },
+    {
+      "id": 69,
+      "question": "สมัครสมาชิกแล้วไม่โอนเงินภายในกี่วัน",
+      "intent": "membership",
+      "legacy_answer_policy": "NEVER_AUTHORITY",
+      "question_patterns": [
+        "สมัครสมาชิกแล้วไม่โอนเงินภายในกี่วัน",
+        "ถ้าไม่โอนภายใน 60 วันจะเกิดอะไรขึ้น",
+        "สมัครใหม่ต้องรอกี่ปี",
+        "ไม่โอนเงินสมัครสมาชิกภายใน 60 วันจะเป็นยังไง",
+        "สมัครสมาชิกแล้วไม่จ่ายใน 60 วันทำไง",
+        "สมัครสมาชิกใหม่ต้องรอกี่ปี"
+      ],
+      "keywords": [
+        "60 วัน",
+        "ยกเลิกสมัคร",
+        "1 ปี",
+        "สมาชิก",
+        "สมัครสมาชิกแล้วไม่โอนเงินภายในกี่วัน",
+        "ถ้าไม่โอนภายใน",
+        "วันจะเกิดอะไรขึ้น",
+        "สมัครใหม่ต้องรอกี่ปี",
+        "ไม่โอนเงินสมัครสมาชิกภายใน",
+        "วันจะเป็นยังไง",
+        "สมัครสมาชิกแล้วไม่จ่ายใน",
+        "วันทำไง",
+        "สมัครสมาชิกใหม่ต้องรอกี่ปี"
+      ],
+      "legacy_answer": "หากไม่ดำเนินการโอนเงินภายใน 60 วัน สหกรณ์จะยกเลิกการสมัครเป็นสมาชิก",
+      "domain": "membership",
+      "verification_status": "NEEDS_PRIMARY_EVIDENCE",
+      "expected_behavior": {
+        "domain": "membership",
+        "main_answer_must_include": [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        "all_patterns": "Nonempty, correct domain, no superseded rule, exact official route or minimum clarification. Every variant is executed.",
+        "no_legacy_authority": true,
+        "human_last": true
+      },
+      "expected_source": "https://www.dlasavingcoop.com/show.php?No=772",
+      "notes": "Original patterns and legacy answer preserved verbatim; unqualified historical prompts must not select superseded rules. Some rows contain questions requiring different facets; all variants must still resolve in the same product domain. Row 48 lacks a product, so verify minimum clarification then continue with ordinary loan context.",
+      "expected_rule": null,
+      "pattern_assertions": [
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ],
+        [
+          "ยังไม่ได้ยืนยัน"
+        ]
+      ]
+    }
+  ],
+  "sourceSha256": "70aec14345b15534f763827d24b559948f94c18ec966ae349fc84f78cc742d3b"
+}

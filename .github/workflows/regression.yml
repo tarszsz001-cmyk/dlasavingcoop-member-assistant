@@ -1,0 +1,53 @@
+name: Regression
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  member-answer-regression:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Use latest official-source monitor state
+        run: |
+          if git fetch origin official-source-monitor; then
+            git show origin/official-source-monitor:data/official-source-monitor.json > /tmp/latest-monitor.json && cp /tmp/latest-monitor.json data/official-source-monitor.json
+          else
+            echo "official-source-monitor branch not found; using the checked-in copy"
+          fi
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Complete release gate including 69 executable records
+        run: node scripts/verify-release.mjs
+      - name: Member answer engine
+        run: node tests/e2e-member-answer-engine.mjs
+      - name: Real member simulation
+        run: node tests/real-member-simulation.mjs
+      - name: Validate cooperative coverage gate
+        run: |
+          node - <<'NODE'
+          const fs=require('fs');
+          const c=JSON.parse(fs.readFileSync('data/cooperative-rule-coverage.json','utf8'));
+          if(c.domains.length < 40) throw new Error('cooperative domain coverage incomplete');
+          if(!c.evidenceExpansion?.educationLoanForm || !c.evidenceExpansion?.disasterLoanForm || !c.evidenceExpansion?.funeralAssociationBylaws) throw new Error('new primary evidence registry incomplete');
+          if(c.evidenceExpansion.funeralAssociationBylaws.status.includes('VERIFIED_CURRENT')) throw new Error('funeral bylaws must remain version-locked until amendment check');
+          const ids=new Set(c.domains.map(x=>x.id));
+          for(const id of ['ordinaryLoan','emergencyLoan','specialLoan','shares','memberDeposits','memberWelfare','funeralAssociation','membership','resignation','debtRestructuring','debtCompromise','budget','generalMeeting','procurement','staff','itControl']){
+            if(!ids.has(id)) throw new Error('missing cooperative domain '+id);
+          }
+          for(const d of c.domains) if(!d.status) throw new Error('domain without evidence status: '+d.id);
+          NODE
+      - name: Validate all 69 real legacy LINE questions
+        run: node tests/validate-legacy-line-69.cjs
+      - name: Validate legacy LINE acceptance contract
+        run: node -e "const x=require('./tests/legacy-line-69-acceptance.json'); if(x.sourceRecordCount!==69) process.exit(1); if(!x.requirements||x.requirements.length<6) process.exit(1); console.log('legacy LINE acceptance contract OK:',x.sourceRecordCount)"

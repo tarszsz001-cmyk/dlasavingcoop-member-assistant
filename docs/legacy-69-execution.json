@@ -1,0 +1,2329 @@
+{
+  "counts": {
+    "PASS": 69,
+    "PARTIAL": 0,
+    "FAIL": 0
+  },
+  "patterns": 306,
+  "report": [
+    {
+      "id": 1,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ต้องเป็นสมาชิกกี่เดือน",
+          "intent": "loan_special_quality",
+          "answer": "สมาชิกไม่น้อยกว่า 3 ปี ส่งหุ้นต่อเนื่องไม่น้อยกว่า 36 งวด สำหรับวงเงินไม่เกิน 3,000,000 บาท; สมาชิกไม่น้อยกว่า 5 ปี ส่งหุ้นไม่น้อยกว่า 60 งวด สำหรับวงเงินไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต้องส่งค่าหุ้นกี่เดือน",
+          "intent": "loan_special_quality",
+          "answer": "สมาชิกไม่น้อยกว่า 3 ปี ส่งหุ้นต่อเนื่องไม่น้อยกว่า 36 งวด สำหรับวงเงินไม่เกิน 3,000,000 บาท; สมาชิกไม่น้อยกว่า 5 ปี ส่งหุ้นไม่น้อยกว่า 60 งวด สำหรับวงเงินไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้พิเศษรวมหนี้เริ่มต้นอย่างไร",
+          "intent": "loan_special_quality",
+          "answer": "วงเงินไม่เกิน 80% ของราคาประเมิน และสูงสุด 5,000,000 บาท โดยใช้ช่วงอายุสมาชิก/งวดหุ้นตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ต้องเหลือเงินเดือนเท่าไหร่",
+          "intent": "loan_special_quality",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต้องเหลือ 5000 ไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้ต้องเหลือ 30 เปอร์เซ็นต์ไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้หักชำระอย่างไร",
+          "intent": "loan_special_quality",
+          "answer": "ชำระค่าหุ้นและหนี้โดยหักจากเงินได้รายเดือน ณ ที่จ่าย (หักหน้าฎีกา)",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต้องหักหน้าฎีกาไหม",
+          "intent": "loan_special_quality",
+          "answer": "ชำระค่าหุ้นและหนี้โดยหักจากเงินได้รายเดือน ณ ที่จ่าย (หักหน้าฎีกา)",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้หักจากเงินเดือนหรือไม่",
+          "intent": "loan_special_quality",
+          "answer": "ชำระค่าหุ้นและหนี้โดยหักจากเงินได้รายเดือน ณ ที่จ่าย (หักหน้าฎีกา)",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ต้องเป็นสมาชิกสมาคมฌาปนกิจไหม",
+          "intent": "loan_special_quality",
+          "answer": "ต้องเป็นสมาชิกสมาคมฌาปนกิจสงเคราะห์ตามหลักเกณฑ์เงินกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต้องสมัครสมาคมหรือไม่",
+          "intent": "loan_special_quality",
+          "answer": "ต้องเป็นสมาชิกสมาคมฌาปนกิจสงเคราะห์ตามหลักเกณฑ์เงินกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เงื่อนไขสมาคมของกู้รวมหนี้",
+          "intent": "loan_special_quality",
+          "answer": "ต้องเป็นสมาชิกสมาคมฌาปนกิจสงเคราะห์ตามหลักเกณฑ์เงินกู้",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้มีข้อห้ามอะไร",
+          "intent": "loan_special_quality",
+          "answer": "ต้องไม่อยู่ระหว่างดำเนินการทางวินัยอย่างร้ายแรงหรือถูกพิทักษ์ทรัพย์ในคดีล้มละลาย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ถ้าถูกวินัยร้ายแรงกู้รวมหนี้ได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "ต้องไม่อยู่ระหว่างดำเนินการทางวินัยอย่างร้ายแรงหรือถูกพิทักษ์ทรัพย์ในคดีล้มละลาย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ล้มละลายกู้รวมหนี้ได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "ต้องไม่อยู่ระหว่างดำเนินการทางวินัยอย่างร้ายแรงหรือถูกพิทักษ์ทรัพย์ในคดีล้มละลาย",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ได้เท่าไหร่",
+          "intent": "loan_special_quality",
+          "answer": "วงเงินไม่เกิน 80% ของราคาประเมิน และสูงสุด 5,000,000 บาท โดยใช้ช่วงอายุสมาชิก/งวดหุ้นตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้กู้ได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+          "intent": "loan_special_quality",
+          "answer": "วงเงินไม่เกิน 80% ของราคาประเมิน และสูงสุด 5,000,000 บาท โดยใช้ช่วงอายุสมาชิก/งวดหุ้นตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "วงเงินกู้รวมหนี้สูงสุดเท่าไหร่",
+          "intent": "loan_special_quality",
+          "answer": "วงเงินไม่เกิน 80% ของราคาประเมิน และสูงสุด 5,000,000 บาท โดยใช้ช่วงอายุสมาชิก/งวดหุ้นตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้ได้เท่าไร",
+          "intent": "loan_special_quality",
+          "answer": "วงเงินไม่เกิน 80% ของราคาประเมิน และสูงสุด 5,000,000 บาท โดยใช้ช่วงอายุสมาชิก/งวดหุ้นตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ได้กี่ล้าน",
+          "intent": "loan_special_quality",
+          "answer": "วงเงินไม่เกิน 80% ของราคาประเมิน และสูงสุด 5,000,000 บาท โดยใช้ช่วงอายุสมาชิก/งวดหุ้นตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้ได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+          "intent": "loan_special_quality",
+          "answer": "วงเงินไม่เกิน 80% ของราคาประเมิน และสูงสุด 5,000,000 บาท โดยใช้ช่วงอายุสมาชิก/งวดหุ้นตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้สูงสุดกี่บาท",
+          "intent": "loan_special_quality",
+          "answer": "วงเงินไม่เกิน 80% ของราคาประเมิน และสูงสุด 5,000,000 บาท โดยใช้ช่วงอายุสมาชิก/งวดหุ้นตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ดอกเบี้ยเท่าไหร่",
+          "intent": "loan_special_quality",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 6.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "ดอกเบี้ยกู้พิเศษรวมหนี้กี่เปอร์เซ็นต์",
+          "intent": "loan_special_quality",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 6.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "รวมหนี้คิดดอกเบี้ยเท่าไหร่",
+          "intent": "loan_special_quality",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 6.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "กู้รวมหนี้ดอกเบี้ยเท่าไร",
+          "intent": "loan_special_quality",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 6.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "รวมหนี้ดอกกี่เปอร์เซ็นต์",
+          "intent": "loan_special_quality",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 6.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "พิเศษรวมหนี้ดอกเท่าไหร่",
+          "intent": "loan_special_quality",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 6.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ผ่อนได้กี่งวด",
+          "intent": "loan_special_quality",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ผ่อนได้นานแค่ไหน",
+          "intent": "loan_special_quality",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้อายุไม่เกินเท่าไหร่",
+          "intent": "loan_special_quality",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้อายุเกิน 75 ได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ใช้อะไรค้ำได้บ้าง",
+          "intent": "loan_special_quality",
+          "answer": "ใช้อสังหาริมทรัพย์ค้ำประกัน (โฉนด/น.ส.3 ก.) วงเงินไม่เกิน 80% ของราคาประเมิน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ใช้ที่ดินค้ำได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "ใช้อสังหาริมทรัพย์ค้ำประกัน (โฉนด/น.ส.3 ก.) วงเงินไม่เกิน 80% ของราคาประเมิน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หลักประกันกู้รวมหนี้คืออะไร",
+          "intent": "loan_special_quality",
+          "answer": "ใช้อสังหาริมทรัพย์ค้ำประกัน (โฉนด/น.ส.3 ก.) วงเงินไม่เกิน 80% ของราคาประเมิน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต้องจำนองไหม",
+          "intent": "loan_special_quality",
+          "answer": "ใช้อสังหาริมทรัพย์ค้ำประกัน (โฉนด/น.ส.3 ก.) วงเงินไม่เกิน 80% ของราคาประเมิน",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "ถ้ามีสัญญากู้กับสหกรณ์อื่นอยู่กู้รวมหนี้ได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "เมื่อได้รับอนุมัติ ต้องหักกลบสัญญาเงินกู้เดิมทุกประเภทให้เหลือสัญญาเดียว ส่วนหนี้กับสหกรณ์อื่นต้องตรวจเงื่อนไขต้นฉบับเฉพาะก่อนยืนยันสิทธิ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต้องหักกลบหนี้เดิมไหม",
+          "intent": "loan_special_quality",
+          "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เดิมหลายสัญญาทำอย่างไร",
+          "intent": "loan_special_quality",
+          "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต้องปิดหนี้เดิมไหม",
+          "intent": "loan_special_quality",
+          "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต้องเหลือสัญญาเดียวใช่ไหม",
+          "intent": "loan_special_quality",
+          "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "มีหนี้หลายสัญญากู้รวมหนี้ได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "อนุมัติรวมหนี้แล้วกู้แบบอื่นได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้แล้วกู้ฉุกเฉินได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้แล้วกู้เพิ่มได้หรือไม่",
+          "intent": "loan_special_quality",
+          "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้แล้วกู้แบบอื่นได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้แล้วกู้ฉุกเฉินได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้แล้วกู้เพิ่มได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ใครจ่ายค่าประเมิน",
+          "intent": "loan_special_quality",
+          "answer": "ผู้กู้เป็นผู้รับภาระค่าประเมินและค่าจดทะเบียนจำนองตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ใครจ่ายค่าจดทะเบียนจำนอง",
+          "intent": "loan_special_quality",
+          "answer": "ผู้กู้เป็นผู้รับภาระค่าประเมินและค่าจดทะเบียนจำนองตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้มีค่าใช้จ่ายอะไรบ้าง",
+          "intent": "loan_special_quality",
+          "answer": "ผู้กู้เป็นผู้รับภาระค่าประเมินและค่าจดทะเบียนจำนองตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ต้องประเมินหลักทรัพย์ที่ไหน",
+          "intent": "loan_special_quality",
+          "answer": "ต้องใช้ผู้ประเมินหลักทรัพย์ที่สหกรณ์เห็นชอบ ไม่เลือกบริษัทหรือสำนักงานประเมินเองก่อนตรวจเงื่อนไข",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ใช้บริษัทประเมินอะไร",
+          "intent": "loan_special_quality",
+          "answer": "ต้องใช้ผู้ประเมินหลักทรัพย์ที่สหกรณ์เห็นชอบ ไม่เลือกบริษัทหรือสำนักงานประเมินเองก่อนตรวจเงื่อนไข",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้ประเมินกับสำนักงานที่ดินได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "ต้องใช้ผู้ประเมินหลักทรัพย์ที่สหกรณ์เห็นชอบ ไม่เลือกบริษัทหรือสำนักงานประเมินเองก่อนตรวจเงื่อนไข",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ต้องทำประกันอัคคีภัยไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลักประกันที่มีสิ่งปลูกสร้างต้องทำประกันอัคคีภัยต่อเนื่องอย่างน้อย 3 ปีตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หลักประกันมีสิ่งปลูกสร้างต้องทำประกันไหม",
+          "intent": "loan_special_quality",
+          "answer": "หลักประกันที่มีสิ่งปลูกสร้างต้องทำประกันอัคคีภัยต่อเนื่องอย่างน้อย 3 ปีตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ต่อประกันกี่ปี",
+          "intent": "loan_special_quality",
+          "answer": "หลักประกันที่มีสิ่งปลูกสร้างต้องทำประกันอัคคีภัยต่อเนื่องอย่างน้อย 3 ปีตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ขอเกินหนี้เดิมได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "รับเงินส่วนต่างได้ไม่เกิน 50% ของวงเงินคงเหลือที่มีสิทธิหลังหักกลบหนี้ ต้องตรวจยอดหนี้และวงเงินตามข้อมูลจริง",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้รับเงินส่วนต่างได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "รับเงินส่วนต่างได้ไม่เกิน 50% ของวงเงินคงเหลือที่มีสิทธิหลังหักกลบหนี้ ต้องตรวจยอดหนี้และวงเงินตามข้อมูลจริง",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ถ้ากู้เกินหนี้เดิมทำได้หรือไม่",
+          "intent": "loan_special_quality",
+          "answer": "รับเงินส่วนต่างได้ไม่เกิน 50% ของวงเงินคงเหลือที่มีสิทธิหลังหักกลบหนี้ ต้องตรวจยอดหนี้และวงเงินตามข้อมูลจริง",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ขอเงินเกินหนี้เดิมได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "รับเงินส่วนต่างได้ไม่เกิน 50% ของวงเงินคงเหลือที่มีสิทธิหลังหักกลบหนี้ ต้องตรวจยอดหนี้และวงเงินตามข้อมูลจริง",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้เหลือเงินสดได้ไหม",
+          "intent": "loan_special_quality",
+          "answer": "รับเงินส่วนต่างได้ไม่เกิน 50% ของวงเงินคงเหลือที่มีสิทธิหลังหักกลบหนี้ ต้องตรวจยอดหนี้และวงเงินตามข้อมูลจริง",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้หักกลบสัญญาเดิมอย่างไร",
+          "intent": "loan_special_quality",
+          "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้รับเงินสดได้เท่าไหร่",
+          "intent": "loan_special_quality",
+          "answer": "รับเงินส่วนต่างได้ไม่เกิน 50% ของวงเงินคงเหลือที่มีสิทธิหลังหักกลบหนี้ ต้องตรวจยอดหนี้และวงเงินตามข้อมูลจริง",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้พิเศษสัญญาใหม่กับสัญญาเดิมทำอย่างไร",
+          "intent": "loan_special_quality",
+          "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้รวมหนี้ส่งต้นเงินอย่างไร",
+          "intent": "loan_special_quality",
+          "answer": "ชำระต้นเงินรายเดือนเท่ากันพร้อมดอกเบี้ย ยกเว้นงวดแรกหรืองวดสุดท้ายตามหลักเกณฑ์ ไม่คำนวณค่างวดโดยไม่มีสูตรทางการ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ส่งแบบงวดเท่ากันไหม",
+          "intent": "loan_special_quality",
+          "answer": "ชำระต้นเงินรายเดือนเท่ากันพร้อมดอกเบี้ย ยกเว้นงวดแรกหรืองวดสุดท้ายตามหลักเกณฑ์ ไม่คำนวณค่างวดโดยไม่มีสูตรทางการ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้ส่งเงินรายเดือนอย่างไร",
+          "intent": "loan_special_quality",
+          "answer": "ชำระต้นเงินรายเดือนเท่ากันพร้อมดอกเบี้ย ยกเว้นงวดแรกหรืองวดสุดท้ายตามหลักเกณฑ์ ไม่คำนวณค่างวดโดยไม่มีสูตรทางการ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ส่งงวดละเท่ากันไหม",
+          "intent": "loan_special_quality",
+          "answer": "ชำระต้นเงินรายเดือนเท่ากันพร้อมดอกเบี้ย ยกเว้นงวดแรกหรืองวดสุดท้ายตามหลักเกณฑ์ ไม่คำนวณค่างวดโดยไม่มีสูตรทางการ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้รวมหนี้ส่งต้นดอกยังไง",
+          "intent": "loan_special_quality",
+          "answer": "ชำระต้นเงินรายเดือนเท่ากันพร้อมดอกเบี้ย ยกเว้นงวดแรกหรืองวดสุดท้ายตามหลักเกณฑ์ ไม่คำนวณค่างวดโดยไม่มีสูตรทางการ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "รวมหนี้ผ่อนรายเดือนแบบไหน",
+          "intent": "loan_special_quality",
+          "answer": "ชำระต้นเงินรายเดือนเท่ากันพร้อมดอกเบี้ย ยกเว้นงวดแรกหรืองวดสุดท้ายตามหลักเกณฑ์ ไม่คำนวณค่างวดโดยไม่มีสูตรทางการ",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "เบอร์โทร",
+          "intent": "contact",
+          "answer": "ตรวจเบอร์โทรและช่องทางปัจจุบันได้จากหน้าติดต่อทางการครับ",
+          "decision": null
+        },
+        {
+          "question": "ติดต่อ",
+          "intent": "contact",
+          "answer": "ตรวจเบอร์โทรและช่องทางปัจจุบันได้จากหน้าติดต่อทางการครับ",
+          "decision": null
+        },
+        {
+          "question": "ติดต่อสหกรณ์",
+          "intent": "contact",
+          "answer": "ตรวจเบอร์โทรและช่องทางปัจจุบันได้จากหน้าติดต่อทางการครับ",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สวัสดี",
+          "intent": "greeting",
+          "answer": "สวัสดีครับ เลือกเรื่องที่ต้องการหรือพิมพ์คำถามได้เลย",
+          "decision": null
+        },
+        {
+          "question": "สวัสดีค่ะ",
+          "intent": "greeting",
+          "answer": "สวัสดีครับ เลือกเรื่องที่ต้องการหรือพิมพ์คำถามได้เลย",
+          "decision": null
+        },
+        {
+          "question": "สวัสดีครับ",
+          "intent": "greeting",
+          "answer": "สวัสดีครับ เลือกเรื่องที่ต้องการหรือพิมพ์คำถามได้เลย",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะใช้ทำอะไรได้บ้าง",
+          "intent": "loan_special_housing",
+          "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้พิเศษเพื่อการเคหะมีวัตถุประสงค์อะไร",
+          "intent": "loan_special_housing",
+          "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะซื้อคอนโดได้ไหม",
+          "intent": "loan_special_housing",
+          "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะซื้อบ้านได้ไหม",
+          "intent": "loan_special_housing",
+          "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะต่อเติมบ้านได้ไหม",
+          "intent": "loan_special_housing",
+          "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะต้องเป็นสมาชิกกี่เดือน",
+          "intent": "loan_special_housing",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "สมาชิกกี่เดือนถึงกู้เคหะได้",
+          "intent": "loan_special_housing",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะต้องส่งค่าหุ้นกี่งวด",
+          "intent": "loan_special_housing",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะต้องมีรายได้เหลือเท่าไหร่",
+          "intent": "loan_special_housing",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะต้องเหลือ 5000 ไหม",
+          "intent": "loan_special_housing",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หลังกู้แล้วต้องเหลือกี่เปอร์เซ็นต์",
+          "intent": "loan_special_housing",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะหักชำระอย่างไร",
+          "intent": "loan_special_housing",
+          "answer": "หักชำระค่าหุ้นและหนี้จากเงินได้รายเดือน ณ ที่จ่าย หรือวิธีอื่นที่ตกลงกับสหกรณ์เป็นรายกรณี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะต้องหักหน้าฎีกาไหม",
+          "intent": "loan_special_housing",
+          "answer": "หักชำระค่าหุ้นและหนี้จากเงินได้รายเดือน ณ ที่จ่าย หรือวิธีอื่นที่ตกลงกับสหกรณ์เป็นรายกรณี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หักเงินเดือนกู้เคหะหรือไม่",
+          "intent": "loan_special_housing",
+          "answer": "หักชำระค่าหุ้นและหนี้จากเงินได้รายเดือน ณ ที่จ่าย หรือวิธีอื่นที่ตกลงกับสหกรณ์เป็นรายกรณี",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะต้องเป็นสมาชิกสมาคมฌาปนกิจไหม",
+          "intent": "loan_special_housing",
+          "answer": "ต้องเป็นสมาชิกสมาคมฌาปนกิจสงเคราะห์ตามหลักเกณฑ์เงินกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะต้องสมัครสมาคมไหม",
+          "intent": "loan_special_housing",
+          "answer": "ต้องเป็นสมาชิกสมาคมฌาปนกิจสงเคราะห์ตามหลักเกณฑ์เงินกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เงื่อนไขสมาคมฌาปนกิจของกู้เคหะ",
+          "intent": "loan_special_housing",
+          "answer": "ต้องเป็นสมาชิกสมาคมฌาปนกิจสงเคราะห์ตามหลักเกณฑ์เงินกู้",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะดูเครดิตบูโรไหม",
+          "intent": "loan_special_housing",
+          "answer": "ต้องตรวจเครดิตบูโรตามหลักเกณฑ์ แต่ระบบนี้ไม่เข้าถึงผลเครดิตของสมาชิก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะต้องมีประวัติชำระหนี้แบบไหน",
+          "intent": "loan_special_housing",
+          "answer": "ต้องตรวจเครดิตบูโรตามหลักเกณฑ์ แต่ระบบนี้ไม่เข้าถึงผลเครดิตของสมาชิก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะเช็ก NCB หรือไม่",
+          "intent": "loan_special_housing",
+          "answer": "ต้องตรวจเครดิตบูโรตามหลักเกณฑ์ แต่ระบบนี้ไม่เข้าถึงผลเครดิตของสมาชิก",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะได้เท่าไหร่",
+          "intent": "loan_special_housing",
+          "answer": "วงเงินสูงสุด 3,000,000 บาท บ้านมือสองไม่เกิน 80%; บ้านมือหนึ่ง/ปลูกสร้างตามราคาประเมิน หนี้รวมกับสหกรณ์ไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "วงเงินกู้เคหะสูงสุดเท่าไหร่",
+          "intent": "loan_special_housing",
+          "answer": "วงเงินสูงสุด 3,000,000 บาท บ้านมือสองไม่เกิน 80%; บ้านมือหนึ่ง/ปลูกสร้างตามราคาประเมิน หนี้รวมกับสหกรณ์ไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+          "intent": "loan_special_housing",
+          "answer": "วงเงินสูงสุด 3,000,000 บาท บ้านมือสองไม่เกิน 80%; บ้านมือหนึ่ง/ปลูกสร้างตามราคาประเมิน หนี้รวมกับสหกรณ์ไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะได้เท่าไร",
+          "intent": "loan_special_housing",
+          "answer": "วงเงินสูงสุด 3,000,000 บาท บ้านมือสองไม่เกิน 80%; บ้านมือหนึ่ง/ปลูกสร้างตามราคาประเมิน หนี้รวมกับสหกรณ์ไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้บ้านสหกรณ์ได้กี่ล้าน",
+          "intent": "loan_special_housing",
+          "answer": "วงเงินสูงสุด 3,000,000 บาท บ้านมือสองไม่เกิน 80%; บ้านมือหนึ่ง/ปลูกสร้างตามราคาประเมิน หนี้รวมกับสหกรณ์ไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เคหะได้กี่เปอร์เซ็นต์ของราคาประเมิน",
+          "intent": "loan_special_housing",
+          "answer": "วงเงินสูงสุด 3,000,000 บาท บ้านมือสองไม่เกิน 80%; บ้านมือหนึ่ง/ปลูกสร้างตามราคาประเมิน หนี้รวมกับสหกรณ์ไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะสูงสุดกี่บาท",
+          "intent": "loan_special_housing",
+          "answer": "วงเงินสูงสุด 3,000,000 บาท บ้านมือสองไม่เกิน 80%; บ้านมือหนึ่ง/ปลูกสร้างตามราคาประเมิน หนี้รวมกับสหกรณ์ไม่เกิน 5,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะผ่อนได้กี่งวด",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะผ่อนได้นานแค่ไหน",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้บ้านกับสหกรณ์ผ่อนได้กี่ปี",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้บ้านสหกรณ์ผ่อนได้นานแค่ไหน",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เคหะส่งได้กี่ปี",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะผ่อนได้กี่งวด",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะผ่อนได้นานแค่ไหน",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้บ้านกับสหกรณ์ผ่อนได้กี่ปี",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้บ้านสหกรณ์ผ่อนได้นานแค่ไหน",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เคหะส่งได้กี่ปี",
+          "intent": "loan_special_housing",
+          "answer": "ผ่อนได้ไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "ปิดกู้เคหะก่อนกำหนดเสียค่าปรับไหม",
+          "intent": "loan_special_housing",
+          "answer": "ปิดเงินกู้เคหะภายใน 5 ปี มีค่าปรับ 3% ของเงินต้นคงเหลือตามหลักเกณฑ์ ต้องตรวจยอดปิด ณ วันชำระจริง",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะปิดก่อน 5 ปีคิดเท่าไหร่",
+          "intent": "loan_special_housing",
+          "answer": "ปิดเงินกู้เคหะภายใน 5 ปี มีค่าปรับ 3% ของเงินต้นคงเหลือตามหลักเกณฑ์ ต้องตรวจยอดปิด ณ วันชำระจริง",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "โปะกู้เคหะก่อนกำหนดได้ไหม",
+          "intent": "loan_special_housing",
+          "answer": "ปิดเงินกู้เคหะภายใน 5 ปี มีค่าปรับ 3% ของเงินต้นคงเหลือตามหลักเกณฑ์ ต้องตรวจยอดปิด ณ วันชำระจริง",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะใครออกค่าประเมิน",
+          "intent": "loan_special_housing",
+          "answer": "ผู้กู้เป็นผู้รับภาระค่าประเมินและค่าจดทะเบียนจำนองตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะใครจ่ายค่าจดทะเบียนจำนอง",
+          "intent": "loan_special_housing",
+          "answer": "ผู้กู้เป็นผู้รับภาระค่าประเมินและค่าจดทะเบียนจำนองตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะมีค่าใช้จ่ายอะไรบ้าง",
+          "intent": "loan_special_housing",
+          "answer": "ผู้กู้เป็นผู้รับภาระค่าประเมินและค่าจดทะเบียนจำนองตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะต้องประเมินหลักทรัพย์ที่ไหน",
+          "intent": "loan_special_housing",
+          "answer": "ต้องใช้ผู้ประเมินหลักทรัพย์ที่สหกรณ์เห็นชอบ ไม่เลือกบริษัทหรือสำนักงานประเมินเองก่อนตรวจเงื่อนไข",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ประเมินบ้านกู้เคหะกับใคร",
+          "intent": "loan_special_housing",
+          "answer": "ต้องใช้ผู้ประเมินหลักทรัพย์ที่สหกรณ์เห็นชอบ ไม่เลือกบริษัทหรือสำนักงานประเมินเองก่อนตรวจเงื่อนไข",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะใช้บริษัทประเมินอะไร",
+          "intent": "loan_special_housing",
+          "answer": "ต้องใช้ผู้ประเมินหลักทรัพย์ที่สหกรณ์เห็นชอบ ไม่เลือกบริษัทหรือสำนักงานประเมินเองก่อนตรวจเงื่อนไข",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะดอกเบี้ยเท่าไหร่",
+          "intent": "loan_special_housing",
+          "answer": "อัตราดอกเบี้ยตามประกาศ: งวด 1-12 = 3.60% ต่อปี; งวด 13-24 = 4.35% ต่อปี; งวด 25-360 = 5.50% ต่อปี",
+          "decision": null
+        },
+        {
+          "question": "ดอกเบี้ยกู้บ้านสหกรณ์กี่เปอร์เซ็นต์",
+          "intent": "loan_special_housing",
+          "answer": "อัตราดอกเบี้ยตามประกาศ: งวด 1-12 = 3.60% ต่อปี; งวด 13-24 = 4.35% ต่อปี; งวด 25-360 = 5.50% ต่อปี",
+          "decision": null
+        },
+        {
+          "question": "กู้เคหะปีแรกดอกเบี้ยเท่าไหร่",
+          "intent": "loan_special_housing",
+          "answer": "อัตราดอกเบี้ยตามประกาศ: งวด 1-12 = 3.60% ต่อปี; งวด 13-24 = 4.35% ต่อปี; งวด 25-360 = 5.50% ต่อปี",
+          "decision": null
+        },
+        {
+          "question": "กู้เคหะดอกเบี้ยเท่าไร",
+          "intent": "loan_special_housing",
+          "answer": "อัตราดอกเบี้ยตามประกาศ: งวด 1-12 = 3.60% ต่อปี; งวด 13-24 = 4.35% ต่อปี; งวด 25-360 = 5.50% ต่อปี",
+          "decision": null
+        },
+        {
+          "question": "กู้บ้านสหกรณ์ดอกเบี้ยกี่เปอร์เซ็นต์",
+          "intent": "loan_special_housing",
+          "answer": "อัตราดอกเบี้ยตามประกาศ: งวด 1-12 = 3.60% ต่อปี; งวด 13-24 = 4.35% ต่อปี; งวด 25-360 = 5.50% ต่อปี",
+          "decision": null
+        },
+        {
+          "question": "เคหะปีแรกดอกเบี้ยเท่าไหร่",
+          "intent": "loan_special_housing",
+          "answer": "อัตราดอกเบี้ยตามประกาศ: งวด 1-12 = 3.60% ต่อปี; งวด 13-24 = 4.35% ต่อปี; งวด 25-360 = 5.50% ต่อปี",
+          "decision": null
+        },
+        {
+          "question": "เคหะปี 2 ดอกเท่าไร",
+          "intent": "loan_special_housing",
+          "answer": "อัตราดอกเบี้ยตามประกาศ: งวด 1-12 = 3.60% ต่อปี; งวด 13-24 = 4.35% ต่อปี; งวด 25-360 = 5.50% ต่อปี",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะต้องทำประกันอัคคีภัยไหม",
+          "intent": "loan_special_housing",
+          "answer": "หลักประกันที่มีสิ่งปลูกสร้างต้องทำประกันอัคคีภัยต่อเนื่องอย่างน้อย 3 ปีตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ห้องชุดค้ำกู้ต้องทำประกันไหม",
+          "intent": "loan_special_housing",
+          "answer": "หลักประกันที่มีสิ่งปลูกสร้างต้องทำประกันอัคคีภัยต่อเนื่องอย่างน้อย 3 ปีตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะต้องต่อประกันกี่ปี",
+          "intent": "loan_special_housing",
+          "answer": "หลักประกันที่มีสิ่งปลูกสร้างต้องทำประกันอัคคีภัยต่อเนื่องอย่างน้อย 3 ปีตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะต้องทำประกันไฟไหม้ไหม",
+          "intent": "loan_special_housing",
+          "answer": "หลักประกันที่มีสิ่งปลูกสร้างต้องทำประกันอัคคีภัยต่อเนื่องอย่างน้อย 3 ปีตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เคหะปลูกสร้างเบิกเงินอย่างไร",
+          "intent": "loan_special_housing",
+          "answer": "ปลูกสร้างแบ่งจ่าย 4 งวด จ่ายครั้งแรก 1 งวด และงวดถัดไปต้องตรวจความก้าวหน้าด้วยการประเมิน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ปลูกสร้างจ่ายเป็นงวดไหม",
+          "intent": "loan_special_housing",
+          "answer": "ปลูกสร้างแบ่งจ่าย 4 งวด จ่ายครั้งแรก 1 งวด และงวดถัดไปต้องตรวจความก้าวหน้าด้วยการประเมิน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เงินกู้ปลูกสร้างเบิกกี่งวด",
+          "intent": "loan_special_housing",
+          "answer": "ปลูกสร้างแบ่งจ่าย 4 งวด จ่ายครั้งแรก 1 งวด และงวดถัดไปต้องตรวจความก้าวหน้าด้วยการประเมิน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ปลูกสร้างเบิกเงินยังไง",
+          "intent": "loan_special_housing",
+          "answer": "ปลูกสร้างแบ่งจ่าย 4 งวด จ่ายครั้งแรก 1 งวด และงวดถัดไปต้องตรวจความก้าวหน้าด้วยการประเมิน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้เคหะปลูกบ้านจ่ายเป็นงวดไหม",
+          "intent": "loan_special_housing",
+          "answer": "ปลูกสร้างแบ่งจ่าย 4 งวด จ่ายครั้งแรก 1 งวด และงวดถัดไปต้องตรวจความก้าวหน้าด้วยการประเมิน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ปลูกบ้านต้องตรวจงวดงานไหม",
+          "intent": "loan_special_housing",
+          "answer": "ปลูกสร้างแบ่งจ่าย 4 งวด จ่ายครั้งแรก 1 งวด และงวดถัดไปต้องตรวจความก้าวหน้าด้วยการประเมิน",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ฉุกเฉินได้เท่าไหร่",
+          "intent": "loan_emergency",
+          "answer": "กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน: สมาชิกอย่างน้อย 3 เดือน สูงสุด 30,000 บาท; อย่างน้อย 6 เดือน สูงสุด 60,000 บาท ทั้งนี้ต้องผ่านเงื่อนไขอื่นด้วย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เงินกู้ฉุกเฉินสูงสุดเท่าไหร่",
+          "intent": "loan_emergency",
+          "answer": "กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน: สมาชิกอย่างน้อย 3 เดือน สูงสุด 30,000 บาท; อย่างน้อย 6 เดือน สูงสุด 60,000 บาท ทั้งนี้ต้องผ่านเงื่อนไขอื่นด้วย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินกี่เท่าของเงินเดือน",
+          "intent": "loan_emergency",
+          "answer": "กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน: สมาชิกอย่างน้อย 3 เดือน สูงสุด 30,000 บาท; อย่างน้อย 6 เดือน สูงสุด 60,000 บาท ทั้งนี้ต้องผ่านเงื่อนไขอื่นด้วย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินได้เท่าไร",
+          "intent": "loan_emergency",
+          "answer": "กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน: สมาชิกอย่างน้อย 3 เดือน สูงสุด 30,000 บาท; อย่างน้อย 6 เดือน สูงสุด 60,000 บาท ทั้งนี้ต้องผ่านเงื่อนไขอื่นด้วย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินได้กี่บาท",
+          "intent": "loan_emergency",
+          "answer": "กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน: สมาชิกอย่างน้อย 3 เดือน สูงสุด 30,000 บาท; อย่างน้อย 6 เดือน สูงสุด 60,000 บาท ทั้งนี้ต้องผ่านเงื่อนไขอื่นด้วย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินได้กี่เท่าของเงินเดือน",
+          "intent": "loan_emergency",
+          "answer": "กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน: สมาชิกอย่างน้อย 3 เดือน สูงสุด 30,000 บาท; อย่างน้อย 6 เดือน สูงสุด 60,000 บาท ทั้งนี้ต้องผ่านเงื่อนไขอื่นด้วย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ฉุกเฉินสูงสุดเท่าไหร่",
+          "intent": "loan_emergency",
+          "answer": "กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน: สมาชิกอย่างน้อย 3 เดือน สูงสุด 30,000 บาท; อย่างน้อย 6 เดือน สูงสุด 60,000 บาท ทั้งนี้ต้องผ่านเงื่อนไขอื่นด้วย",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เงินกู้ฉุกเฉิน",
+          "intent": "loan_emergency",
+          "answer": "กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน: สมาชิกอย่างน้อย 3 เดือน สูงสุด 30,000 บาท; อย่างน้อย 6 เดือน สูงสุด 60,000 บาท ทั้งนี้ต้องผ่านเงื่อนไขอื่นด้วย",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ฉุกเฉินต้องเป็นสมาชิกกี่เดือน",
+          "intent": "loan_emergency",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 3 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 3 งวด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "สมาชิกกี่เดือนถึงกู้ฉุกเฉินได้",
+          "intent": "loan_emergency",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 3 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 3 งวด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินนับหุ้นแรกเข้าหรือไม่",
+          "intent": "loan_emergency",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 3 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 3 งวด",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมาชิกเกิน 12 เดือนกู้ฉุกเฉินมีเงื่อนไขอะไร",
+          "intent": "loan_emergency",
+          "answer": "ต้องไม่ค้างชำระหุ้นและหนี้เงินกู้ทุกประเภทกับสหกรณ์ย้อนหลัง 12 งวดจนถึงวันยื่นคำขอ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินต้องชำระหนี้ต่อเนื่องไหม",
+          "intent": "loan_emergency",
+          "answer": "ต้องไม่ค้างชำระหุ้นและหนี้เงินกู้ทุกประเภทกับสหกรณ์ย้อนหลัง 12 งวดจนถึงวันยื่นคำขอ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินต้องไม่ค้างกี่เดือน",
+          "intent": "loan_emergency",
+          "answer": "ต้องไม่ค้างชำระหุ้นและหนี้เงินกู้ทุกประเภทกับสหกรณ์ย้อนหลัง 12 งวดจนถึงวันยื่นคำขอ",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ฉุกเฉินต้องเหลือเงินเดือนเท่าไหร่",
+          "intent": "loan_emergency",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 3,000 บาทตลอดอายุสัญญา โดยไม่นับสินเชื่อหมุนเวียน บัตรเครดิต และบัตรกดเงินสด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หลังหักค่าใช้จ่ายแล้วต้องเหลือเท่าไหร่",
+          "intent": "loan_emergency",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 3,000 บาทตลอดอายุสัญญา โดยไม่นับสินเชื่อหมุนเวียน บัตรเครดิต และบัตรกดเงินสด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินต้องเหลือ 5000 ไหม",
+          "intent": "loan_emergency",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 3,000 บาทตลอดอายุสัญญา โดยไม่นับสินเชื่อหมุนเวียน บัตรเครดิต และบัตรกดเงินสด",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ฉุกเฉินผ่อนได้กี่งวด",
+          "intent": "loan_emergency",
+          "answer": "ผ่อนได้ไม่เกิน 15 งวด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เงินกู้ฉุกเฉินส่งกี่งวด",
+          "intent": "loan_emergency",
+          "answer": "ผ่อนได้ไม่เกิน 15 งวด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินผ่อนนานแค่ไหน",
+          "intent": "loan_emergency",
+          "answer": "ผ่อนได้ไม่เกิน 15 งวด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินส่งกี่งวด",
+          "intent": "loan_emergency",
+          "answer": "ผ่อนได้ไม่เกิน 15 งวด",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ฉุกเฉินผ่อนนานสุดเท่าไร",
+          "intent": "loan_emergency",
+          "answer": "ผ่อนได้ไม่เกิน 15 งวด",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ฉุกเฉินดอกเบี้ยเท่าไหร่",
+          "intent": "loan_emergency",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 7.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "ดอกเบี้ยเงินกู้ฉุกเฉินกี่เปอร์เซ็นต์",
+          "intent": "loan_emergency",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 7.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "กู้ฉุกเฉินคิดดอกเบี้ยเท่าไหร่",
+          "intent": "loan_emergency",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 7.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "กู้ฉุกเฉินดอกเบี้ยกี่เปอร์เซ็นต์",
+          "intent": "loan_emergency",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 7.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "ฉุกเฉินดอกเท่าไหร่",
+          "intent": "loan_emergency",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 7.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        },
+        {
+          "question": "ดอกเบี้ยฉุกเฉินเท่าไร",
+          "intent": "loan_emergency",
+          "answer": "อัตราดอกเบี้ยตามประกาศ 7.50% ต่อปี ต้องตรวจประกาศล่าสุด ณ วันยื่น",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ฉุกเฉินหักจากอะไร",
+          "intent": "loan_emergency",
+          "answer": "หักชำระค่าหุ้นและหนี้จากเงินได้รายเดือน ณ ที่จ่าย หรือวิธีอื่นที่ตกลงกับสหกรณ์เป็นรายกรณี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หักเงินกู้ฉุกเฉินจากเงินเดือนไหม",
+          "intent": "loan_emergency",
+          "answer": "หักชำระค่าหุ้นและหนี้จากเงินได้รายเดือน ณ ที่จ่าย หรือวิธีอื่นที่ตกลงกับสหกรณ์เป็นรายกรณี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หักชำระกู้ฉุกเฉินอย่างไร",
+          "intent": "loan_emergency",
+          "answer": "หักชำระค่าหุ้นและหนี้จากเงินได้รายเดือน ณ ที่จ่าย หรือวิธีอื่นที่ตกลงกับสหกรณ์เป็นรายกรณี",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "เคยกู้สามัญหรือพิเศษแล้วกู้ฉุกเฉินได้ไหม",
+          "intent": "loan_emergency",
+          "answer": "หากมีเงินกู้ประเภทอื่นต้องชำระแล้วอย่างน้อย 3 งวด; สามัญเพื่อปรับโครงสร้างหนี้ต้องชำระอย่างน้อย 12 งวด; ถ้ามีฉุกเฉินเดิมต้องชำระอย่างน้อย 3 งวด และหักกลบสัญญาเดิม",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เคยมีหนี้เดิมต้องส่งกี่งวดถึงกู้ฉุกเฉินได้",
+          "intent": "loan_emergency",
+          "answer": "หากมีเงินกู้ประเภทอื่นต้องชำระแล้วอย่างน้อย 3 งวด; สามัญเพื่อปรับโครงสร้างหนี้ต้องชำระอย่างน้อย 12 งวด; ถ้ามีฉุกเฉินเดิมต้องชำระอย่างน้อย 3 งวด และหักกลบสัญญาเดิม",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ปรับโครงสร้างหนี้แล้วกู้ฉุกเฉินได้ไหม",
+          "intent": "loan_emergency",
+          "answer": "สัญญาสามัญเพื่อปรับโครงสร้างหนี้ต้องชำระอย่างน้อย 12 งวดก่อนยื่นฉุกเฉิน",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ฉุกเฉินเดิมอยู่กู้ใหม่ได้ไหม",
+          "intent": "decision_emergency_repeat",
+          "answer": "สัญญาเงินกู้ฉุกเฉินเดิมชำระแล้วกี่งวดครับ?",
+          "decision": "NEED_INFO"
+        },
+        {
+          "question": "กู้ฉุกเฉินสัญญาเดิมต้องส่งกี่งวด",
+          "intent": "loan_emergency",
+          "answer": "หากมีเงินกู้ประเภทอื่นต้องชำระแล้วอย่างน้อย 3 งวด; สามัญเพื่อปรับโครงสร้างหนี้ต้องชำระอย่างน้อย 12 งวด; ถ้ามีฉุกเฉินเดิมต้องชำระอย่างน้อย 3 งวด และหักกลบสัญญาเดิม",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินซ้ำต้องรอกี่งวด",
+          "intent": "decision_emergency_repeat",
+          "answer": "สัญญาเงินกู้ฉุกเฉินเดิมชำระแล้วกี่งวดครับ?",
+          "decision": "NEED_INFO"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ฉุกเฉินยื่นได้ถึงกี่โมง",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเองที่สำนักงานก่อน 15:00 น. ในวันทำการ โอนภายในวันยื่น; หลังเวลานี้หรือยื่นทางไปรษณีย์ อีเมล หรือแอป โอนภายใน 5 วันทำการนับแต่ได้รับคำขอ ตามหลักเกณฑ์ ไม่ใช่ผลอนุมัติของสมาชิก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ยื่นกู้ฉุกเฉินวันไหนได้บ้าง",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเองที่สำนักงานก่อน 15:00 น. ในวันทำการ โอนภายในวันยื่น; หลังเวลานี้หรือยื่นทางไปรษณีย์ อีเมล หรือแอป โอนภายใน 5 วันทำการนับแต่ได้รับคำขอ ตามหลักเกณฑ์ ไม่ใช่ผลอนุมัติของสมาชิก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ยื่นกู้ฉุกเฉินแล้วโอนวันไหน",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเองที่สำนักงานก่อน 15:00 น. ในวันทำการ โอนภายในวันยื่น; หลังเวลานี้หรือยื่นทางไปรษณีย์ อีเมล หรือแอป โอนภายใน 5 วันทำการนับแต่ได้รับคำขอ ตามหลักเกณฑ์ ไม่ใช่ผลอนุมัติของสมาชิก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินยื่นวันไหน",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเองที่สำนักงานก่อน 15:00 น. ในวันทำการ โอนภายในวันยื่น; หลังเวลานี้หรือยื่นทางไปรษณีย์ อีเมล หรือแอป โอนภายใน 5 วันทำการนับแต่ได้รับคำขอ ตามหลักเกณฑ์ ไม่ใช่ผลอนุมัติของสมาชิก",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ยื่นฉุกเฉินแล้วได้เงินวันไหน",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเองที่สำนักงานก่อน 15:00 น. ในวันทำการ โอนภายในวันยื่น; หลังเวลานี้หรือยื่นทางไปรษณีย์ อีเมล หรือแอป โอนภายใน 5 วันทำการนับแต่ได้รับคำขอ ตามหลักเกณฑ์ ไม่ใช่ผลอนุมัติของสมาชิก",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "ส่งเอกสารกู้ฉุกเฉินอย่างไร",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินส่งเอกสารทางอีเมลได้ไหม",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินส่งเอกสารทางไปรษณีย์ได้ไหม",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินส่งเอกสารทางไหนได้บ้าง",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินส่งเมลได้ไหม",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ฉุกเฉินส่งไปรษณีย์ได้ไหม",
+          "intent": "loan_emergency",
+          "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้สามัญได้สูงสุดเท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "วงเงินกู้สามัญสูงสุดเท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เงินกู้สามัญกู้ได้กี่บาท",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญได้เท่าไร",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญได้เท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญสูงสุดกี่บาท",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "วงเงินกู้สามัญ",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญ 2 ล้านไหม",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญเต็มที่ได้เท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้สามัญผ่อนได้กี่งวด",
+          "intent": "loan_ordinary",
+          "answer": "ผ่อนได้ไม่เกิน 240 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เงินกู้สามัญส่งได้กี่งวด",
+          "intent": "loan_ordinary",
+          "answer": "ผ่อนได้ไม่เกิน 240 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญผ่อนนานแค่ไหน",
+          "intent": "loan_ordinary",
+          "answer": "ผ่อนได้ไม่เกิน 240 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญส่งกี่งวด",
+          "intent": "loan_ordinary",
+          "answer": "ผ่อนได้ไม่เกิน 240 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญผ่อนได้กี่เดือน",
+          "intent": "loan_ordinary",
+          "answer": "ผ่อนได้ไม่เกิน 240 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญผ่อนสูงสุดกี่งวด",
+          "intent": "loan_ordinary",
+          "answer": "ผ่อนได้ไม่เกิน 240 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญผ่อนยาวสุดเท่าไร",
+          "intent": "loan_ordinary",
+          "answer": "ผ่อนได้ไม่เกิน 240 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ใหม่หักกลบสัญญาเดิมต้องส่งกี่งวด",
+          "intent": "loan_ordinary",
+          "answer": "กู้สามัญใหม่ต้องชำระสัญญาสามัญเดิมอย่างน้อย 12 งวด และหักกลบสัญญาสามัญเดิม รวมฉุกเฉิน ATM ตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หักกลบสัญญาเดิมต้องผ่อนมาก่อนกี่งวด",
+          "intent": "loan_ordinary",
+          "answer": "กู้สามัญใหม่ต้องชำระสัญญาสามัญเดิมอย่างน้อย 12 งวด และหักกลบสัญญาสามัญเดิม รวมฉุกเฉิน ATM ตามหลักเกณฑ์",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ใหม่ปิดสัญญาเดิมได้ไหม",
+          "intent": "decision_ordinary_repeat",
+          "answer": "สัญญาเงินกู้สามัญเดิมชำระแล้วกี่งวดครับ?",
+          "decision": "NEED_INFO"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "เป็นสมาชิกกี่เดือนถึงกู้สามัญได้",
+          "intent": "loan_ordinary",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญต้องเป็นสมาชิกกี่เดือน",
+          "intent": "loan_ordinary",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "สมาชิก 6 เดือนกู้สามัญได้ไหม",
+          "intent": "loan_compound_reasoning",
+          "answer": "จากข้อมูลที่ให้มา เงื่อนไขที่ตรวจได้ผ่านครับ แต่ยังไม่ใช่ผลอนุมัติส่วนบุคคล",
+          "decision": "ELIGIBLE_CONDITION"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมาชิก 12 เดือนกู้สามัญได้เท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "วงเงินสูงสุด 2,000,000 บาท",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญ 2 ล้านต้องเป็นสมาชิกกี่เดือน",
+          "intent": "loan_ordinary",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "สมาชิกครบ 12 เดือนกู้ได้เท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้สามัญต้องถือหุ้นไหม",
+          "intent": "loan_ordinary",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญต้องมีหุ้นเท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ต้องถือหุ้นตามระเบียบหรือไม่",
+          "intent": "loan_ordinary",
+          "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้สามัญต้องค้างชำระได้ไหม",
+          "intent": "loan_ordinary",
+          "answer": "ต้องไม่ค้างชำระหุ้นและหนี้เงินกู้ทุกประเภทกับสหกรณ์ย้อนหลัง 12 งวดจนถึงวันยื่นคำขอ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญต้องส่งหุ้นหนี้ผ่านหน้าฎีกาไหม",
+          "intent": "loan_ordinary",
+          "answer": "ชำระค่าหุ้นและหนี้โดยหักจากเงินได้รายเดือน ณ ที่จ่าย (หักหน้าฎีกา)",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ต้องมีประวัติชำระอย่างไร",
+          "intent": "loan_ordinary",
+          "answer": "ต้องไม่ค้างชำระหุ้นและหนี้เงินกู้ทุกประเภทกับสหกรณ์ย้อนหลัง 12 งวดจนถึงวันยื่นคำขอ",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้สามัญต้องมีเงินเดือนเหลือเท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หลังหักหนี้แล้วต้องเหลือเท่าไหร่",
+          "intent": "loan_ordinary",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญต้องเหลือ 5000 ไหม",
+          "intent": "loan_ordinary",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญต้องเหลือเงินเดือนเท่าไร",
+          "intent": "loan_ordinary",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "หลังหักหนี้แล้วต้องเหลือกี่บาท",
+          "intent": "loan_ordinary",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญต้องเหลือ 30 เปอร์เซ็นต์ไหม",
+          "intent": "loan_ordinary",
+          "answer": "หลังชำระหุ้นและหนี้ทุกประเภท ต้องมีรายได้คงเหลือ ไม่น้อยกว่า 15% และ ไม่น้อยกว่า 6,000 บาทตลอดอายุสัญญา",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้สามัญใช้อะไรค้ำได้บ้าง",
+          "intent": "loan_ordinary",
+          "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "เอาที่ดินค้ำกู้สามัญได้ไหม",
+          "intent": "loan_ordinary",
+          "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "อสังหาค้ำได้กี่เปอร์เซ็นต์",
+          "intent": "loan_ordinary",
+          "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "ใช้เงินฝากค้ำกู้สามัญได้ไหม",
+          "intent": "loan_ordinary",
+          "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ใช้หลักทรัพย์รัฐบาลค้ำกู้ได้ไหม",
+          "intent": "loan_ordinary",
+          "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ค้ำด้วยเงินฝากได้กี่เปอร์เซ็นต์",
+          "intent": "loan_ordinary",
+          "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "คนค้ำกู้สามัญต้องมีคุณสมบัติอะไร",
+          "intent": "loan_ordinary",
+          "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ผู้ค้ำกู้สามัญต้องเป็นสมาชิกกี่เดือน",
+          "intent": "loan_ordinary",
+          "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "บุคคลค้ำประกันต้องมีหุ้นไหม",
+          "intent": "loan_ordinary",
+          "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญคนค้ำต้องเป็นใคร",
+          "intent": "loan_ordinary",
+          "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ผู้ค้ำกู้สามัญต้องมีคุณสมบัติอะไร",
+          "intent": "loan_ordinary",
+          "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "ค้ำกู้สามัญต้องเป็นสมาชิกกี่เดือน",
+          "intent": "loan_ordinary",
+          "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "คนค้ำต้องส่งหุ้นกี่เดือน",
+          "intent": "loan_ordinary",
+          "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้สามัญใช้คนค้ำกี่คน",
+          "intent": "loan_ordinary",
+          "answer": "เงินกู้สามัญใช้ผู้ค้ำขั้นต่ำ: ไม่เกิน 500,000 บาท 1 คน; 500,001–1,000,000 บาท 2 คน; 1,000,001–2,000,000 บาท 3 คน ผู้ค้ำแต่ละคนมีภาระค้ำผู้กู้พร้อมกันไม่เกิน 3 คน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "วงเงินเท่านี้ต้องค้ำกี่คน",
+          "intent": "loan_ordinary",
+          "answer": "เงินกู้สามัญใช้ผู้ค้ำขั้นต่ำ: ไม่เกิน 500,000 บาท 1 คน; 500,001–1,000,000 บาท 2 คน; 1,000,001–2,000,000 บาท 3 คน ผู้ค้ำแต่ละคนมีภาระค้ำผู้กู้พร้อมกันไม่เกิน 3 คน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "สมาชิก 1 คนค้ำได้กี่คน",
+          "intent": "loan_ordinary",
+          "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้สามัญต้องค้ำกี่คน",
+          "intent": "loan_ordinary",
+          "answer": "เงินกู้สามัญใช้ผู้ค้ำขั้นต่ำ: ไม่เกิน 500,000 บาท 1 คน; 500,001–1,000,000 บาท 2 คน; 1,000,001–2,000,000 บาท 3 คน ผู้ค้ำแต่ละคนมีภาระค้ำผู้กู้พร้อมกันไม่เกิน 3 คน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ 5 แสนต้องค้ำกี่คน",
+          "intent": "loan_ordinary",
+          "answer": "เงินกู้สามัญใช้ผู้ค้ำขั้นต่ำ: ไม่เกิน 500,000 บาท 1 คน; 500,001–1,000,000 บาท 2 คน; 1,000,001–2,000,000 บาท 3 คน ผู้ค้ำแต่ละคนมีภาระค้ำผู้กู้พร้อมกันไม่เกิน 3 คน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ 1 ล้านต้องค้ำกี่คน",
+          "intent": "loan_ordinary",
+          "answer": "เงินกู้สามัญใช้ผู้ค้ำขั้นต่ำ: ไม่เกิน 500,000 บาท 1 คน; 500,001–1,000,000 บาท 2 คน; 1,000,001–2,000,000 บาท 3 คน ผู้ค้ำแต่ละคนมีภาระค้ำผู้กู้พร้อมกันไม่เกิน 3 คน",
+          "decision": "RULE_INFORMATION"
+        },
+        {
+          "question": "กู้ 2 ล้านต้องมีคนค้ำกี่คน",
+          "intent": "loan_ordinary",
+          "answer": "เงินกู้สามัญใช้ผู้ค้ำขั้นต่ำ: ไม่เกิน 500,000 บาท 1 คน; 500,001–1,000,000 บาท 2 คน; 1,000,001–2,000,000 บาท 3 คน ผู้ค้ำแต่ละคนมีภาระค้ำผู้กู้พร้อมกันไม่เกิน 3 คน",
+          "decision": "RULE_INFORMATION"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "เคยปรับโครงสร้างหนี้กู้สามัญได้ไหม",
+          "intent": "loan_ordinary",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น ผู้เคยปรับโครงสร้างหนี้ ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "ปรับโครงสร้างหนี้แล้วกู้สามัญต้องส่งกี่งวด",
+          "intent": "loan_ordinary",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น ผู้เคยปรับโครงสร้างหนี้ ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "เคยปรับโครงสร้างต้องมีเงื่อนไขอะไร",
+          "intent": "loan_ordinary",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น ผู้เคยปรับโครงสร้างหนี้ ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้สามัญใช้หุ้นค้ำได้ไหม",
+          "intent": "loan_ordinary",
+          "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้โดยใช้หุ้นค้ำมีเงื่อนไขอะไร",
+          "intent": "loan_ordinary",
+          "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "ใช้หุ้นค้ำได้กี่เปอร์เซ็นต์",
+          "intent": "loan_ordinary",
+          "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+          "decision": "NEED_RULE_EXTRACTION"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้เพื่อการศึกษากู้ได้เท่าไหร่",
+          "intent": "loan_education",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น amount ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้สามัญเพื่อการศึกษาผ่อนได้กี่งวด",
+          "intent": "loan_education",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น term ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้การศึกษาต้องมีคนค้ำไหม",
+          "intent": "loan_education",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น guarantorCount ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้การศึกษาได้เท่าไร",
+          "intent": "loan_education",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น amount ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้เพื่อการศึกษาผ่อนได้กี่งวด",
+          "intent": "loan_education",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น term ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้เรียนสหกรณ์ได้เท่าไร",
+          "intent": "loan_education",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น amount ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "กู้ภัยพิบัติได้เท่าไหร่",
+          "intent": "loan_disaster",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น amount ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้ช่วยเหลือกรณีภัยพิบัติผ่อนได้กี่งวด",
+          "intent": "loan_disaster",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น รายได้คงเหลือ ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้ภัยพิบัติต้องยื่นภายในกี่วัน",
+          "intent": "loan_disaster",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น deadline ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้ภัยพิบัติได้เท่าไร",
+          "intent": "loan_disaster",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น amount ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้ภัยพิบัติผ่อนได้กี่งวด",
+          "intent": "loan_disaster",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น term ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้ช่วยเหลือภัยพิบัติต้องยื่นภายในกี่วัน",
+          "intent": "loan_disaster",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น รายได้คงเหลือ ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        },
+        {
+          "question": "กู้พิบัติวงเงินเท่าไร",
+          "intent": "loan_disaster",
+          "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น amount ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+          "decision": "NEED_RULE_EXTRACTION"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมัครสมาชิกสหกรณ์ที่ไหน",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกออนไลน์อย่างไร",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "เข้าไปสมัครสมาชิกที่เว็บอะไร",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกทำยังไง",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกออนไลน์ได้ไหม",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกเข้าที่เว็บไหน",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมัครสมาชิกต้องกรอกอะไรบ้าง",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "ใบสมัครสมาชิกมีหัวข้ออะไร",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกต้องกรอกผู้รับผลประโยชน์ไหม",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมัครสมาชิกต้องส่งเอกสารอะไร",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "เอกสารสมัครสมาชิกมีอะไรบ้าง",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกต้องส่งใบเปิดบัญชีไหม",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกใช้เอกสารอะไรบ้าง",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "เอกสารสมัครสมาชิกมีอะไร",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกต้องเตรียมอะไร",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกต้องส่งอะไรบ้าง",
+          "intent": "member_apply",
+          "answer": "ใช้ใบสมัครสมาชิกและรายการเอกสารจากหน้าทะเบียนทางการ กรอกข้อมูลตามแบบและเตรียมเอกสารให้ครบครับ",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมัครสมาชิกส่งเอกสารไปที่ไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจที่อยู่ส่งใบสมัครและเอกสารจากหน้าติดต่อทางการก่อนส่ง เลือกช่องทางในใบสมัครฉบับล่าสุดครับ",
+          "decision": null
+        },
+        {
+          "question": "ส่งใบสมัครสมาชิกทางไปรษณีย์ที่ไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจที่อยู่ส่งใบสมัครและเอกสารจากหน้าติดต่อทางการก่อนส่ง เลือกช่องทางในใบสมัครฉบับล่าสุดครับ",
+          "decision": null
+        },
+        {
+          "question": "ที่อยู่ส่งเอกสารสมัครสมาชิก",
+          "intent": "member_apply",
+          "answer": "ตรวจที่อยู่ส่งใบสมัครและเอกสารจากหน้าติดต่อทางการก่อนส่ง เลือกช่องทางในใบสมัครฉบับล่าสุดครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกส่งเอกสารไปไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจที่อยู่ส่งใบสมัครและเอกสารจากหน้าติดต่อทางการก่อนส่ง เลือกช่องทางในใบสมัครฉบับล่าสุดครับ",
+          "decision": null
+        },
+        {
+          "question": "ส่งใบสมัครสมาชิกที่ไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจที่อยู่ส่งใบสมัครและเอกสารจากหน้าติดต่อทางการก่อนส่ง เลือกช่องทางในใบสมัครฉบับล่าสุดครับ",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมัครสมาชิกแล้วรู้ผลทางไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจผลสมัครสมาชิกจากประกาศทางการ และตรวจสถานะในระบบสมาชิกเมื่อมีข้อมูลเข้าสู่ระบบแล้วครับ",
+          "decision": null
+        },
+        {
+          "question": "ผลสมัครสมาชิกดูที่ไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจผลสมัครสมาชิกจากประกาศทางการ และตรวจสถานะในระบบสมาชิกเมื่อมีข้อมูลเข้าสู่ระบบแล้วครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกประกาศผลช่องทางไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจผลสมัครสมาชิกจากประกาศทางการ และตรวจสถานะในระบบสมาชิกเมื่อมีข้อมูลเข้าสู่ระบบแล้วครับ",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมัครสมาชิกต้องโอนเงินอะไร",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกต้องจ่ายค่าอะไรบ้าง",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "ต้องโอนค่าหุ้นแรกเข้าไหม",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกต้องโอนค่าอะไรบ้าง",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกต้องจ่ายอะไรบ้าง",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกต้องโอนเงินเท่าไร",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมัครสมาชิกโอนเงินอย่างไร",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "โอนเงินค่าสมัครผ่านอะไร",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "โอนค่าหุ้นแรกเข้าทางไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกโอนเงินทางไหน",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "ค่าสมัครโอนผ่านอะไร",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกโอนผ่านกรุงไทยได้ไหม",
+          "intent": "member_apply",
+          "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+          "decision": null
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "status": "PASS",
+      "errors": [],
+      "results": [
+        {
+          "question": "สมัครสมาชิกแล้วไม่โอนเงินภายในกี่วัน",
+          "intent": "member_apply",
+          "answer": "พบแบบสมัครทางการ แต่กำหนดวันโอนเงินและผลของการไม่โอนยังไม่ได้ยืนยันจากต้นฉบับ จึงไม่ใช้กำหนด 60 วันหรือระยะรอสมัครใหม่จากคำตอบเก่า เปิดแบบสมัครและประกาศทางการเพื่อตรวจต่อได้ทันที",
+          "decision": null
+        },
+        {
+          "question": "ถ้าไม่โอนภายใน 60 วันจะเกิดอะไรขึ้น",
+          "intent": "member_apply",
+          "answer": "พบแบบสมัครทางการ แต่กำหนดวันโอนเงินและผลของการไม่โอนยังไม่ได้ยืนยันจากต้นฉบับ จึงไม่ใช้กำหนด 60 วันหรือระยะรอสมัครใหม่จากคำตอบเก่า เปิดแบบสมัครและประกาศทางการเพื่อตรวจต่อได้ทันที",
+          "decision": null
+        },
+        {
+          "question": "สมัครใหม่ต้องรอกี่ปี",
+          "intent": "member_apply",
+          "answer": "พบแบบสมัครทางการ แต่กำหนดวันโอนเงินและผลของการไม่โอนยังไม่ได้ยืนยันจากต้นฉบับ จึงไม่ใช้กำหนด 60 วันหรือระยะรอสมัครใหม่จากคำตอบเก่า เปิดแบบสมัครและประกาศทางการเพื่อตรวจต่อได้ทันที",
+          "decision": null
+        },
+        {
+          "question": "ไม่โอนเงินสมัครสมาชิกภายใน 60 วันจะเป็นยังไง",
+          "intent": "member_apply",
+          "answer": "พบแบบสมัครทางการ แต่กำหนดวันโอนเงินและผลของการไม่โอนยังไม่ได้ยืนยันจากต้นฉบับ จึงไม่ใช้กำหนด 60 วันหรือระยะรอสมัครใหม่จากคำตอบเก่า เปิดแบบสมัครและประกาศทางการเพื่อตรวจต่อได้ทันที",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกแล้วไม่จ่ายใน 60 วันทำไง",
+          "intent": "member_apply",
+          "answer": "พบแบบสมัครทางการ แต่กำหนดวันโอนเงินและผลของการไม่โอนยังไม่ได้ยืนยันจากต้นฉบับ จึงไม่ใช้กำหนด 60 วันหรือระยะรอสมัครใหม่จากคำตอบเก่า เปิดแบบสมัครและประกาศทางการเพื่อตรวจต่อได้ทันที",
+          "decision": null
+        },
+        {
+          "question": "สมัครสมาชิกใหม่ต้องรอกี่ปี",
+          "intent": "member_apply",
+          "answer": "พบแบบสมัครทางการ แต่กำหนดวันโอนเงินและผลของการไม่โอนยังไม่ได้ยืนยันจากต้นฉบับ จึงไม่ใช้กำหนด 60 วันหรือระยะรอสมัครใหม่จากคำตอบเก่า เปิดแบบสมัครและประกาศทางการเพื่อตรวจต่อได้ทันที",
+          "decision": null
+        }
+      ]
+    }
+  ]
+}

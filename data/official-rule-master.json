@@ -1,0 +1,974 @@
+{
+  "schemaVersion": "1.0",
+  "productRelease": "4.4.0-member-journey",
+  "verifiedAt": "2026-10-05",
+  "policy": {
+    "sourcePriority": [
+      "ข้อบังคับ/ระเบียบปัจจุบัน",
+      "ประกาศ/หลักเกณฑ์ล่าสุด",
+      "แบบฟอร์มทางการ",
+      "ผลอนุมัติ/ประกาศรายรอบ"
+    ],
+    "rules": [
+      "ห้ามสร้างตัวเลขจากกระทู้สมาชิก",
+      "คำตอบบอท LINE เดิมใช้เป็นชุดคำถาม/Intent/Regression เท่านั้น ห้ามใช้เป็น Rule จนกว่าจะตรวจหลักฐานทางการฉบับปัจจุบัน",
+      "กฎที่มีวันบังคับใช้ต้องตรวจ version ก่อนใช้",
+      "กฎที่ยังไม่มีต้นฉบับยืนยันให้ตอบ UNVERIFIED_RULE",
+      "ข้อมูลยอด/สถานะเฉพาะสมาชิกให้ใช้ระบบสมาชิกทางการก่อน; ส่งเจ้าหน้าที่เฉพาะข้อยกเว้น/ข้อมูลไม่ตรง/ต้องวินิจฉัย",
+      "มีต้นฉบับทางการแต่ยังไม่ได้ถอด Rule: ห้ามตอบว่าไม่มีข้อมูล ให้ระบุว่าพบกฎและส่งต่อเฉพาะส่วนที่ยังต้องตรวจ"
+    ]
+  },
+  "domains": {
+    "ordinaryLoan": {
+      "status": "VERIFIED_PRIMARY",
+      "verified": [
+        "สมาชิกไม่น้อยกว่า 6 เดือน",
+        "กู้ซ้ำสามัญ: สัญญาเดิมอย่างน้อย 12 งวด และสัญญาใหม่หักกลบสัญญาสามัญเดิม",
+        "วงเงินเกิน 200,000 บาท ต้องส่งหุ้นอย่างน้อย 12 เดือนและมีทุนเรือนหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+        "ผู้ค้ำหนึ่งคนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน",
+        "รายได้คงเหลือไม่น้อยกว่า 15% และไม่น้อยกว่า 6,000 บาทต่อเดือน",
+        "หากมีสัญญาฉุกเฉิน ATM สัญญาสามัญใหม่ต้องหักกลบตามหลักเกณฑ์; ห้ามเหมารวมฉุกเฉินทุกประเภท"
+      ],
+      "source": "https://www.dlasavingcoop.com/show.php?No=774"
+    },
+    "emergencyLoan": {
+      "status": "VERIFIED_PRIMARY",
+      "verified": [
+        "สมาชิกอย่างน้อย 3 เดือน และส่งหุ้นต่อเนื่องอย่างน้อย 3 งวด",
+        "รายได้คงเหลืออย่างน้อย 3,000 บาท ไม่รวมสินเชื่อหมุนเวียน บัตรเครดิต และบัตรกดเงินสด",
+        "ฉุกเฉินเดิมชำระอย่างน้อย 3 งวด และหักกลบสัญญาเดิม",
+        "หนี้ประเภทอื่นชำระอย่างน้อย 3 งวด; สามัญปรับโครงสร้างหนี้อย่างน้อย 12 งวด",
+        "ไม่มีหนี้ในฐานะผู้กู้กับสหกรณ์อื่น"
+      ],
+      "source": "https://www.dlasavingcoop.com/show.php?No=773",
+      "rule": "emergencyLoanCurrent"
+    },
+    "educationLoan": {
+      "status": "PARTIAL_VERIFIED",
+      "verified": [
+        "สัญญาเดิมอย่างน้อย 6 งวดก่อนยื่นใหม่"
+      ],
+      "source": "https://www.dlasavingcoop.com/show.php?No=774"
+    },
+    "qualityOfLife": {
+      "status": "VERIFIED_PRIMARY",
+      "source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "verified": [
+        "กู้ได้ไม่เกิน 80% ของราคาประเมิน และไม่เกิน 5,000,000 บาท",
+        "ผ่อนไม่เกิน 360 งวด และอายุเมื่อสิ้นสุดสัญญาไม่เกิน 75 ปี",
+        "ถ้ามีสัญญาเงินกู้อื่น ต้องยินยอมให้หักกลบหนี้เดิมเมื่อได้รับอนุมัติให้เหลือสัญญาเดียว",
+        "หลังได้รับอนุมัติแล้วไม่สามารถกู้ประเภทอื่นได้อีก ยกเว้นเงินกู้ฉุกเฉิน"
+      ]
+    },
+    "shares": {
+      "status": "OFFICIAL_INDEX",
+      "source": "https://www.dlasavingcoop.com/show.php?Category=procedure"
+    },
+    "deposits": {
+      "status": "OFFICIAL_INDEX",
+      "source": "https://dlasavingcoop.com/show.php?No=807"
+    },
+    "membership": {
+      "status": "OFFICIAL_INDEX",
+      "source": "https://dlasavingcoop.com/show.php?No=772"
+    },
+    "resignation": {
+      "status": "VERIFIED_PROCEDURE",
+      "source": "https://www.dlasavingcoop.com/show.php?Category=member_end"
+    },
+    "welfare": {
+      "status": "OFFICIAL_INDEX",
+      "source": "https://www.dlasavingcoop.com/show.php?No=775"
+    },
+    "funeral": {
+      "status": "OFFICIAL_INDEX",
+      "source": "https://www.dlasavingcoop.com/show.php?No=4401"
+    },
+    "payment": {
+      "status": "VERIFIED_PROCEDURE",
+      "source": "https://dlasavingcoop.com/show.php?Category=payment"
+    },
+    "dividendPatronage": {
+      "status": "DYNAMIC_RATE",
+      "source": "https://www.dlasavingcoop.com/list.php?Category=notice"
+    },
+    "memberSpecific": {
+      "status": "MEMBER_SELF_SERVICE_FIRST",
+      "portal": "https://member.dlasavingcoop.com/coop/",
+      "policy": "Member account values/status should be checked by the member in the official member system first. AI must not request credentials or access the member account. Staff handoff is reserved for exceptions, disputed data, document review, or decisions requiring staff judgment.",
+      "examples": [
+        "ยอดหนี้",
+        "ยอดหุ้น",
+        "ยอดเงินฝาก",
+        "ผลอนุมัติ/สถานะที่ระบบสมาชิกแสดง",
+        "เงินปันผลรายบุคคล"
+      ],
+      "staffRequiredExamples": [
+        "เหตุผลที่ผู้ค้ำไม่ผ่าน",
+        "ข้อมูลไม่ตรง/ต้องแก้ไข",
+        "ขออนุโลม",
+        "กรณีต้องให้เจ้าหน้าที่วินิจฉัยหรือดำเนินการ"
+      ]
+    },
+    "memberInformationChange": {
+      "status": "VERIFIED_PROCEDURE",
+      "source": "https://dlasavingcoop.com/coop/ckeditor/system/plugins/ckfinder/upload/files/change%20member%20information27012023.pdf",
+      "verified": [
+        "เอกสารแนบขึ้นกับรายการข้อมูลสมาชิกที่เปลี่ยน",
+        "สำเนาเอกสารทุกฉบับต้องลงนามรับรอง",
+        "ส่งเอกสารได้ตามที่อยู่สหกรณ์ที่ระบุในแบบ"
+      ]
+    }
+  },
+  "rules": {
+    "ordinaryLoanCurrent": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-10-01",
+      "source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing",
+      "membershipMinMonths": 6,
+      "sharePaymentMinInstallments": 6,
+      "remainingIncomeMinPercent": 15,
+      "remainingIncomeMinBaht": 6000,
+      "maxAmountBaht": 2000000,
+      "maxTermInstallments": 240,
+      "maxAgeAtEnd": 75,
+      "amountBands": [
+        {
+          "max": 200000,
+          "sharePaymentMinMonths": 6
+        },
+        {
+          "min": 200001,
+          "max": 500000,
+          "sharePaymentMinMonths": 12,
+          "minSharePercent": 10
+        },
+        {
+          "min": 500001,
+          "max": 2000000,
+          "sharePaymentMinMonths": 12,
+          "minSharePercent": 10
+        }
+      ],
+      "repeatOrdinaryMinInstallments": 12,
+      "crossRefinance": [
+        "ordinary_other",
+        "emergency_atm"
+      ],
+      "crossRefinanceExceptions": [
+        "disaster_assistance",
+        "guarantor_debt_assistance",
+        "special_housing"
+      ],
+      "guarantorBands": [
+        {
+          "max": 500000,
+          "minGuarantors": 1
+        },
+        {
+          "min": 500001,
+          "max": 1000000,
+          "minGuarantors": 2
+        },
+        {
+          "min": 1000001,
+          "max": 2000000,
+          "minGuarantors": 3
+        }
+      ],
+      "guarantorMaxBorrowers": 3,
+      "noBorrowerDebtWithOtherCooperatives": true,
+      "noArrearsInstallments": 12,
+      "primaryEvidenceVerified": true,
+      "primaryEvidenceVerifiedAt": "2026-10-05",
+      "primaryEvidenceTitle": "ประกาศ หลักเกณฑ์การให้เงินกู้สามัญ พ.ศ. 2569",
+      "announcementDate": "2026-09-11",
+      "salaryDeductionRequired": true,
+      "memberWelfareFuneralAssociationRequired": true,
+      "noDebtAsBorrowerWithOtherCooperatives": true,
+      "noSeriousDisciplinaryOrBankruptcyProceeding": true,
+      "collateralOptions": [
+        "member_guarantor",
+        "real_estate",
+        "government_securities",
+        "coop_deposit"
+      ],
+      "realEstateCollateralMaxPercentOfAppraisal": 90,
+      "employeeGuarantorMinServiceYears": 3,
+      "guarantorReplacementDeadlineDays": 180,
+      "loanDisbursementChannels": [
+        "in_person",
+        "post",
+        "mobile_application",
+        "web_application",
+        "other_coop_defined_channel"
+      ],
+      "version": "ประกาศ หลักเกณฑ์การให้เงินกู้สามัญ พ.ศ. 2569",
+      "evidenceState": "PRIMARY_VERIFIED_ENCODED"
+    },
+    "qualityOfLifeCurrent": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-10-01",
+      "source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing",
+      "collateralType": "real_estate",
+      "membershipMinYearsFor3m": 3,
+      "sharePaymentMinInstallmentsFor3m": 36,
+      "membershipMinYearsFor5m": 5,
+      "sharePaymentMinInstallmentsFor5m": 60,
+      "remainingIncomeMinPercent": 15,
+      "remainingIncomeMinBaht": 6000,
+      "maxLtvPercent": 80,
+      "maxAmountBaht": 5000000,
+      "maxTermInstallments": 360,
+      "maxAgeAtEnd": 75,
+      "offsetAllExistingLoanContractsOnApproval": true,
+      "allowedOtherLoanTypesAfterApproval": [
+        "emergency"
+      ],
+      "cashOutMaxPercentOfRemainingEligibleAmount": 50,
+      "noArrearsInstallments": 12,
+      "primaryEvidenceVerified": true,
+      "primaryEvidenceVerifiedAt": "2026-10-05",
+      "primaryEvidenceTitle": "ประกาศ หลักเกณฑ์การให้เงินกู้พิเศษเพื่อพัฒนาคุณภาพชีวิต (รวมหนี้) โดยใช้อสังหาริมทรัพย์ค้ำประกัน พ.ศ. 2569",
+      "announcementDate": "2026-09-11",
+      "salaryDeductionRequired": true,
+      "memberWelfareFuneralAssociationRequired": true,
+      "noSeriousDisciplinaryOrBankruptcyProceeding": true,
+      "collateralOwnershipDocument": [
+        "title_deed",
+        "nor_sor_3_kor"
+      ],
+      "propertyAppraiserMustBeCoopApproved": true,
+      "borrowerPaysAppraisalAndMortgageCosts": true,
+      "buildingCollateralFireInsuranceRequired": true,
+      "buildingFireInsuranceMinContinuousYears": 3,
+      "disbursement": "monthly_equal_principal_plus_interest_except_first_or_last_installment",
+      "version": "ประกาศ หลักเกณฑ์การให้เงินกู้พิเศษเพื่อพัฒนาคุณภาพชีวิต (รวมหนี้) โดยใช้อสังหาริมทรัพย์ค้ำประกัน พ.ศ. 2569",
+      "evidenceState": "PRIMARY_VERIFIED_ENCODED"
+    },
+    "welfareCommon": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2023-08-11",
+      "source": "https://drive.google.com/file/d/1Xzby7B_dQqS3Uwn6dfXp07h7OxgW_M9I/view?usp=drivesdk",
+      "eligibleMemberTypes": [
+        "member",
+        "associate_member"
+      ],
+      "sharePaymentMinMonths": 6,
+      "noArrearsInClaimAccountingYear": true,
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "welfareChildbirth": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2023-08-11",
+      "source": "https://drive.google.com/file/d/1Xzby7B_dQqS3Uwn6dfXp07h7OxgW_M9I/view?usp=drivesdk",
+      "memberTypes": [
+        "member",
+        "associate_member"
+      ],
+      "legalChildOnly": true,
+      "adoptedChildExcluded": true,
+      "amountBahtPerChild": 1000,
+      "maxChildren": 3,
+      "ifBothParentsMembersOnlyOneClaim": true,
+      "claimDeadlineDays": 120,
+      "deadlineFrom": "birth_notification_date",
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "welfareMarriage": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2023-08-11",
+      "source": "https://drive.google.com/file/d/1Xzby7B_dQqS3Uwn6dfXp07h7OxgW_M9I/view?usp=drivesdk",
+      "memberTypes": [
+        "member",
+        "associate_member"
+      ],
+      "legalMarriageRegistration": true,
+      "amountBaht": 1000,
+      "claimDeadlineDays": 120,
+      "deadlineFrom": "marriage_registration_date",
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "welfareReligion": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2023-08-11",
+      "source": "https://drive.google.com/file/d/1Xzby7B_dQqS3Uwn6dfXp07h7OxgW_M9I/view?usp=drivesdk",
+      "memberTypes": [
+        "member",
+        "associate_member"
+      ],
+      "amountBaht": 2000,
+      "onceOnly": true,
+      "claimDeadlineDays": 120,
+      "deadlineFrom": "end_of_religious_practice",
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "welfareGraduation": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2023-08-11",
+      "source": "https://drive.google.com/file/d/1Xzby7B_dQqS3Uwn6dfXp07h7OxgW_M9I/view?usp=drivesdk",
+      "memberTypes": [
+        "member",
+        "associate_member"
+      ],
+      "amountsBaht": {
+        "bachelor": 1000,
+        "master": 2000,
+        "doctorate": 3000
+      },
+      "firstGraduationAtEachLevelOnly": true,
+      "claimDeadlineDays": 365,
+      "deadlineFrom": "university_completion_certification_date",
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "welfareGratuity": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2025-10-02",
+      "source": "https://drive.google.com/file/d/1xXdqsBGeKd27_o75C2UgIkXR7ZrUmWac/view?usp=drivesdk",
+      "supersedes": [
+        "https://drive.google.com/file/d/1mALErEJHDcCzkObKj5W4YM491JskuYQt/view?usp=sharing",
+        "https://drive.google.com/file/d/1Xzby7B_dQqS3Uwn6dfXp07h7OxgW_M9I/view?usp=drivesdk"
+      ],
+      "memberTypes": [
+        "member"
+      ],
+      "ageCutoffYears": 60,
+      "ageCutoffDate": "10-01",
+      "membershipMinYears": 5,
+      "membershipYearRounding": "fraction_6_months_or_more_counts_as_1_year",
+      "amountBahtPerMembershipYear": 1000,
+      "transferTenureStartsFromCoopAcceptanceDate": true,
+      "onceOnly": true,
+      "debtOffsetWhenOutstandingDebtOverShareCapitalPercent": 90,
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "welfareMemberDeath": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2023-08-11",
+      "source": "https://www.dlasavingcoop.com/show.php?No=775",
+      "detailSource": "https://drive.google.com/file/d/1pqK0iiJvRkaN98LN3JlMAxbspGp18pvh/view?usp=drivesdk",
+      "memberTypes": [
+        "member"
+      ],
+      "sharePaymentMinMonths": 6,
+      "noArrearsInClaimAccountingYear": true,
+      "claimDeadlineDays": 120,
+      "deadlineFrom": "death_date",
+      "funeralAidBandsBaht": [
+        {
+          "membership": "6_months_to_1_year",
+          "amount": 15000
+        },
+        {
+          "membership": "over_1_to_5_years",
+          "amount": 20000
+        },
+        {
+          "membership": "over_5_to_10_years",
+          "amount": 25000
+        },
+        {
+          "membership": "over_10_to_15_years",
+          "amount": 30000
+        },
+        {
+          "membership": "over_15_years",
+          "amount": 35000
+        }
+      ],
+      "southernUnrestSpecifiedAreaMultiplier": 2,
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "welfareFamilyDeath": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2023-08-11",
+      "source": "https://www.dlasavingcoop.com/show.php?No=775",
+      "detailSource": "https://drive.google.com/file/d/1Fs51CIR2Rm5-4oxkTwfYYHyJAnKCPRZ7/view?usp=drivesdk",
+      "memberTypes": [
+        "member"
+      ],
+      "sharePaymentMinMonths": 6,
+      "noArrearsInClaimAccountingYear": true,
+      "claimDeadlineDays": 120,
+      "deadlineFrom": "death_date",
+      "spouseOrLegalChildAidBandsBaht": [
+        {
+          "membership": "6_months_to_1_year",
+          "amount": 7500
+        },
+        {
+          "membership": "over_1_to_5_years",
+          "amount": 10000
+        },
+        {
+          "membership": "over_5_to_10_years",
+          "amount": 12500
+        },
+        {
+          "membership": "over_10_to_15_years",
+          "amount": 15000
+        },
+        {
+          "membership": "over_15_years",
+          "amount": 17500
+        }
+      ],
+      "legalFatherOrMotherAmountBaht": 3000,
+      "adoptiveParentsExcluded": true,
+      "adoptedChildExcluded": true,
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "welfareDisaster": {
+      "status": "VERIFIED",
+      "effectiveFrom": "2023-08-11",
+      "source": "https://www.dlasavingcoop.com/show.php?No=775",
+      "detailSource": "https://drive.google.com/file/d/1Awki_okvVEN24KEsRlfG6SD_eVUBasUC/view?usp=drivesdk",
+      "memberTypes": [
+        "member",
+        "associate_member"
+      ],
+      "sharePaymentMinMonths": 6,
+      "noArrearsInClaimAccountingYear": true,
+      "propertyAidPercent": 10,
+      "propertyAidMinBaht": 1000,
+      "propertyAidMaxBahtPerEvent": 5000,
+      "exceptionalDamageOverBaht": 500000,
+      "exceptionalAidMaxBaht": 50000,
+      "sameDamagedPropertySpouseMembersOnlyOneClaim": true,
+      "injuryDisabilityAidMaxBahtPerEvent": 5000,
+      "claimDeadlineDays": 120,
+      "deadlineFrom": "date_disaster_ended",
+      "version": "VERSION_NOT_RECORDED",
+      "evidenceState": "EXISTING_VERIFIED_RULE",
+      "announcementDate": null
+    },
+    "specialHousingCurrent": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-10-01",
+      "announcementDate": "2026-09-11",
+      "source": "https://drive.google.com/file/d/1PDrTLU46Q8y9qJju6KixhU4atYjDCLkn/view?usp=sharing",
+      "primaryEvidenceTitle": "ประกาศ หลักเกณฑ์การให้เงินกู้พิเศษเพื่อการเคหะ พ.ศ.2569",
+      "maxAmountBaht": 3000000,
+      "maxTotalCoopDebtBaht": 5000000,
+      "maxTermInstallments": 360,
+      "maxAgeAtEnd": 75,
+      "creditBureauRequired": true,
+      "lifeInsuranceRequired": true,
+      "lifeInsuranceBeneficiary": "cooperative",
+      "deathBeforeContractEnd": "coop_returns_remaining_insurance_premium_to_borrower_or_heirs",
+      "earlyClosureWithin5YearsPenaltyPercentOfRemainingPrincipal": 3,
+      "buildingCollateralFireInsuranceRequired": true,
+      "buildingFireInsuranceMinContinuousYears": 3,
+      "borrowerPaysAppraisalAndMortgageCosts": true,
+      "propertyAppraiserMustBeCoopApproved": true,
+      "constructionDisbursementStages": 4,
+      "constructionFirstDisbursementStages": 1,
+      "constructionSubsequentDisbursementRequiresProgressAppraisal": true,
+      "primaryEvidenceVerified": true,
+      "maxTotalDebtAllTypesBaht": 5000000,
+      "version": "full_2569",
+      "evidenceState": "PRIMARY_VERIFIED_CURRENT",
+      "evidenceFile": "docs/evidence/housing-current-2569.pdf",
+      "evidenceSha256": "3b1101184e353074ab02d65b741b471d8e839b97ee6e5c0bf0b08e4f9d61560c",
+      "membershipMinMonths": 6,
+      "remainingIncomeMinPercent": 15,
+      "remainingIncomeMinBaht": 6000,
+      "salaryDeductionOrIndividualAgreementRequired": true,
+      "memberWelfareFuneralAssociationRequired": true,
+      "noBorrowerDebtWithOtherCooperatives": true,
+      "noSeriousDisciplinaryOrBankruptcyProceeding": true,
+      "noArrearsInstallments": 12,
+      "disbursement": "monthly_equal_principal_plus_interest_except_first_or_last_installment",
+      "supersedes": [
+        "specialHousingCurrentAmendment3History"
+      ],
+      "sharePaymentMinInstallments": 6,
+      "secondHandHomeMaxLtvPercent": 80,
+      "newHomeOrConstructionMaxLtvPercent": 100,
+      "evidenceClauses": {
+        "eligibility": "4",
+        "limits": "5(1)-(2)",
+        "construction": "5(9)",
+        "supersession": "3",
+        "effectiveDate": "2"
+      }
+    },
+    "specialRedeemMortgageCurrent": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-10-01",
+      "announcementDate": "2026-09-11",
+      "source": "https://drive.google.com/file/d/1BbkfCefJUCsWRwTpSEXfvvziZ21R225O/view?usp=sharing",
+      "primaryEvidenceTitle": "ประกาศ หลักเกณฑ์การให้เงินกู้พิเศษเพื่อไถ่ถอนจำนองบ้านพร้อมที่ดิน พ.ศ.2569",
+      "maxAmountBaht": 3000000,
+      "maxTermInstallments": 360,
+      "maxAgeAtEnd": 75,
+      "creditBureauRequired": true,
+      "lifeInsuranceRequired": true,
+      "lifeInsuranceBeneficiary": "cooperative",
+      "borrowerPaysMortgageRegistrationCosts": true,
+      "buildingFireInsuranceRequired": true,
+      "buildingFireInsuranceMinContinuousYears": 3,
+      "primaryEvidenceVerified": true,
+      "version": "full_2569",
+      "evidenceState": "PRIMARY_VERIFIED_CURRENT",
+      "evidenceFile": "docs/evidence/redeem-current-2569.pdf",
+      "evidenceSha256": "d15c45c88c735941f335b884d71323dff97ea4f1bcbd5e765b5e19ddc614489b",
+      "membershipMinMonths": 12,
+      "remainingIncomeMinPercent": 15,
+      "remainingIncomeMinBaht": 6000,
+      "salaryDeductionOrIndividualAgreementRequired": true,
+      "memberWelfareFuneralAssociationRequired": true,
+      "noBorrowerDebtWithOtherCooperatives": true,
+      "noSeriousDisciplinaryOrBankruptcyProceeding": true,
+      "noArrearsInstallments": 12,
+      "borrowerPaysAppraisalAndMortgageCosts": true,
+      "propertyAppraiserMustBeCoopApproved": true,
+      "disbursement": "monthly_equal_principal_plus_interest_except_first_or_last_installment",
+      "supersedes": [
+        "redeemMortgageCurrentAmendment3History"
+      ],
+      "originalMortgagePaidMinYears": 3,
+      "noMissedOriginalMortgageInstallment": true,
+      "maxAmountCappedByOutstandingMortgage": true
+    },
+    "emergencyLoanAmendment2568Effective2569": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-01-01",
+      "source": "https://drive.google.com/file/d/1GCashOZpSBBWCARoEZZAPyQ8Htj-Y9qz/view?usp=sharing",
+      "primaryEvidenceTitle": "หลักเกณฑ์ฯ เงินกู้เพื่อเหตุฉุกเฉิน แก้ไขเพิ่มเติม (ฉบับที่ 2) พ.ศ. 2568",
+      "announcementDate": "2025-11-17",
+      "membershipMinMonths": 6,
+      "sharePaymentMinInstallments": 6,
+      "remainingIncomeMinPercent": 25,
+      "remainingIncomeExclusions": [
+        "revolving_credit",
+        "credit_card",
+        "cash_card"
+      ],
+      "salaryDeductionOrIndividualAgreementRequired": true,
+      "repeatEmergencyMinInstallments": 3,
+      "otherLoanMinInstallments": 6,
+      "restructuredOrdinaryMinInstallments": 12,
+      "noBorrowerDebtWithOtherCooperatives": true,
+      "version": "amendment_2_2568",
+      "evidenceState": "PRIMARY_VERIFIED_SUPERSEDED",
+      "effectiveUntil": "2026-09-30",
+      "supersededBy": "emergencyLoanCurrent"
+    },
+    "redeemMortgageCurrent": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-10-01",
+      "announcementDate": "2026-09-11",
+      "source": "https://drive.google.com/file/d/1BbkfCefJUCsWRwTpSEXfvvziZ21R225O/view?usp=sharing",
+      "primaryEvidenceTitle": "ประกาศ หลักเกณฑ์การให้เงินกู้พิเศษเพื่อไถ่ถอนจำนองบ้านพร้อมที่ดิน พ.ศ.2569",
+      "maxAmountBaht": 3000000,
+      "maxTermInstallments": 360,
+      "maxAgeAtEnd": 75,
+      "creditBureauRequired": true,
+      "lifeInsuranceRequired": true,
+      "lifeInsuranceBeneficiary": "cooperative",
+      "borrowerPaysMortgageRegistrationCosts": true,
+      "buildingFireInsuranceRequired": true,
+      "buildingFireInsuranceMinContinuousYears": 3,
+      "primaryEvidenceVerified": true,
+      "version": "full_2569",
+      "evidenceState": "PRIMARY_VERIFIED_CURRENT",
+      "evidenceFile": "docs/evidence/redeem-current-2569.pdf",
+      "evidenceSha256": "d15c45c88c735941f335b884d71323dff97ea4f1bcbd5e765b5e19ddc614489b",
+      "membershipMinMonths": 12,
+      "remainingIncomeMinPercent": 15,
+      "remainingIncomeMinBaht": 6000,
+      "salaryDeductionOrIndividualAgreementRequired": true,
+      "memberWelfareFuneralAssociationRequired": true,
+      "noBorrowerDebtWithOtherCooperatives": true,
+      "noSeriousDisciplinaryOrBankruptcyProceeding": true,
+      "noArrearsInstallments": 12,
+      "borrowerPaysAppraisalAndMortgageCosts": true,
+      "propertyAppraiserMustBeCoopApproved": true,
+      "disbursement": "monthly_equal_principal_plus_interest_except_first_or_last_installment",
+      "supersedes": [
+        "redeemMortgageCurrentAmendment3History"
+      ],
+      "originalMortgagePaidMinYears": 3,
+      "noMissedOriginalMortgageInstallment": true,
+      "maxAmountCappedByOutstandingMortgage": true
+    },
+    "emergencyLoanCurrent": {
+      "status": "VERIFIED_PRIMARY",
+      "version": "full_2569",
+      "evidenceState": "PRIMARY_VERIFIED_CURRENT",
+      "source": "https://drive.google.com/file/d/1XZYfuXWgzqWp6K_Ld0aosuO58pxKXU5p/view?usp=sharing",
+      "officialIndex": "https://www.dlasavingcoop.com/show.php?No=773",
+      "primaryEvidenceTitle": "ประกาศ หลักเกณฑ์การให้เงินกู้เพื่อเหตุฉุกเฉิน พ.ศ.2569",
+      "announcementDate": "2026-09-11",
+      "effectiveFrom": "2026-10-01",
+      "primaryEvidenceVerified": true,
+      "evidenceFile": "docs/evidence/emergency-current-2569.pdf",
+      "evidenceSha256": "15b72b5357333ef95e9a5f259f7b5effefb40b8369ccfe374346bfe202f72a08",
+      "membershipMinMonths": 3,
+      "sharePaymentMinInstallments": 3,
+      "remainingIncomeMinBaht": 3000,
+      "remainingIncomeExclusions": [
+        "revolving_credit",
+        "credit_card",
+        "cash_card"
+      ],
+      "salaryDeductionOrIndividualAgreementRequired": true,
+      "repeatEmergencyMinInstallments": 3,
+      "offsetExistingEmergency": true,
+      "otherLoanMinInstallments": 3,
+      "restructuredOrdinaryMinInstallments": 12,
+      "noBorrowerDebtWithOtherCooperatives": true,
+      "noSeriousDisciplinaryOrBankruptcyProceeding": true,
+      "noArrearsInstallments": 12,
+      "salaryMultiplier": 4,
+      "amountBands": [
+        {
+          "membershipMinMonths": 3,
+          "maxAmountBaht": 30000
+        },
+        {
+          "membershipMinMonths": 6,
+          "maxAmountBaht": 60000
+        }
+      ],
+      "maxAmountBaht": 60000,
+      "maxTermInstallments": 15,
+      "inPersonSameDayBefore": "15:00",
+      "otherChannelPaymentWithinWorkingDays": 5,
+      "submissionEmail": "dlasavingloan01@gmail.com",
+      "supersedes": [
+        "emergencyLoanAmendment2568Effective2569"
+      ],
+      "evidenceClauses": {
+        "eligibility": "4(1)-(8)",
+        "limits": "5(1)-(2)",
+        "repeat": "5(3)",
+        "otherLoans": "5(4)",
+        "term": "5(5)",
+        "interest": "6",
+        "disbursement": "7",
+        "submission": "8",
+        "supersession": "3",
+        "effectiveDate": "2"
+      }
+    },
+    "specialHousingCurrentAmendment3History": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-04-01",
+      "announcementDate": "2026-01-19",
+      "source": "https://drive.google.com/file/d/1F93n6m5LQcGIzZZ8seLwzGNH-pAYQ7U2/view?usp=sharing",
+      "primaryEvidenceTitle": "หลักเกณฑ์ฯ เงินกู้พิเศษเพื่อการเคหะ แก้ไขเพิ่มเติม (ฉบับที่ 3) พ.ศ. 2569",
+      "maxLtvPercent": 90,
+      "maxAmountBaht": 3000000,
+      "maxTotalCoopDebtBaht": 5000000,
+      "maxTermInstallments": 360,
+      "maxAgeAtEnd": 75,
+      "creditBureauRequired": true,
+      "lifeInsuranceRequired": true,
+      "lifeInsuranceBeneficiary": "cooperative",
+      "deathBeforeContractEnd": "coop_returns_remaining_insurance_premium_to_borrower_or_heirs",
+      "earlyClosureWithin5YearsPenaltyPercentOfRemainingPrincipal": 3,
+      "buildingCollateralFireInsuranceRequired": true,
+      "buildingFireInsuranceMinContinuousYears": 3,
+      "borrowerPaysAppraisalAndMortgageCosts": true,
+      "propertyAppraiserMustBeCoopApproved": true,
+      "constructionDisbursementStages": 4,
+      "constructionFirstDisbursementStages": 2,
+      "constructionSubsequentDisbursementRequiresProgressAppraisal": true,
+      "primaryEvidenceVerified": true,
+      "maxTotalDebtAllTypesBaht": 5000000,
+      "version": "หลักเกณฑ์ฯ เงินกู้พิเศษเพื่อการเคหะ แก้ไขเพิ่มเติม (ฉบับที่ 3) พ.ศ. 2569",
+      "evidenceState": "PRIMARY_VERIFIED_SUPERSEDED",
+      "effectiveUntil": "2026-09-30",
+      "supersededBy": "specialHousingCurrent"
+    },
+    "redeemMortgageCurrentAmendment3History": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-04-01",
+      "announcementDate": "2026-01-19",
+      "source": "https://drive.google.com/file/d/1QhkAh71xlx8ESPfMBvT7mIzA7rsgap8E/view?usp=sharing",
+      "primaryEvidenceTitle": "หลักเกณฑ์ฯ การให้เงินกู้พิเศษเพื่อไถ่ถอนจำนองบ้านพร้อมที่ดิน แก้ไขเพิ่มเติม (ฉบับที่ 3) พ.ศ. 2569",
+      "maxAmountBaht": 3000000,
+      "maxTermInstallments": 360,
+      "maxAgeAtEnd": 75,
+      "creditBureauRequired": true,
+      "lifeInsuranceRequired": true,
+      "lifeInsuranceBeneficiary": "cooperative",
+      "borrowerPaysMortgageRegistrationCosts": true,
+      "buildingFireInsuranceRequired": true,
+      "buildingFireInsuranceMinContinuousYears": 3,
+      "primaryEvidenceVerified": true,
+      "version": "หลักเกณฑ์ฯ การให้เงินกู้พิเศษเพื่อไถ่ถอนจำนองบ้านพร้อมที่ดิน แก้ไขเพิ่มเติม (ฉบับที่ 3) พ.ศ. 2569",
+      "evidenceState": "PRIMARY_VERIFIED_SUPERSEDED",
+      "effectiveUntil": "2026-09-30",
+      "supersededBy": "redeemMortgageCurrent"
+    },
+    "sharesClause7Current": {
+      "status": "VERIFIED_PRIMARY",
+      "effectiveFrom": "2026-10-01",
+      "announcementDate": "2026-09-30",
+      "version": "amendment_3_2569_clause_7",
+      "source": "https://drive.google.com/file/d/1035C9tf9AU--HHJFq581v9uCwsF6ANL_/view?usp=sharing",
+      "primaryEvidenceTitle": "ระเบียบว่าด้วยหุ้น แก้ไขเพิ่มเติม (ฉบับที่ 3) พ.ศ. 2569",
+      "evidenceState": "PRIMARY_VERIFIED_PARTIAL",
+      "maxMonthlyShares": 5000,
+      "returnMemberWithDebtFirstPaymentMinBaht": 100,
+      "returnMemberWithDebtMonthlyMinShares": 50,
+      "reduceAfterMonths": 6,
+      "salaryBandSchedule": "PENDING_VERIFICATION",
+      "scope": "ข้อ 7; ยอดหุ้นตามเงินเดือนต้องใช้ประกาศอัตราแยกต่างหาก"
+    },
+    "memberInformationChange": {
+      "status": "VERIFIED_PROCEDURE",
+      "source": "https://dlasavingcoop.com/coop/ckeditor/system/plugins/ckfinder/upload/files/change%20member%20information27012023.pdf",
+      "evidenceState": "OFFICIAL_FORM_VERIFIED",
+      "certificationRequired": true,
+      "attachmentsByItem": {
+        "6": [
+          "สำเนาคำสั่งแต่งตั้ง"
+        ],
+        "7": [
+          "สำเนาคำสั่งหรือบัญชีเลื่อนขั้นเงินเดือน"
+        ],
+        "11": [
+          "สำเนาคำสั่งแต่งตั้งหรือโอนย้าย"
+        ],
+        "12": [
+          "สำเนาหน้าสมุดบัญชีธนาคาร"
+        ],
+        "1-5": [
+          "เอกสารการเปลี่ยนชื่อ-นามสกุลและสำเนาบัตรประชาชน",
+          "ทะเบียนสมรสกรณีสมรส",
+          "ใบหย่ากรณีหย่า"
+        ]
+      },
+      "unspecifiedAttachmentItems": [
+        "8",
+        "9",
+        "10"
+      ],
+      "deliveryAddress": "สหกรณ์ออมทรัพย์องค์กรปกครองส่วนท้องถิ่น จำกัด 111/1 ซอยคลองหลวง 8 ตำบลคลองหนึ่ง อำเภอคลองหลวง จังหวัดปทุมธานี 12120",
+      "note": "แบบทางการระบุ LINE เจ้าหน้าที่/เบอร์โทรเป็นช่องทางติดต่อเพิ่มเติม แต่ให้ใช้หน้าติดต่อทางการเมื่อไม่ยืนยันผู้รับเฉพาะราย"
+    }
+  },
+  "decisionCoverage": {
+    "policy": "VERIFIED rules may decide; PARTIAL rules may decide only the verified condition; SOURCE_PRESENT rules must never invent thresholds.",
+    "loans": {
+      "ordinary": {
+        "status": "VERIFIED_CORE",
+        "decisionMode": "GUIDED_MULTI_FACT",
+        "source": "https://drive.google.com/file/d/1QQo5gux4sB3xdcbFvxYBeV-D30gOkXnV/view?usp=sharing"
+      },
+      "emergency": {
+        "status": "VERIFIED_CORE",
+        "decisionMode": "GUIDED_REPEAT_ONLY",
+        "source": "https://www.dlasavingcoop.com/show.php?No=773",
+        "currentVersionEvidence": "ประกาศ พ.ศ.2569 ลงวันที่ 11 กันยายน 2569 มีผล 1 ตุลาคม 2569 ยกเลิกฉบับแก้ไขที่ 2 พ.ศ.2568 ตามข้อ 3",
+        "rule": "emergencyLoanCurrent"
+      },
+      "education": {
+        "status": "PARTIAL_VERIFIED",
+        "decisionMode": "GUIDED_REPEAT_ONLY",
+        "source": "https://www.dlasavingcoop.com/show.php?No=774"
+      },
+      "qualityOfLife": {
+        "status": "VERIFIED_CORE",
+        "decisionMode": "GUIDED_MULTI_FACT",
+        "source": "https://drive.google.com/file/d/1Ek7aw6J-fgIE2AKOv_QruD57pQpJXVjU/view?usp=sharing"
+      },
+      "specialHousing": {
+        "status": "VERIFIED_CORE",
+        "decisionMode": "GUIDED_MULTI_FACT",
+        "source": "https://drive.google.com/file/d/1F93n6m5LQcGIzZZ8seLwzGNH-pAYQ7U2/view?usp=sharing",
+        "rule": "specialHousingCurrent"
+      },
+      "specialRedeemMortgage": {
+        "status": "VERIFIED_CORE",
+        "decisionMode": "GUIDED_MULTI_FACT",
+        "source": "https://drive.google.com/file/d/1QhkAh71xlx8ESPfMBvT7mIzA7rsgap8E/view?usp=sharing",
+        "rule": "redeemMortgageCurrent"
+      },
+      "disasterAssistance": {
+        "status": "SOURCE_PRESENT_NEEDS_RULE_EXTRACTION",
+        "decisionMode": "SOURCE_GUIDED_HANDOFF",
+        "source": "https://www.dlasavingcoop.com/show.php?No=774"
+      },
+      "guarantorDebtAssistance": {
+        "status": "SOURCE_PRESENT_NEEDS_RULE_EXTRACTION",
+        "decisionMode": "SOURCE_GUIDED_HANDOFF",
+        "source": "https://www.dlasavingcoop.com/show.php?No=774"
+      },
+      "vacation": {
+        "status": "SOURCE_PRESENT_NEEDS_RULE_EXTRACTION",
+        "decisionMode": "SOURCE_GUIDED_HANDOFF",
+        "source": "https://www.dlasavingcoop.com/show.php?No=774"
+      },
+      "shareDepositBacked": {
+        "status": "SOURCE_PRESENT_NEEDS_RULE_EXTRACTION",
+        "decisionMode": "SOURCE_GUIDED_HANDOFF",
+        "source": "https://www.dlasavingcoop.com/show.php?No=774"
+      },
+      "debtConsolidation": {
+        "status": "VERIFIED_CORE",
+        "decisionMode": "GUIDED_MULTI_FACT",
+        "source": "https://www.dlasavingcoop.com/show.php?No=2385",
+        "currentVersionEvidence": "แก้ไขเพิ่มเติม (ฉบับที่ 4) พ.ศ.2569",
+        "legacyAnswerPolicy": "NEVER_AUTHORITY",
+        "rule": "qualityOfLifeCurrent"
+      }
+    },
+    "welfare": {
+      "childbirth": {
+        "status": "VERIFIED_CURRENT",
+        "decisionMode": "GUIDED_RULE_DECISION",
+        "source": "https://www.dlasavingcoop.com/show.php?No=775",
+        "rule": "welfareChildbirth"
+      },
+      "marriage": {
+        "status": "VERIFIED_CURRENT",
+        "decisionMode": "GUIDED_RULE_DECISION",
+        "source": "https://www.dlasavingcoop.com/show.php?No=775",
+        "rule": "welfareMarriage"
+      },
+      "religion": {
+        "status": "VERIFIED_CURRENT",
+        "decisionMode": "GUIDED_RULE_DECISION",
+        "source": "https://www.dlasavingcoop.com/show.php?No=775",
+        "rule": "welfareReligion"
+      },
+      "graduation": {
+        "status": "VERIFIED_CURRENT",
+        "decisionMode": "GUIDED_RULE_DECISION",
+        "source": "https://www.dlasavingcoop.com/show.php?No=775",
+        "rule": "welfareGraduation"
+      },
+      "gratuity": {
+        "status": "VERIFIED_CURRENT",
+        "decisionMode": "GUIDED_RULE_DECISION",
+        "source": "https://www.dlasavingcoop.com/show.php?No=775",
+        "rule": "welfareGratuity"
+      },
+      "memberDeath": {
+        "status": "VERIFIED_CURRENT",
+        "decisionMode": "GUIDED_RULE_DECISION",
+        "source": "https://www.dlasavingcoop.com/show.php?No=775",
+        "rule": "welfareMemberDeath"
+      },
+      "familyDeath": {
+        "status": "VERIFIED_CURRENT",
+        "decisionMode": "GUIDED_RULE_DECISION",
+        "source": "https://www.dlasavingcoop.com/show.php?No=775",
+        "rule": "welfareFamilyDeath"
+      },
+      "disaster": {
+        "status": "VERIFIED_CURRENT",
+        "decisionMode": "GUIDED_RULE_DECISION",
+        "source": "https://www.dlasavingcoop.com/show.php?No=775",
+        "rule": "welfareDisaster"
+      },
+      "childScholarship": {
+        "status": "ANNUAL_NOTICE",
+        "decisionMode": "FRESH_NOTICE_REQUIRED",
+        "source": "https://www.dlasavingcoop.com/list.php?Category=notice"
+      }
+    }
+  },
+  "calculatorGovernance": {
+    "status": "VERIFIED_INPUTS_ONLY",
+    "policy": "คำนวณเฉพาะสูตร/เพดานที่มีหลักฐานทางการเข้ารหัสแล้ว; ห้ามอนุมานสูตรค่างวดจากอัตราดอกเบี้ยเพียงอย่างเดียว",
+    "officialInterestRateSource": "https://dlasavingcoop.com/show.php?No=4063",
+    "verifiedAt": "2026-10-05",
+    "outputs": [
+      "เพดานวงเงินตามกฎที่ยืนยัน",
+      "จำนวนผู้ค้ำขั้นต่ำตามช่วงวงเงิน",
+      "เพดาน LTV สำหรับพัฒนาคุณภาพชีวิต",
+      "ระยะเวลาสูงสุด",
+      "อายุเมื่อสิ้นสุดสัญญา",
+      "อัตราดอกเบี้ยที่ประกาศทางการ"
+    ],
+    "paymentFormulaStatus": "UNVERIFIED_FORMULA",
+    "paymentFormulaNote": "ยังไม่คำนวณค่างวดจนกว่าจะถอดและทดสอบสูตรต้นฉบับ/ตารางประมาณการของสหกรณ์"
+  },
+  "interestRatesCurrent": {
+    "status": "VERIFIED_PRIMARY",
+    "source": "https://dlasavingcoop.com/show.php?No=4063",
+    "verifiedAt": "2026-10-05",
+    "ratesPercentPerYear": {
+      "ordinary_person_guarantee": 7.5,
+      "ordinary_share_collateral": 7.5,
+      "ordinary_education": 5.5,
+      "ordinary_disaster": 4.75,
+      "ordinary_pensioner": 7.5,
+      "ordinary_guarantor_debt": 2,
+      "special_housing_tiered": [
+        {
+          "installments": "1-12",
+          "rate": 3.6
+        },
+        {
+          "installments": "13-24",
+          "rate": 4.35
+        },
+        {
+          "installments": "25-360",
+          "rate": 5.5
+        }
+      ],
+      "quality_of_life_real_estate": 6.5,
+      "special_redeem_mortgage": 6.5,
+      "emergency_cash_transfer": 7.5
+    },
+    "evidenceState": "PRIMARY_OFFICIAL_PAGE_VERIFIED"
+  },
+  "loanEvidence2569": {
+    "verifiedAt": "2026-10-05",
+    "policy": "VERSION_AND_SOURCE_PRESENCE_VERIFIED; NUMERIC_RULES_REQUIRE_EXTRACTED_PRIMARY_EVIDENCE",
+    "officialIndexes": {
+      "ordinary": {
+        "url": "https://www.dlasavingcoop.com/show.php?No=774",
+        "currentEvidence": "หลักเกณฑ์เงินกู้สามัญ แก้ไขเพิ่มเติม (ฉบับที่ 3) พ.ศ.2569 และหลักเกณฑ์ พ.ศ.2569 ปรากฏในหน้าทางการ"
+      },
+      "emergency": {
+        "url": "https://www.dlasavingcoop.com/show.php?No=773",
+        "currentEvidence": "หลักเกณฑ์เงินกู้เพื่อเหตุฉุกเฉิน พ.ศ.2569 และตารางประมาณการคำนวณวงเงินกู้ฉุกเฉินปรากฏในหน้าทางการ"
+      },
+      "housing": {
+        "url": "https://www.dlasavingcoop.com/show.php?No=2385",
+        "currentEvidence": "หลักเกณฑ์เงินกู้พิเศษเพื่อการเคหะ แก้ไขเพิ่มเติม (ฉบับที่ 3) พ.ศ.2569 ปรากฏในหน้าทางการ"
+      },
+      "redeemMortgage": {
+        "url": "https://www.dlasavingcoop.com/show.php?No=2385",
+        "currentEvidence": "หลักเกณฑ์ไถ่ถอนจำนองบ้านพร้อมที่ดิน แก้ไขเพิ่มเติม (ฉบับที่ 3) พ.ศ.2569 ปรากฏในหน้าทางการ"
+      },
+      "debtConsolidation": {
+        "url": "https://www.dlasavingcoop.com/show.php?No=2385",
+        "currentEvidence": "หลักเกณฑ์พัฒนาคุณภาพชีวิต (รวมหนี้) แก้ไขเพิ่มเติม (ฉบับที่ 4) พ.ศ.2569 ปรากฏในหน้าทางการ"
+      }
+    },
+    "extractionState": {
+      "ordinary": "PRIMARY_PDF_VERIFIED_AND_CORE_ENCODED",
+      "emergency": "PRIMARY_FULL_2569_EFFECTIVE_2026-10-01_VERIFIED_AND_ENCODED",
+      "housing": "PRIMARY_AMENDMENT_NO3_VERIFIED; PRIMARY_PDF_VERIFIED_AND_ENCODED",
+      "redeemMortgage": "PRIMARY_PDF_VERIFIED_AND_ENCODED",
+      "debtConsolidation": "PRIMARY_PDF_LATEST_FULL_CRITERIA_VERIFIED_AND_ENCODED"
+    },
+    "safeBehavior": "When primary text for a numeric threshold is not extracted, guide to the exact official product page/form and do not infer a threshold from legacy LINE answers."
+  }
+}

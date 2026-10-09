@@ -1,0 +1,53 @@
+{
+  "schemaVersion": "1.0",
+  "source": "คำถามบอทไลน์.xlsx",
+  "sourceRecordCount": 69,
+  "analyzedAt": "2026-10-05",
+  "policy": {
+    "questionPatterns": "REUSABLE_FOR_INTENT_AND_REGRESSION",
+    "keywords": "HINT_ONLY_NOT_DECISIVE",
+    "legacyAnswers": "VERIFY_REQUIRED_NOT_AUTHORITY",
+    "authority": "CURRENT_OFFICIAL_COOPERATIVE_RULES_AND_NOTICES",
+    "never": [
+      "Do not copy a legacy answer into Rule Master without current official evidence",
+      "Do not infer current amount, rate, term, age, guarantor, residual-income or eligibility thresholds from the legacy answer"
+    ]
+  },
+  "inventory": {
+    "loan_debt_consolidation": 17,
+    "loan_housing": 15,
+    "loan_emergency": 11,
+    "loan_other": 16,
+    "shares": 2,
+    "other": 8
+  },
+  "priority": [
+    "loan_debt_consolidation",
+    "loan_housing",
+    "loan_emergency",
+    "loan_other",
+    "shares",
+    "other"
+  ],
+  "officialEvidenceEntryPoints": {
+    "ordinary_and_related": "https://www.dlasavingcoop.com/show.php?No=774",
+    "emergency": "https://www.dlasavingcoop.com/show.php?No=773",
+    "housing": "https://www.dlasavingcoop.com/show.php?No=2385",
+    "current_regulations_index": "https://www.dlasavingcoop.com/show.php?Category=procedure"
+  },
+  "runtimeAcceptance": {
+    "totalRecords": 69,
+    "noDeadEnd": true,
+    "legacyAnswersNeverAuthority": true,
+    "numericRulesRequireCurrentOfficialEvidence": true,
+    "safeFallbackWhenEvidencePending": true,
+    "personalDataRoute": "MEMBER_SELF_SERVICE_FIRST",
+    "humanHandoff": "LAST_RESORT"
+  },
+  "currentOfficialVersionsObserved": {
+    "ordinaryRegulation": "amended through No.5 B.E.2569",
+    "emergencyRegulation": "No.2 B.E.2569",
+    "specialRegulation": "No.3 B.E.2569",
+    "debtConsolidationCriteria": "amended through No.4 B.E.2569"
+  }
+}

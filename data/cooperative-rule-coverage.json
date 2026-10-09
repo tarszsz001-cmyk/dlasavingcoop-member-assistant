@@ -1,0 +1,238 @@
+{
+  "schemaVersion": "1.0",
+  "verifiedAt": "2026-10-05",
+  "policy": {
+    "authority": "Official cooperative bylaws/regulations/announcements and primary documents only",
+    "legacyAnswers": "NEVER_AUTHORITY",
+    "unknown": "EVIDENCE_LOCK"
+  },
+  "officialIndex": "https://www.dlasavingcoop.com/show.php?Category=procedure",
+  "domains": [
+    {
+      "id": "bylaws",
+      "name": "ข้อบังคับสหกรณ์",
+      "status": "SOURCE_INDEXED"
+    },
+    {
+      "id": "shares",
+      "name": "หุ้น",
+      "status": "PRIMARY_SOURCE_FOUND_NEEDS_VERSION_CHECK",
+      "primarySources": [
+        "https://drive.google.com/file/d/19ra7Xhzut0Hn734mQSuJT9_6jQYmRC-2/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1H1VwPZhUi--SsA99CDDc0X8-cW_tOu39/view?usp=drivesdk"
+      ]
+    },
+    {
+      "id": "memberDeposits",
+      "name": "เงินฝากสมาชิก",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "cashManagement",
+      "name": "รับจ่ายและเก็บรักษาเงิน",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "intercoopDeposits",
+      "name": "รับฝากเงินจากสหกรณ์อื่น",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "ordinaryLoan",
+      "name": "เงินกู้สามัญ",
+      "status": "VERIFIED_CORE"
+    },
+    {
+      "id": "emergencyLoan",
+      "name": "เงินกู้ฉุกเฉิน",
+      "status": "PARTIAL_CURRENT_VERSION_EXTRACTION"
+    },
+    {
+      "id": "specialLoan",
+      "name": "เงินกู้พิเศษ",
+      "status": "PARTIAL_VERIFIED"
+    },
+    {
+      "id": "debtRestructuring",
+      "name": "ปรับโครงสร้างหนี้",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "debtCompromise",
+      "name": "ประนอมหนี้",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "procurement",
+      "name": "จัดซื้อจัดจ้างและพัสดุ",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "memberWelfare",
+      "name": "สวัสดิการสมาชิก",
+      "status": "VERIFIED_CORE"
+    },
+    {
+      "id": "intercoopLending",
+      "name": "ให้สหกรณ์อื่นกู้",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "resignation",
+      "name": "สมาชิกออกจากสหกรณ์",
+      "status": "VERIFIED_PROCEDURE"
+    },
+    {
+      "id": "memberTransfer",
+      "name": "โอนสมาชิกระหว่างสหกรณ์",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "guarantorAidFund",
+      "name": "ทุนช่วยเหลือผู้ค้ำเงินกู้สามัญ",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "debtCollectionCosts",
+      "name": "ค่าใช้จ่ายติดตามทวงถามหนี้",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "records",
+      "name": "เก็บรักษา ยืม ทำลายเอกสาร",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "subcommittees",
+      "name": "คณะอนุกรรมการและคณะทำงาน",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "boardRecruitment",
+      "name": "สรรหาคณะกรรมการดำเนินการ",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "manager",
+      "name": "ผู้จัดการ",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "advisers",
+      "name": "ที่ปรึกษา/ที่ปรึกษากิตติมศักดิ์",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "auditor",
+      "name": "ผู้ตรวจสอบกิจการ",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "staff",
+      "name": "เจ้าหน้าที่และข้อบังคับการทำงาน",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "staffHousingWelfare",
+      "name": "สวัสดิการที่พักอาศัยเจ้าหน้าที่",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "travel",
+      "name": "ค่าใช้จ่ายเดินทางปฏิบัติงาน",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "developmentFund",
+      "name": "ทุนพัฒนากิจการสหกรณ์",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "agencyHonorarium",
+      "name": "เงินสมนาคุณหน่วยงานต้นสังกัดสมาชิก",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "electronicMeeting",
+      "name": "ประชุมผ่านสื่ออิเล็กทรอนิกส์",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "itControl",
+      "name": "ควบคุมภายในและความปลอดภัย IT",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "generalMeeting",
+      "name": "ประชุมใหญ่",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "budget",
+      "name": "วิธีการงบประมาณ",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "publicBenefitFund",
+      "name": "ทุนสาธารณประโยชน์",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "meetingExpenses",
+      "name": "เบี้ยประชุม/พาหนะ/ที่พัก",
+      "status": "SOURCE_INDEXED_NEEDS_EXTRACTION"
+    },
+    {
+      "id": "membership",
+      "name": "สมัคร/กลับเข้าเป็นสมาชิก",
+      "status": "PARTIAL_VERIFIED"
+    },
+    {
+      "id": "funeralAssociation",
+      "name": "สมาคมฌาปนกิจสงเคราะห์",
+      "status": "PRIMARY_SOURCE_FOUND_NEEDS_EXTRACTION",
+      "primarySources": [
+        "https://drive.google.com/file/d/11EjAArjnuSKq2pyGHmsg6NUZ-ZeQqiNY/view?usp=drivesdk",
+        "https://drive.google.com/file/d/1xPb9JgZnk_F0oZrlZ27wTzLJSdoAnWPG/view?usp=drivesdk"
+      ]
+    },
+    {
+      "id": "dividendPatronage",
+      "name": "ปันผล/เฉลี่ยคืน",
+      "status": "ANNUAL_NOTICE"
+    },
+    {
+      "id": "payments",
+      "name": "การชำระเงิน",
+      "status": "VERIFIED_PROCEDURE"
+    },
+    {
+      "id": "forms",
+      "name": "แบบฟอร์ม/เอกสาร",
+      "status": "SOURCE_ROUTING"
+    },
+    {
+      "id": "notices",
+      "name": "ประกาศ/ผลอนุมัติ/ข่าว",
+      "status": "FRESH_NOTICE_REQUIRED"
+    }
+  ],
+  "evidenceExpansion": {
+    "educationLoanForm": {
+      "status": "PRIMARY_FORM_FOUND",
+      "source": "https://drive.google.com/file/d/1cK6zUQSPdT-3NT7bJ3WXO_MWP_ruzXLi/view?usp=drivesdk"
+    },
+    "disasterLoanForm": {
+      "status": "PRIMARY_FORM_FOUND",
+      "source": "https://drive.google.com/file/d/1YXj7yWsr7ZQC2MlL0Dt7qMaJO_vCY0kb/view?usp=drivesdk"
+    },
+    "shareDepositBackedLoan": {
+      "status": "PRIMARY_CRITERIA_FOUND_VERSION_2567_REQUIRES_CURRENT_VERSION_CHECK",
+      "source": "https://drive.google.com/file/d/19ra7Xhzut0Hn734mQSuJT9_6jQYmRC-2/view?usp=drivesdk"
+    },
+    "funeralAssociationBylaws": {
+      "status": "PRIMARY_BYLAWS_FOUND_2567_REQUIRES_AMENDMENT_CHECK",
+      "source": "https://drive.google.com/file/d/11EjAArjnuSKq2pyGHmsg6NUZ-ZeQqiNY/view?usp=drivesdk"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "checkedAt": "2026-10-06T01:53:18.800Z",
+  "processed": 8,
+  "unchanged": 8,
+  "changes": [],
+  "impactedDomains": [],
+  "errors": [],
+  "policy": "Detection never promotes or rewrites Rule Master"
+}

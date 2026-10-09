@@ -1,0 +1,734 @@
+{
+  "document": "ระเบียบหุ้น แก้ไขเพิ่มเติม ฉบับที่ 3 พ.ศ.2569",
+  "effectiveDate": "2026-10-01",
+  "review": "Primary signed PDF; clause 7 only; missing salary schedule remains locked",
+  "beforeSourceCommit": "45fcf72164eab4d2989a04cf208577126ba4f28c",
+  "impactedDomains": [
+    "shares"
+  ],
+  "rerunQuestions": 45,
+  "PASS": 45,
+  "FAIL": 0,
+  "results": [
+    {
+      "id": 1,
+      "question": "รวมหนี้ต้องส่งค่าหุ้นกี่เดือน",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "สมาชิกไม่น้อยกว่า 3 ปี ส่งหุ้นต่อเนื่องไม่น้อยกว่า 36 งวด สำหรับวงเงินไม่เกิน 3,000,000 บาท; สมาชิกไม่น้อยกว่า 5 ปี ส่งหุ้นไม่น้อยกว่า 60 งวด สำหรับวงเงินไม่เกิน 5,000,000 บาท",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "สมาชิกไม่น้อยกว่า 3 ปี ส่งหุ้นต่อเนื่องไม่น้อยกว่า 36 งวด สำหรับวงเงินไม่เกิน 3,000,000 บาท; สมาชิกไม่น้อยกว่า 5 ปี ส่งหุ้นไม่น้อยกว่า 60 งวด สำหรับวงเงินไม่เกิน 5,000,000 บาท",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 5,
+      "question": "ถ้าถูกวินัยร้ายแรงกู้รวมหนี้ได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ต้องไม่อยู่ระหว่างดำเนินการทางวินัยอย่างร้ายแรงหรือถูกพิทักษ์ทรัพย์ในคดีล้มละลาย",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ต้องไม่อยู่ระหว่างดำเนินการทางวินัยอย่างร้ายแรงหรือถูกพิทักษ์ทรัพย์ในคดีล้มละลาย",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 5,
+      "question": "ล้มละลายกู้รวมหนี้ได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ต้องไม่อยู่ระหว่างดำเนินการทางวินัยอย่างร้ายแรงหรือถูกพิทักษ์ทรัพย์ในคดีล้มละลาย",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ต้องไม่อยู่ระหว่างดำเนินการทางวินัยอย่างร้ายแรงหรือถูกพิทักษ์ทรัพย์ในคดีล้มละลาย",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 10,
+      "question": "ถ้ามีสัญญากู้กับสหกรณ์อื่นอยู่กู้รวมหนี้ได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เมื่อได้รับอนุมัติ ต้องหักกลบสัญญาเงินกู้เดิมทุกประเภทให้เหลือสัญญาเดียว ส่วนหนี้กับสหกรณ์อื่นต้องตรวจเงื่อนไขต้นฉบับเฉพาะก่อนยืนยันสิทธิ",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เมื่อได้รับอนุมัติ ต้องหักกลบสัญญาเงินกู้เดิมทุกประเภทให้เหลือสัญญาเดียว ส่วนหนี้กับสหกรณ์อื่นต้องตรวจเงื่อนไขต้นฉบับเฉพาะก่อนยืนยันสิทธิ",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 10,
+      "question": "มีหนี้หลายสัญญากู้รวมหนี้ได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เมื่ออนุมัติ ต้องยินยอมให้หักกลบเงินกู้สัญญาเดิมทุกประเภท ให้เหลือสัญญารวมหนี้สัญญาเดียว",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 11,
+      "question": "อนุมัติรวมหนี้แล้วกู้แบบอื่นได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 11,
+      "question": "กู้รวมหนี้แล้วกู้ฉุกเฉินได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 11,
+      "question": "กู้รวมหนี้แล้วกู้แบบอื่นได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 11,
+      "question": "รวมหนี้แล้วกู้ฉุกเฉินได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 11,
+      "question": "รวมหนี้แล้วกู้เพิ่มได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หลังอนุมัติรวมหนี้ ห้ามกู้ประเภทอื่น ยกเว้นเงินกู้ฉุกเฉิน ซึ่งต้องผ่านหลักเกณฑ์ฉุกเฉินแยกต่างหาก",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 13,
+      "question": "กู้รวมหนี้ประเมินกับสำนักงานที่ดินได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ต้องใช้ผู้ประเมินหลักทรัพย์ที่สหกรณ์เห็นชอบ ไม่เลือกบริษัทหรือสำนักงานประเมินเองก่อนตรวจเงื่อนไข",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ต้องใช้ผู้ประเมินหลักทรัพย์ที่สหกรณ์เห็นชอบ ไม่เลือกบริษัทหรือสำนักงานประเมินเองก่อนตรวจเงื่อนไข",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 15,
+      "question": "กู้รวมหนี้ขอเกินหนี้เดิมได้ไหม",
+      "expectedRule": "qualityOfLifeCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "รับเงินส่วนต่างได้ไม่เกิน 50% ของวงเงินคงเหลือที่มีสิทธิหลังหักกลบหนี้ ต้องตรวจยอดหนี้และวงเงินตามข้อมูลจริง",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "รับเงินส่วนต่างได้ไม่เกิน 50% ของวงเงินคงเหลือที่มีสิทธิหลังหักกลบหนี้ ต้องตรวจยอดหนี้และวงเงินตามข้อมูลจริง",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "qualityOfLifeCurrent@2026-10-01"
+    },
+    {
+      "id": 20,
+      "question": "กู้เคหะซื้อคอนโดได้ไหม",
+      "expectedRule": "specialHousingCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "specialHousingCurrent@2026-10-01"
+    },
+    {
+      "id": 20,
+      "question": "กู้เคหะซื้อบ้านได้ไหม",
+      "expectedRule": "specialHousingCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "specialHousingCurrent@2026-10-01"
+    },
+    {
+      "id": 20,
+      "question": "กู้เคหะต่อเติมบ้านได้ไหม",
+      "expectedRule": "specialHousingCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เพื่อซื้อบ้านพร้อมที่ดินหรือสร้างที่อยู่อาศัยตามประกาศ ส่วนคอนโด/ต่อเติมต้องตรวจวัตถุประสงค์ในต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "specialHousingCurrent@2026-10-01"
+    },
+    {
+      "id": 21,
+      "question": "กู้เคหะต้องส่งค่าหุ้นกี่งวด",
+      "expectedRule": "specialHousingCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "specialHousingCurrent@2026-10-01"
+    },
+    {
+      "id": 29,
+      "question": "โปะกู้เคหะก่อนกำหนดได้ไหม",
+      "expectedRule": "specialHousingCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ปิดเงินกู้เคหะภายใน 5 ปี มีค่าปรับ 3% ของเงินต้นคงเหลือตามหลักเกณฑ์ ต้องตรวจยอดปิด ณ วันชำระจริง",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ปิดเงินกู้เคหะภายใน 5 ปี มีค่าปรับ 3% ของเงินต้นคงเหลือตามหลักเกณฑ์ ต้องตรวจยอดปิด ณ วันชำระจริง",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "specialHousingCurrent@2026-10-01"
+    },
+    {
+      "id": 36,
+      "question": "กู้ฉุกเฉินนับหุ้นแรกเข้าหรือไม่",
+      "expectedRule": "emergencyLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 3 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 3 งวด",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 3 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 3 งวด",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "emergencyLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 42,
+      "question": "เคยกู้สามัญหรือพิเศษแล้วกู้ฉุกเฉินได้ไหม",
+      "expectedRule": "emergencyLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หากมีเงินกู้ประเภทอื่นต้องชำระแล้วอย่างน้อย 3 งวด; สามัญเพื่อปรับโครงสร้างหนี้ต้องชำระอย่างน้อย 12 งวด; ถ้ามีฉุกเฉินเดิมต้องชำระอย่างน้อย 3 งวด และหักกลบสัญญาเดิม",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หากมีเงินกู้ประเภทอื่นต้องชำระแล้วอย่างน้อย 3 งวด; สามัญเพื่อปรับโครงสร้างหนี้ต้องชำระอย่างน้อย 12 งวด; ถ้ามีฉุกเฉินเดิมต้องชำระอย่างน้อย 3 งวด และหักกลบสัญญาเดิม",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "emergencyLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 42,
+      "question": "ปรับโครงสร้างหนี้แล้วกู้ฉุกเฉินได้ไหม",
+      "expectedRule": "emergencyLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "สัญญาสามัญเพื่อปรับโครงสร้างหนี้ต้องชำระอย่างน้อย 12 งวดก่อนยื่นฉุกเฉิน",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "สัญญาสามัญเพื่อปรับโครงสร้างหนี้ต้องชำระอย่างน้อย 12 งวดก่อนยื่นฉุกเฉิน",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "emergencyLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 43,
+      "question": "กู้ฉุกเฉินเดิมอยู่กู้ใหม่ได้ไหม",
+      "expectedRule": "emergencyLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "สัญญาเงินกู้ฉุกเฉินเดิมชำระแล้วกี่งวดครับ?",
+        "decision": "NEED_INFO"
+      },
+      "after": {
+        "answer": "สัญญาเงินกู้ฉุกเฉินเดิมชำระแล้วกี่งวดครับ?",
+        "decision": "NEED_INFO"
+      },
+      "status": "PASS",
+      "expectedVersion": "emergencyLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 45,
+      "question": "กู้ฉุกเฉินส่งเอกสารทางอีเมลได้ไหม",
+      "expectedRule": "emergencyLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "emergencyLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 45,
+      "question": "กู้ฉุกเฉินส่งเอกสารทางไปรษณีย์ได้ไหม",
+      "expectedRule": "emergencyLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "emergencyLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 45,
+      "question": "กู้ฉุกเฉินส่งเมลได้ไหม",
+      "expectedRule": "emergencyLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "emergencyLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 45,
+      "question": "กู้ฉุกเฉินส่งไปรษณีย์ได้ไหม",
+      "expectedRule": "emergencyLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ยื่นด้วยตนเอง ทางไปรษณีย์ ทางอีเมล dlasavingloan01@gmail.com เป็นไฟล์ PDF หรือผ่าน Mobile/Web Application ของสหกรณ์ พร้อมแบบและหลักฐานที่รับรองแล้ว",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "emergencyLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 48,
+      "question": "กู้ใหม่ปิดสัญญาเดิมได้ไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "สัญญาเงินกู้สามัญเดิมชำระแล้วกี่งวดครับ?",
+        "decision": "NEED_INFO"
+      },
+      "after": {
+        "answer": "สัญญาเงินกู้สามัญเดิมชำระแล้วกี่งวดครับ?",
+        "decision": "NEED_INFO"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 49,
+      "question": "สมาชิก 6 เดือนกู้สามัญได้ไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "จากข้อมูลที่ให้มา เงื่อนไขที่ตรวจได้ผ่านครับ แต่ยังไม่ใช่ผลอนุมัติส่วนบุคคล",
+        "decision": "ELIGIBLE_CONDITION"
+      },
+      "after": {
+        "answer": "จากข้อมูลที่ให้มา เงื่อนไขที่ตรวจได้ผ่านครับ แต่ยังไม่ใช่ผลอนุมัติส่วนบุคคล",
+        "decision": "ELIGIBLE_CONDITION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 51,
+      "question": "กู้สามัญต้องถือหุ้นไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 51,
+      "question": "กู้สามัญต้องมีหุ้นเท่าไหร่",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 51,
+      "question": "ต้องถือหุ้นตามระเบียบหรือไม่",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "เป็นสมาชิกไม่น้อยกว่า 6 เดือน และส่งค่าหุ้นรายเดือนต่อเนื่องไม่น้อยกว่า 6 งวด ถ้ากู้เกิน 200,000 บาท ต้องส่งหุ้นไม่น้อยกว่า 12 เดือนและมีหุ้นสะสมไม่น้อยกว่า 10% ของวงเงินที่ขอกู้",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 52,
+      "question": "กู้สามัญต้องค้างชำระได้ไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ต้องไม่ค้างชำระหุ้นและหนี้เงินกู้ทุกประเภทกับสหกรณ์ย้อนหลัง 12 งวดจนถึงวันยื่นคำขอ",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ต้องไม่ค้างชำระหุ้นและหนี้เงินกู้ทุกประเภทกับสหกรณ์ย้อนหลัง 12 งวดจนถึงวันยื่นคำขอ",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 52,
+      "question": "กู้สามัญต้องส่งหุ้นหนี้ผ่านหน้าฎีกาไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ชำระค่าหุ้นและหนี้โดยหักจากเงินได้รายเดือน ณ ที่จ่าย (หักหน้าฎีกา)",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ชำระค่าหุ้นและหนี้โดยหักจากเงินได้รายเดือน ณ ที่จ่าย (หักหน้าฎีกา)",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 54,
+      "question": "เอาที่ดินค้ำกู้สามัญได้ไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 55,
+      "question": "ใช้เงินฝากค้ำกู้สามัญได้ไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 55,
+      "question": "ใช้หลักทรัพย์รัฐบาลค้ำกู้ได้ไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "หลักประกันตามประกาศ ได้แก่ บุคคลค้ำประกัน อสังหาริมทรัพย์ หลักทรัพย์รัฐบาล และเงินฝากสหกรณ์; อสังหาริมทรัพย์ได้ไม่เกิน 90% ของราคาประเมิน แต่สัดส่วนเงินฝาก/หลักทรัพย์ต้องตรวจหลักเกณฑ์เฉพาะ",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 56,
+      "question": "บุคคลค้ำประกันต้องมีหุ้นไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 56,
+      "question": "คนค้ำต้องส่งหุ้นกี่เดือน",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "after": {
+        "answer": "ผู้ค้ำที่เป็นพนักงานต้องมีอายุงานไม่น้อยกว่า 3 ปี; ผู้ค้ำ 1 คนค้ำผู้กู้ทุกประเภทพร้อมกันไม่เกิน 3 คน ส่วนอายุสมาชิก/หุ้นของผู้ค้ำต้องตรวจต้นฉบับก่อนยืนยัน",
+        "decision": "RULE_INFORMATION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 58,
+      "question": "เคยปรับโครงสร้างหนี้กู้สามัญได้ไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น ผู้เคยปรับโครงสร้างหนี้ ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+        "decision": "NEED_RULE_EXTRACTION"
+      },
+      "after": {
+        "answer": "พบหลักเกณฑ์/แบบคำขอทางการของประเภทนี้ครับ แต่ประเด็น ผู้เคยปรับโครงสร้างหนี้ ยังไม่ได้ยืนยันจากต้นฉบับครบ จึงไม่เติมตัวเลขจากคำตอบเก่า เปิดหลักเกณฑ์และแบบเฉพาะประเภทด้านล่างเพื่อตรวจต่อได้ทันที",
+        "decision": "NEED_RULE_EXTRACTION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 59,
+      "question": "กู้สามัญใช้หุ้นค้ำได้ไหม",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+        "decision": "NEED_RULE_EXTRACTION"
+      },
+      "after": {
+        "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+        "decision": "NEED_RULE_EXTRACTION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 59,
+      "question": "กู้โดยใช้หุ้นค้ำมีเงื่อนไขอะไร",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+        "decision": "NEED_RULE_EXTRACTION"
+      },
+      "after": {
+        "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+        "decision": "NEED_RULE_EXTRACTION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 59,
+      "question": "ใช้หุ้นค้ำได้กี่เปอร์เซ็นต์",
+      "expectedRule": "ordinaryLoanCurrent",
+      "valueField": null,
+      "before": {
+        "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+        "decision": "NEED_RULE_EXTRACTION"
+      },
+      "after": {
+        "answer": "ประเด็นใช้ทุนเรือนหุ้นค้ำเงินกู้สามัญยังไม่มีหลักเกณฑ์เฉพาะที่ยืนยันจากต้นฉบับใน Rule Master ครับ จึงไม่ยืนยันว่าใช้ได้หรือกำหนดวงเงินจากคำตอบเก่า ตรวจหลักเกณฑ์และแบบทางการด้านล่างได้เลย",
+        "decision": "NEED_RULE_EXTRACTION"
+      },
+      "status": "PASS",
+      "expectedVersion": "ordinaryLoanCurrent@2026-10-01"
+    },
+    {
+      "id": 67,
+      "question": "ต้องโอนค่าหุ้นแรกเข้าไหม",
+      "expectedRule": null,
+      "valueField": null,
+      "before": {
+        "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+        "decision": null
+      },
+      "after": {
+        "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+        "decision": null
+      },
+      "status": "PASS",
+      "expectedVersion": null
+    },
+    {
+      "id": 68,
+      "question": "โอนค่าหุ้นแรกเข้าทางไหน",
+      "expectedRule": null,
+      "valueField": null,
+      "before": {
+        "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+        "decision": null
+      },
+      "after": {
+        "answer": "ตรวจค่าธรรมเนียม/ค่าหุ้นที่ต้องชำระในใบสมัครฉบับล่าสุด และใช้วิธีชำระเงินทางการ ไม่โอนตามเลขบัญชีที่อยู่ในคำตอบเก่าครับ",
+        "decision": null
+      },
+      "status": "PASS",
+      "expectedVersion": null
+    },
+    {
+      "id": "freshness-salary-shares",
+      "question": "เงินเดือน 32,000 บาท ปัจจุบันต้องถือหุ้นเดือนละเท่าไร",
+      "expectedRule": null,
+      "valueField": null,
+      "before": {
+        "answer": "เป็นเงินกู้ประเภทไหนครับ? ขอเพียงประเภทเงินกู้เพื่อใช้เงื่อนไขให้ตรง ไม่ต้องส่งข้อมูลส่วนตัว",
+        "decision": "NEED_INFO"
+      },
+      "after": {
+        "answer": "พบระเบียบหุ้นฉบับที่ 3 ซึ่งมีผลตั้งแต่ 1 ตุลาคม 2569 ครับ แต่ยอดหุ้นรายเดือนตามเงินเดือนต้องอิงประกาศอัตราของคณะกรรมการอีกฉบับ จึงยังคำนวณยอดให้ไม่ได้โดยไม่มีตารางที่ยืนยันแล้ว",
+        "decision": "EVIDENCE_LOCK"
+      },
+      "status": "PASS",
+      "expectedVersion": null
+    },
+    {
+      "id": "freshness-pending",
+      "question": "หุ้นรายเดือนตามประกาศใหม่ต้องส่งเท่าไร",
+      "expectedRule": null,
+      "valueField": null,
+      "before": {
+        "answer": "เป็นเงินกู้ประเภทไหนครับ? ขอเพียงประเภทเงินกู้เพื่อใช้เงื่อนไขให้ตรง ไม่ต้องส่งข้อมูลส่วนตัว",
+        "decision": "NEED_INFO"
+      },
+      "after": {
+        "answer": "เป็นเงินกู้ประเภทไหนครับ? ขอเพียงประเภทเงินกู้เพื่อใช้เงื่อนไขให้ตรง ไม่ต้องส่งข้อมูลส่วนตัว",
+        "decision": "NEED_INFO"
+      },
+      "status": "PASS",
+      "expectedVersion": null
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+name: E2E Member Answer Engine
+on:
+  pull_request:
+    branches: [main]
+    paths: ["index.html", "data/**", "tests/**", "scripts/**", ".github/workflows/e2e.yml"]
+  push:
+    branches: [fix/pilot-69-executable-hardening]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  e2e:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use latest official-source monitor state
+        run: |
+          if git fetch origin official-source-monitor; then
+            git show origin/official-source-monitor:data/official-source-monitor.json > /tmp/latest-monitor.json && cp /tmp/latest-monitor.json data/official-source-monitor.json
+          else
+            echo "official-source-monitor branch not found; using the checked-in copy"
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Run every release regression suite
+        run: node scripts/verify-release.mjs
+      - name: Install browser test runtime
+        run: npm install --no-save --no-package-lock playwright@1.62.1 && npx playwright install --with-deps chromium
+      - name: Real browser Pilot regression on mobile and desktop
+        run: |
+          node scripts/browser-pilot-smoke.mjs
+          node scripts/browser-freshness-smoke.mjs

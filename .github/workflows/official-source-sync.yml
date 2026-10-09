@@ -1,0 +1,65 @@
+name: Official source monitor
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/official-source-sync.yml', 'scripts/sync-official-sources.mjs', 'scripts/official-freshness.js', 'data/official-source-registry.json']
+  schedule:
+    - cron: '25 0,12 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: official-source-monitor
+  cancel-in-progress: false
+jobs:
+  monitor:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Carry forward fingerprints and unresolved evidence locks
+        run: |
+          if git fetch origin official-source-monitor; then
+            git show origin/official-source-monitor:data/official-source-monitor.json > /tmp/prior-monitor.json
+            node scripts/prepare-source-monitor.mjs /tmp/prior-monitor.json
+          fi
+      - name: Check only registered indexes and bounded PDF attachments
+        run: node scripts/sync-official-sources.mjs --curl
+      - name: Rerun only impacted member questions, saving before/after results
+        run: node scripts/run-impacted-regression.mjs
+      - name: Verify safety-only monitor state
+        run: node scripts/validate-source-monitor.mjs
+      - name: Publish detection state without changing Rule Master
+        run: |
+          cp data/official-source-monitor.json /tmp/new-monitor.json
+          cp docs/official-source-sync-report.json /tmp/new-sync-report.json
+          cp docs/impacted-regression.json /tmp/new-impact-report.json
+          # Generated state is safe above; clear only these temporary outputs before switching.
+          git restore -- data/official-source-registry.json data/official-source-monitor.json docs/official-source-sync-report.json docs/impacted-regression.json
+          if git show-ref --verify --quiet refs/remotes/origin/official-source-monitor; then
+            git switch -C official-source-monitor origin/official-source-monitor
+          else
+            git switch -c official-source-monitor
+          fi
+          cp /tmp/new-monitor.json data/official-source-monitor.json
+          cp /tmp/new-sync-report.json docs/official-source-sync-report.json
+          cp /tmp/new-impact-report.json docs/impacted-regression.json
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/official-source-monitor.json docs/official-source-sync-report.json docs/impacted-regression.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Monitor official documents; retain unresolved evidence locks'
+            git push origin official-source-monitor
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: official-source-detection-and-impact
+          path: |
+            docs/official-source-sync-report.json
+            docs/impacted-regression.json

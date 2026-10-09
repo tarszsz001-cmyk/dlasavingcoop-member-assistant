@@ -1,0 +1,49 @@
+{
+  "policy": "Questions are permanent; current expected facts resolve from the dated verified Rule Version. Unverified rights must lock.",
+  "records": [
+    {
+      "id": "freshness-retired-guarantor",
+      "question": "สมาชิกเกษียณอายุราชการแล้วสามารถค้ำประกันเงินกู้ได้หรือไม่",
+      "domains": [
+        "guarantor",
+        "membership",
+        "ordinaryLoan"
+      ],
+      "expectedPolicy": "CURRENT_PRIMARY_CRITERIA_WITH_MEMBER_CONDITIONS"
+    },
+    {
+      "id": "freshness-salary-shares",
+      "question": "เงินเดือน 32,000 บาท ปัจจุบันต้องถือหุ้นเดือนละเท่าไร",
+      "domains": [
+        "shares"
+      ],
+      "expectedPolicy": "CURRENT_SALARY_SCHEDULE_VERIFIED_FOR_32000"
+    },
+    {
+      "id": "freshness-now",
+      "question": "ตอนนี้กู้สามัญผ่อนได้กี่งวด",
+      "domains": [
+        "ordinaryLoan"
+      ],
+      "ruleId": "ordinaryLoanCurrent",
+      "valueField": "maxTermInstallments"
+    },
+    {
+      "id": "freshness-history",
+      "question": "กู้ฉุกเฉิน ณ วันที่ 30 กันยายน 2569 ต้องเป็นสมาชิกกี่เดือน",
+      "domains": [
+        "emergencyLoan"
+      ],
+      "ruleId": "emergencyLoanCurrent",
+      "valueField": "membershipMinMonths"
+    },
+    {
+      "id": "freshness-pending",
+      "question": "หุ้นรายเดือนตามประกาศใหม่ต้องส่งเท่าไร",
+      "domains": [
+        "shares"
+      ],
+      "expectedPolicy": "NEW_DOCUMENT_REQUIRES_VERIFICATION"
+    }
+  ]
+}

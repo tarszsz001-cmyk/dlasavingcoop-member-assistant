@@ -1,0 +1,57 @@
+name: Deploy GitHub Pages
+on:
+  push:
+    branches: [main]
+    paths: ["index.html", "assets/**", "data/**", ".github/workflows/pages.yml"]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use latest official-source monitor state
+        run: |
+          if git fetch origin official-source-monitor; then
+            git show origin/official-source-monitor:data/official-source-monitor.json > /tmp/latest-monitor.json && cp /tmp/latest-monitor.json data/official-source-monitor.json
+          else
+            echo "official-source-monitor branch not found; using the checked-in copy"
+          fi
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Release gate before deployment
+        run: node scripts/verify-release.mjs
+      - name: Install browser test runtime
+        run: npm install --no-save --no-package-lock playwright@1.62.1 && npx playwright install --with-deps chromium
+      - name: Browser release gate
+        run: |
+          node scripts/browser-pilot-smoke.mjs
+          node scripts/browser-freshness-smoke.mjs
+      - name: Stage public Pilot files
+        run: |
+          mkdir -p _site/data
+          cp index.html .nojekyll _site/
+          cp -r assets _site/
+          cp data/current-events.json data/official-rule-master.json data/official-source-registry.json data/official-source-monitor.json _site/data/
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Verify live Production on mobile and desktop
+        env:
+          MEMBER_APP_URL: https://tarszsz001-cmyk.github.io/dlasavingcoop-member-assistant/
+        run: |
+          node scripts/browser-pilot-smoke.mjs
+          node scripts/browser-freshness-smoke.mjs

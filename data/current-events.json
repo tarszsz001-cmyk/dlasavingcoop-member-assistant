@@ -1,0 +1,50 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-06T06:09:42.513Z",
+  "lastCheckedAt": "2026-10-06T06:09:42.513Z",
+  "mode": "official-auto",
+  "sourceHealth": {
+    "homepage": "ok",
+    "notices": "ok"
+  },
+  "rules": {
+    "maxItems": 3,
+    "source": "official dlasavingcoop.com only",
+    "selection": "actionable member news only",
+    "expiry": "explicit deadlines/event dates expire automatically"
+  },
+  "events": [
+    {
+      "contentKind": "NEWS",
+      "rulePromotion": false,
+      "id": "official-4910",
+      "title": "ได้รับ \"หนังสือยืนยันยอด ปี 2569\" ต้องทำอย่างไร? ดู 3 ขั้นตอนง่ายๆ ที่นี่...",
+      "summary": "ตรวจสอบ → ติ๊กเลือก → ส่งคืน",
+      "status": "action",
+      "statusLabel": "ต้องดำเนินการ",
+      "priority": 100,
+      "url": "https://dlasavingcoop.com/show.php?No=4910",
+      "ask": "หนังสือยืนยันยอด 2569",
+      "source": "homepage",
+      "publishedAt": null,
+      "eventDate": null,
+      "expiresAt": null
+    },
+    {
+      "contentKind": "NEWS",
+      "rulePromotion": false,
+      "id": "official-4935",
+      "title": "ขอเชิญประชุมใหญ่สามัญ ประจำปีบัญชี 2569",
+      "summary": "กำหนด 8 พฤศจิกายน 2569 — เปิดดูสถานที่/กำหนดการจากประกาศทางการ",
+      "status": "notice",
+      "statusLabel": "ประกาศใหม่",
+      "priority": 95,
+      "url": "https://www.dlasavingcoop.com/show.php?No=4935",
+      "ask": "ประชุมใหญ่",
+      "source": "homepage",
+      "publishedAt": "2026-10-03T11:54:11.000Z",
+      "eventDate": "2026-11-08",
+      "expiresAt": "2026-11-08T17:00:00.000Z"
+    }
+  ]
+}
