@@ -33,8 +33,8 @@
         "deposits",
         "guarantor"
       ],
-      "lastSuccessfulCheck": "2026-10-06T01:53:18.800Z",
-      "fingerprint": "a5099309a1d092063c5f4ddab249ed0ba00165841ace03005f5531c1970b0ed2",
+      "lastSuccessfulCheck": "2026-10-09T08:50:22.292Z",
+      "fingerprint": "e307d5df700e542e5cb1dba1e28a874e18909f40bf08e61e66066c172a83d09d",
       "etag": null,
       "lastModified": null,
       "lastError": null,
@@ -99,6 +99,7 @@
         "doc-459263fae29684b900f6",
         "doc-bc5fd17109ac26793134",
         "doc-4f97c7a24809618342a1",
+        "doc-258e7ad69dddf3785eb2",
         "doc-24c6c3870cd865bad84c",
         "doc-5d2df1fc58bb3f2e540c",
         "doc-148c8f2d831c6b48e33f"
@@ -121,8 +122,8 @@
         "dividendPatronage",
         "interest"
       ],
-      "lastSuccessfulCheck": "2026-10-06T01:53:18.800Z",
-      "fingerprint": "dedb9075f1fa3d04229bbc0e99529f9e684afe9730e5f3646faeeb5e176166df",
+      "lastSuccessfulCheck": "2026-10-09T08:50:22.292Z",
+      "fingerprint": "56abb0735de6ea90d1d98371038a43811aa2cb18568e44cfc8688a9583eedc50",
       "etag": null,
       "lastModified": null,
       "lastError": null,
@@ -179,8 +180,8 @@
         "guarantor",
         "interest"
       ],
-      "lastSuccessfulCheck": "2026-10-06T01:53:18.800Z",
-      "fingerprint": "9781cd3d29c74a60251aaa2d93837291213f8411c4fced8a2645d294d474b2fe",
+      "lastSuccessfulCheck": "2026-10-09T08:50:22.292Z",
+      "fingerprint": "687a8b5f3ac92a0882cd879d9306305e28755c11b3bc3cf2a230c49bbe91dcef",
       "etag": null,
       "lastModified": null,
       "lastError": null,
@@ -195,6 +196,7 @@
         "doc-3ed7cc53e63f3184571a",
         "doc-c4ec70e384c890ae62c7",
         "doc-2103ba4da2cf1f68a64c",
+        "doc-5c893b2d819d747e4a6c",
         "doc-2b74a1ba4639975aaeb1",
         "doc-1f7a9387ebb04f2f81f1",
         "doc-8158348139edda052c52",
@@ -217,18 +219,15 @@
       "domains": [
         "emergencyLoan"
       ],
-      "lastSuccessfulCheck": "2026-10-06T01:53:18.800Z",
-      "fingerprint": "b31caa9e8582467ab048e49de5119be4f3064573ec75fe0a29e205590057688e",
+      "lastSuccessfulCheck": "2026-10-09T08:50:22.292Z",
+      "fingerprint": "7a4a85c926a2a3add11b42420fcf1d0beca0ca50cd1ae5f605ceb9772f82e30c",
       "etag": null,
       "lastModified": null,
       "lastError": null,
       "documentIds": [
         "doc-6a67de8617dc3a5eba1e",
-        "doc-8158348139edda052c52",
-        "doc-929ef166b401e6e6d99d",
-        "doc-6faade127f8072968d44",
-        "doc-5ca322b7780219a8d617",
         "doc-99d95ccc95359084c63f",
+        "doc-8158348139edda052c52",
         "doc-d1e619f18051a46838aa"
       ]
     },
@@ -240,34 +239,24 @@
         "specialHousing",
         "redeemMortgage"
       ],
-      "lastSuccessfulCheck": "2026-10-06T01:53:18.800Z",
-      "fingerprint": "aa071587f63881ced4eb2c3df17ab3fb15c3918a198318cc22aef923b2bb3b97",
+      "lastSuccessfulCheck": "2026-10-09T08:50:22.292Z",
+      "fingerprint": "1738b5a99a7e69ddc124837a9076d98b1d9fc4e2497a1e9ab57a381e80390a1b",
       "etag": null,
       "lastModified": null,
       "lastError": null,
       "documentIds": [
         "doc-e5c7a5b77f2a20c8f253",
         "doc-14b75c8788f17335ebcc",
-        "doc-3b42bf2c26b9c2c352e1",
-        "doc-22d26d603411651c4ade",
-        "doc-2e7c1c2be78fa7db7d6d",
         "doc-a7669146208dee2b7265",
         "doc-6eec34aa5d2384904844",
         "doc-10b4de67336525aae0d9",
         "doc-059f96cb933b3747177f",
         "doc-6c5037ae3463820e3c12",
-        "doc-a896b9cc6ca13e54cb79",
-        "doc-ae2368ed41f382dad76c",
-        "doc-0ae5b17a9f255aa6c03e",
         "doc-a493dd8c564e0aa1cf77",
         "doc-c27ab7cac7381afb6ac4",
         "doc-4dd3710056e2126b1004",
-        "doc-c4b7865377b56cabc608",
-        "doc-19e555fabf66c2e87ee9",
-        "doc-207bd7f5f81fdff63657",
-        "doc-f4b8fa8489c6e518c21b",
-        "doc-8f7ccfcd0375a9c452f2",
         "doc-c58ca7ed07fd0cdff56c",
+        "doc-207bd7f5f81fdff63657",
         "doc-8158348139edda052c52"
       ]
     },
@@ -279,15 +268,15 @@
         "shares",
         "resignation"
       ],
-      "lastSuccessfulCheck": "2026-10-06T01:53:18.800Z",
-      "fingerprint": "159ab6a2ab52d556abdeedc3cb2143b6f65b599a3ea335dde860de8b3d3400c9",
+      "lastSuccessfulCheck": "2026-10-09T08:50:22.292Z",
+      "fingerprint": "bef4402172774fb3367c62439cab7a3b3e3ee1dd00077438dd74e527f3587b0c",
       "etag": null,
       "lastModified": null,
       "lastError": null,
       "documentIds": [
-        "doc-651c9a89ca928aeb1cf3",
+        "doc-f86d3cf4c093807584a9",
         "doc-0b850f91a225cc2922ab",
-        "doc-18e1f298ed7705d92a45",
+        "doc-6f1bd1701dfd24fb9c52",
         "doc-5eaaac7115929a99ba98",
         "doc-6e0905cb6da5c6ed2fa7",
         "doc-07f0bd26b2f4ea2c1854",
@@ -295,7 +284,7 @@
         "doc-0f171620684a2c903f74",
         "doc-d0d34f6860418c426d52",
         "doc-3b20ee5666352307103f",
-        "doc-b6e13f4916b70048704a",
+        "doc-11cb7905e014a6ebd26e",
         "doc-0dc015106fe9ba96fc0b",
         "doc-e9304766271a0fcf7714",
         "doc-6094524de18c1eec862f",
@@ -309,7 +298,7 @@
       "domains": [
         "welfare"
       ],
-      "lastSuccessfulCheck": "2026-10-06T01:53:18.800Z",
+      "lastSuccessfulCheck": "2026-10-09T08:50:22.292Z",
       "fingerprint": "87b9c5eb757342489d377e87e8df83038c56a864ac54e3faddcab3b5ada686e4",
       "etag": null,
       "lastModified": null,
@@ -340,7 +329,7 @@
       "domains": [
         "deposits"
       ],
-      "lastSuccessfulCheck": "2026-10-06T01:53:18.800Z",
+      "lastSuccessfulCheck": "2026-10-09T08:50:22.292Z",
       "fingerprint": "0b3613d2d2e4af99456844da9a37581da1357ec8657f3bb058084bb05279b47b",
       "etag": null,
       "lastModified": null,
@@ -371,7 +360,7 @@
       "affects": [
         "ordinaryLoan"
       ],
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "lastContentCheck": "2026-10-06T01:33:29.384829Z",
       "status": "CURRENT",
       "mayAffectRules": false,
@@ -379,7 +368,10 @@
         "basis": "Existing audited Rule Master; no new values inferred"
       },
       "contentHash": "36e236c9eeba2407341255c43e89baa73a41b5b4e23c9464bd333febc68ef4d9",
-      "fingerprint": "bcd65c730a04c7bda0676149a7815c1c48e1f69c8c6a39f0a03c358519d243c4"
+      "fingerprint": "bcd65c730a04c7bda0676149a7815c1c48e1f69c8c6a39f0a03c358519d243c4",
+      "indexFingerprints": {
+        "ordinary": "4cc32e4ef6d517d3f8f7ef96513adc4edfc2a774f3bc3726736e0030a201e93e"
+      }
     },
     {
       "id": "doc-c58ca7ed07fd0cdff56c",
@@ -395,7 +387,7 @@
       "affects": [
         "qualityOfLife"
       ],
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "lastContentCheck": "2026-10-06T01:53:18.800Z",
       "status": "CURRENT",
       "mayAffectRules": false,
@@ -405,7 +397,10 @@
       "fingerprint": "c620050e7f3d7a7bfc31c5c10ad5acfe3ed2756692ef7b0cd181845b2fdae0bd",
       "contentHash": "8fe51e1cbfa02ec96c1bfbbec306bd4e2b48021d6907e0b206a1fe5d89c13bcb",
       "etag": null,
-      "contentError": null
+      "contentError": null,
+      "indexFingerprints": {
+        "special": "e528a5885ebbd53c5140957a8abf71fd1830b4589c7215ee831421c8a8b98caf"
+      }
     },
     {
       "id": "doc-5476d4b6e6379de0d9de",
@@ -421,7 +416,7 @@
       "affects": [
         "welfare"
       ],
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "lastContentCheck": "2026-10-06T01:53:18.800Z",
       "status": "CURRENT",
       "mayAffectRules": false,
@@ -431,7 +426,10 @@
       "fingerprint": "851bc06a8c65db1f151782b21eb6d4fac9feb2bc3d4cca5c20afc07a4452a970",
       "contentHash": "59ca83b2a101bb619e851efceb573b894e22ceb755320ca79d30957337dd0708",
       "etag": null,
-      "contentError": null
+      "contentError": null,
+      "indexFingerprints": {
+        "welfare": "851bc06a8c65db1f151782b21eb6d4fac9feb2bc3d4cca5c20afc07a4452a970"
+      }
     },
     {
       "id": "doc-3ee9e5840c54fc278de7",
@@ -447,7 +445,7 @@
       "affects": [
         "welfare"
       ],
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "lastContentCheck": "2026-10-06T01:53:18.800Z",
       "status": "CURRENT",
       "mayAffectRules": false,
@@ -457,7 +455,10 @@
       "fingerprint": "741194e84456e7a79bf3f5919e37446f2e106842fe3bea9bbc6bc1f1a679bf9b",
       "contentHash": "68c6c5ec034ed71b2ff7afae3c1a0d561ceb124e91be94e488ecd33c6f11f2b0",
       "etag": null,
-      "contentError": null
+      "contentError": null,
+      "indexFingerprints": {
+        "welfare": "741194e84456e7a79bf3f5919e37446f2e106842fe3bea9bbc6bc1f1a679bf9b"
+      }
     },
     {
       "id": "doc-cb77dace33cac592ad70",
@@ -495,7 +496,7 @@
       "affects": [
         "specialHousing"
       ],
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "lastContentCheck": "2026-10-06T01:33:29.384829Z",
       "status": "CURRENT",
       "mayAffectRules": false,
@@ -503,7 +504,10 @@
         "basis": "Existing audited Rule Master; no new values inferred"
       },
       "contentHash": "3b1101184e353074ab02d65b741b471d8e839b97ee6e5c0bf0b08e4f9d61560c",
-      "fingerprint": "3d2a820351e8ffc886b39dbc31b99e19df66ea6c888600aca0bd36a73ed99f77"
+      "fingerprint": "3d2a820351e8ffc886b39dbc31b99e19df66ea6c888600aca0bd36a73ed99f77",
+      "indexFingerprints": {
+        "special": "f8c33167142ec2c38b1cf7a6577dca06567fae85f827c1df9a64ec78c0a3f6bd"
+      }
     },
     {
       "id": "doc-5ca322b7780219a8d617",
@@ -521,15 +525,16 @@
       ],
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
       "lastContentCheck": "2026-10-06T01:53:18.800Z",
-      "status": "SUPERSEDED",
-      "mayAffectRules": false,
+      "status": "PENDING",
+      "mayAffectRules": true,
       "review": {
         "basis": "Existing audited Rule Master; no new values inferred"
       },
       "fingerprint": "78871ada5eeccfc057b1ea38d736167e2f3ebbd6913ab8cab1d0476fb1d48f45",
       "contentHash": "e79699b471d1414a842c68fb7eda59ee3a7aba18051a2b23cb9a31d1c4d9d552",
       "etag": null,
-      "contentError": null
+      "contentError": null,
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-a493dd8c564e0aa1cf77",
@@ -545,7 +550,7 @@
       "affects": [
         "redeemMortgage"
       ],
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "lastContentCheck": "2026-10-06T01:33:29.384829Z",
       "status": "CURRENT",
       "mayAffectRules": false,
@@ -553,7 +558,10 @@
         "basis": "Existing audited Rule Master; no new values inferred"
       },
       "contentHash": "d15c45c88c735941f335b884d71323dff97ea4f1bcbd5e765b5e19ddc614489b",
-      "fingerprint": "44e5fd54e3f70811f6e1e101ac852a09b54e0bfefb87f9ddaac3722cae362e58"
+      "fingerprint": "44e5fd54e3f70811f6e1e101ac852a09b54e0bfefb87f9ddaac3722cae362e58",
+      "indexFingerprints": {
+        "special": "9414efdb0ecf29ed09732f35d8a5496e426379f7f77f5262e995fe7d54ec861d"
+      }
     },
     {
       "id": "doc-99d95ccc95359084c63f",
@@ -569,7 +577,7 @@
       "affects": [
         "emergencyLoan"
       ],
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "lastContentCheck": "2026-10-06T01:33:29.384829Z",
       "status": "CURRENT",
       "mayAffectRules": false,
@@ -577,7 +585,10 @@
         "basis": "Existing audited Rule Master; no new values inferred"
       },
       "contentHash": "15b72b5357333ef95e9a5f259f7b5effefb40b8369ccfe374346bfe202f72a08",
-      "fingerprint": "5006e25151ba23212cc1023d67a35af8d1e9c0d5269d166dd8da774ebe6dd483"
+      "fingerprint": "5006e25151ba23212cc1023d67a35af8d1e9c0d5269d166dd8da774ebe6dd483",
+      "indexFingerprints": {
+        "emergency": "5006e25151ba23212cc1023d67a35af8d1e9c0d5269d166dd8da774ebe6dd483"
+      }
     },
     {
       "id": "doc-2e7c1c2be78fa7db7d6d",
@@ -595,15 +606,16 @@
       ],
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
       "lastContentCheck": "2026-10-06T01:53:18.800Z",
-      "status": "SUPERSEDED",
-      "mayAffectRules": false,
+      "status": "PENDING",
+      "mayAffectRules": true,
       "review": {
         "basis": "Existing audited Rule Master; no new values inferred"
       },
       "fingerprint": "d72e4fd3422ca1c0d0b09b5568b47e0f8ba450a12d9b8c212165c1a623952361",
       "contentHash": "8676f3e3976f6686e97a9f3cba8c09acde5f9bf93d4c6d0ec4246185414e89f2",
       "etag": null,
-      "contentError": null
+      "contentError": null,
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-0ae5b17a9f255aa6c03e",
@@ -621,15 +633,16 @@
       ],
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
       "lastContentCheck": "2026-10-06T01:53:18.800Z",
-      "status": "SUPERSEDED",
-      "mayAffectRules": false,
+      "status": "PENDING",
+      "mayAffectRules": true,
       "review": {
         "basis": "Existing audited Rule Master; no new values inferred"
       },
       "fingerprint": "a15e4902175a5d664425812d4dcffbe9ede06d2ac4949490680f020c4e1eca43",
       "contentHash": "82d5978501d35612a973f620b8f9e2762eb47402d5b00e1302f01c19f4a24d32",
       "etag": null,
-      "contentError": null
+      "contentError": null,
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-6c5e7124f6fcac61b4ae",
@@ -649,7 +662,7 @@
       "status": "CURRENT",
       "mayAffectRules": false,
       "contentHash": "d81e6388c3609c0a36ebc5984c031cf3c6b3c210db6888ec3a734ac8be502a18",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "lastContentCheck": "2026-10-06T01:33:29.384829Z",
       "review": {
         "primaryVerified": true,
@@ -661,7 +674,10 @@
         ],
         "limitation": "Monthly amount depends on a separate board announcement; no income table inferred."
       },
-      "fingerprint": "5e71f7714bdcd26f1cecef17c000f6ac368dafbbf32ebf5add3dd0d62e056bcf"
+      "fingerprint": "5e71f7714bdcd26f1cecef17c000f6ac368dafbbf32ebf5add3dd0d62e056bcf",
+      "indexFingerprints": {
+        "procedure": "5e71f7714bdcd26f1cecef17c000f6ac368dafbbf32ebf5add3dd0d62e056bcf"
+      }
     },
     {
       "id": "doc-278ae3cafb6d3c451d4b",
@@ -678,14 +694,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "f359f6cf6b569af5c964a37cc971b800faa14b237d4a9ae71776bc033c46a596",
       "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "lastContentCheck": "2026-10-06T01:53:18.800Z",
       "contentHash": "33aae193e72c0c6c67e186898c42c5359276fac88c7e2ded64c4aa2437606111",
       "etag": null,
-      "lastContentCheck": "2026-10-06T01:53:18.800Z",
-      "contentError": null
+      "contentError": null,
+      "indexFingerprints": {
+        "procedure": "f359f6cf6b569af5c964a37cc971b800faa14b237d4a9ae71776bc033c46a596"
+      }
     },
     {
       "id": "doc-025312d58623f50094b4",
@@ -702,14 +721,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "1d64d62c400bc1ca5645c7973e7ae4aea030bcca7325fa9a5d123bb0eb17dc5f",
       "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "lastContentCheck": "2026-10-06T01:53:18.800Z",
       "contentHash": "0e8c8d89b5b603404b07665f589282d9daf4e30af8cf3614efe1dc00c89e5d50",
       "etag": null,
-      "lastContentCheck": "2026-10-06T01:53:18.800Z",
-      "contentError": null
+      "contentError": null,
+      "indexFingerprints": {
+        "procedure": "1d64d62c400bc1ca5645c7973e7ae4aea030bcca7325fa9a5d123bb0eb17dc5f"
+      }
     },
     {
       "id": "doc-96e8ecef3675323be015",
@@ -726,10 +748,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "b0b6ed79eebbb760b58611d020ebb99722464916c60b7d603acb52c08fb8f1b6",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "b0b6ed79eebbb760b58611d020ebb99722464916c60b7d603acb52c08fb8f1b6"
+      },
+      "contentHash": "5b409611a4353870a2cc8db5a108ff00cb0cc91f378fc77082493f55ca5ba23f",
+      "etag": null,
+      "lastContentCheck": "2026-10-09T08:50:22.292Z",
+      "contentError": null
     },
     {
       "id": "doc-e590ab4ed195b477e324",
@@ -746,10 +775,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5350865585746e76d8b0b2405d4faae59afac5bf178520f49f2b5fb4ac9dd3b0",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "5350865585746e76d8b0b2405d4faae59afac5bf178520f49f2b5fb4ac9dd3b0"
+      },
+      "contentHash": "7f6758f25c5b110dc2e59cc19797e3b77c965af06b393f90f19615af08defe60",
+      "etag": null,
+      "lastContentCheck": "2026-10-09T08:50:22.292Z",
+      "contentError": null
     },
     {
       "id": "doc-a099580bf4282167fccb",
@@ -766,10 +802,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "99f16c2e5077c57c8c2a5803318a77de5d41394efba5d6dfa81b44c4d2aa3ac1",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "99f16c2e5077c57c8c2a5803318a77de5d41394efba5d6dfa81b44c4d2aa3ac1"
+      },
+      "contentHash": "82a70d550aebe9eeae9e86e2d06727c5779348943fd2d0a69e8ea10652d9b795",
+      "etag": null,
+      "lastContentCheck": "2026-10-09T08:50:22.292Z",
+      "contentError": null
     },
     {
       "id": "doc-9730eee8f9af00577e01",
@@ -786,10 +829,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "11875a9ca269672adadf516c3350061d094099976681469263f03c8cea2156d4",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "11875a9ca269672adadf516c3350061d094099976681469263f03c8cea2156d4"
+      },
+      "contentHash": "d245f7b91453f30249cdf78e8518b435f989dc0130a6887445be2f175400f660",
+      "etag": null,
+      "lastContentCheck": "2026-10-09T08:50:22.292Z",
+      "contentError": null
     },
     {
       "id": "doc-91118e0ac52e84f35e45",
@@ -806,10 +856,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d5439eaf1b549745165623fa9c27a5444ebfb7dc8e55f35caede1528a63457d4",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "d5439eaf1b549745165623fa9c27a5444ebfb7dc8e55f35caede1528a63457d4"
+      },
+      "contentHash": "5b5eb48cd1e9eb5b764e756d0467432d0560954105fa352a5476791718b2de1c",
+      "etag": null,
+      "lastContentCheck": "2026-10-09T08:50:22.292Z",
+      "contentError": null
     },
     {
       "id": "doc-0a15c8588cc42212eb8c",
@@ -826,10 +883,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "ae705ef96856f943a8b2a4af508465f98561530404ed1338fa14c03072b9592c",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "ae705ef96856f943a8b2a4af508465f98561530404ed1338fa14c03072b9592c"
+      },
+      "contentHash": "6e5cd1d2f16364bf38b1a36e90010cc642d60e05ec6dc8bed9c771b881c99a68",
+      "etag": null,
+      "lastContentCheck": "2026-10-09T08:50:22.292Z",
+      "contentError": null
     },
     {
       "id": "doc-27259d256c4e4f241253",
@@ -846,10 +910,13 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5b286673f5df95d19312b5b4b483f6ab1e9597e742429a876e05a479202cfadd",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "5b286673f5df95d19312b5b4b483f6ab1e9597e742429a876e05a479202cfadd"
+      }
     },
     {
       "id": "doc-f40af1e07ff826fcc13d",
@@ -866,10 +933,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "6762e32757409518190f79b2ace6220e080c59aa8d80e9e2c02281936f97896c",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "6762e32757409518190f79b2ace6220e080c59aa8d80e9e2c02281936f97896c"
+      },
+      "contentHash": "7a53682928269499837965b9292ee5470fd677d08bf4a2897ddccb153b2d7dc0",
+      "etag": null,
+      "lastContentCheck": "2026-10-09T08:50:22.292Z",
+      "contentError": null
     },
     {
       "id": "doc-3f49d967257d3392c3a8",
@@ -886,10 +960,17 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "bae0d9e3186cf27485054a5cdb407c9cac556a682c37714fb6f9d58edf91d5fd",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "bae0d9e3186cf27485054a5cdb407c9cac556a682c37714fb6f9d58edf91d5fd"
+      },
+      "contentHash": "c939e2d494b34494bb3b0c05a62d6f26811cc76914c0087da1056b9aecabe259",
+      "etag": null,
+      "lastContentCheck": "2026-10-09T08:50:22.292Z",
+      "contentError": null
     },
     {
       "id": "doc-7c4dd2362d37afcdbe4b",
@@ -906,10 +987,13 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "adab562a0349f33f014d99a2fed552fdd37b6775664a956a985fa224cc7dac91",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "adab562a0349f33f014d99a2fed552fdd37b6775664a956a985fa224cc7dac91"
+      }
     },
     {
       "id": "doc-8d8f4431e848554e2615",
@@ -926,10 +1010,13 @@
         "shares"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "2a388d7ca85e037ec33d0f60e890f967c8b3af22fd8ebf6567f51251fc182352",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "2a388d7ca85e037ec33d0f60e890f967c8b3af22fd8ebf6567f51251fc182352"
+      }
     },
     {
       "id": "doc-4a78c4fd9c234827f7cd",
@@ -946,10 +1033,13 @@
         "shares"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "ac7b9c2e7c277d73f24b573b6111bef4d5f801f3dc6e39d6bcfe9bdaf328aec3",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "ac7b9c2e7c277d73f24b573b6111bef4d5f801f3dc6e39d6bcfe9bdaf328aec3"
+      }
     },
     {
       "id": "doc-92a0b6bd57174bc97798",
@@ -966,10 +1056,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "670b0617858ff7e6cd79cbe73ecde2667ebd12bafb21114bd6f618c8455f1727",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "670b0617858ff7e6cd79cbe73ecde2667ebd12bafb21114bd6f618c8455f1727"
+      }
     },
     {
       "id": "doc-1273555c84161433119b",
@@ -986,10 +1079,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "26bfeab83f933b90c55e83ec596c7fcf6f6048ef53d435bfc00597c238c3cc32",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "26bfeab83f933b90c55e83ec596c7fcf6f6048ef53d435bfc00597c238c3cc32"
+      }
     },
     {
       "id": "doc-7a846384946ffb205f51",
@@ -1006,10 +1102,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "57678be6b8d871c8c5becd97a73df59dc7d2271b77e1433f55669dc8d559c71e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "57678be6b8d871c8c5becd97a73df59dc7d2271b77e1433f55669dc8d559c71e"
+      }
     },
     {
       "id": "doc-16f6770a2bf1e467ec28",
@@ -1026,7 +1125,7 @@
         "ordinaryLoan"
       ],
       "status": "SUPERSEDED",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "875705e4bd39455626c1675934d4b4ead6a0f960b2617e314fb4960d42424b47",
       "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
@@ -1034,7 +1133,10 @@
         "basis": "Primary PDF page 4, criteria 2566 clause 2.3: 30% or 5000 baht; historical text only. Exact last effective day not inferred from board text."
       },
       "contentHash": "2614473da1b1cc4e73813400a7498cd10a7a087929c517a2b7bc509aae948613",
-      "lastContentCheck": "2026-10-06T01:49:07.405431Z"
+      "lastContentCheck": "2026-10-06T01:49:07.405431Z",
+      "indexFingerprints": {
+        "procedure": "875705e4bd39455626c1675934d4b4ead6a0f960b2617e314fb4960d42424b47"
+      }
     },
     {
       "id": "doc-72935d1219d6e0622df4",
@@ -1051,10 +1153,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5a19eeb3bc4f99a282798ba6f092fd0f9da2e174f7120e114235ea7cdbddf7b5",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "5a19eeb3bc4f99a282798ba6f092fd0f9da2e174f7120e114235ea7cdbddf7b5"
+      }
     },
     {
       "id": "doc-4d63b23ad01e7a69a4b4",
@@ -1071,10 +1176,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "98fa5dcf9dce5165ae742771002b1d5f9871cb88aa73755230d24c87d9ed35f4",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "98fa5dcf9dce5165ae742771002b1d5f9871cb88aa73755230d24c87d9ed35f4"
+      }
     },
     {
       "id": "doc-fbfe47014336a2cb94f8",
@@ -1091,10 +1199,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "0228a2dde55a67df3f157388cba1f378c8e0a22e56b7c98bc4f32da4e4fefa69",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "0228a2dde55a67df3f157388cba1f378c8e0a22e56b7c98bc4f32da4e4fefa69"
+      }
     },
     {
       "id": "doc-4510c4fa1d9e18f4bfb9",
@@ -1111,10 +1222,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8aecc8f1b068a90a1af01077375ee42f6ba932edf293a0f887219492e42130cc",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "8aecc8f1b068a90a1af01077375ee42f6ba932edf293a0f887219492e42130cc"
+      }
     },
     {
       "id": "doc-ea9f9fee3cd8aa531b79",
@@ -1131,10 +1245,13 @@
         "emergencyLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8a7fc2fda5f79dc9b5e586595bb15fcdd0c9b604553f8c9bb3f1027df9bfd9ee",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "8a7fc2fda5f79dc9b5e586595bb15fcdd0c9b604553f8c9bb3f1027df9bfd9ee"
+      }
     },
     {
       "id": "doc-f63c6860836344db8a78",
@@ -1151,10 +1268,13 @@
         "emergencyLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "bf5659425b71b44bf05e0304e0d5d4177bf196d8655fd6ee693f6d66b14e04c5",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "bf5659425b71b44bf05e0304e0d5d4177bf196d8655fd6ee693f6d66b14e04c5"
+      }
     },
     {
       "id": "doc-65eb80d177b648e52bc5",
@@ -1173,10 +1293,13 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d31d7fab3121921948bccec40539c153d7404abfc9b1089b2c66ce4bbfb70b1e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "d31d7fab3121921948bccec40539c153d7404abfc9b1089b2c66ce4bbfb70b1e"
+      }
     },
     {
       "id": "doc-997280bafc1500a4c857",
@@ -1195,10 +1318,13 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "71b65b588d49ac680fbc0849d21aa307881fdd5c86d295b160630c158232921b",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "71b65b588d49ac680fbc0849d21aa307881fdd5c86d295b160630c158232921b"
+      }
     },
     {
       "id": "doc-89e8283abdd6fffa6356",
@@ -1217,10 +1343,13 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "039b3a6cf8655bd5b4c2e98f349b404ac7c739deee93753f721cd37a8e66d06d",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "039b3a6cf8655bd5b4c2e98f349b404ac7c739deee93753f721cd37a8e66d06d"
+      }
     },
     {
       "id": "doc-af4acf0aa479fd94a5fa",
@@ -1235,10 +1364,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "a965dea572aebe19687e940f442eeece1b97e19dc9a0bf2bd00bf44aa95dfaaf",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "a965dea572aebe19687e940f442eeece1b97e19dc9a0bf2bd00bf44aa95dfaaf"
+      }
     },
     {
       "id": "doc-47a782269ab02463e598",
@@ -1253,10 +1385,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "36f3fd08aebdfdc270a337f868ac4001d22303e4401370215dbf88da305c49f2",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "36f3fd08aebdfdc270a337f868ac4001d22303e4401370215dbf88da305c49f2"
+      }
     },
     {
       "id": "doc-0c267e6494588868228a",
@@ -1273,10 +1408,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "b49f366184f0db5a52e26d3bdf6da3cfb0ed2c35093e4815310c16b7e182addb",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "b49f366184f0db5a52e26d3bdf6da3cfb0ed2c35093e4815310c16b7e182addb"
+      }
     },
     {
       "id": "doc-ac86c263dd6c2fd68a00",
@@ -1293,10 +1431,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "ea2a22371b5c902df37ea96fc7dc6832322ed93c345534f7f00a176253ba4c49",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "ea2a22371b5c902df37ea96fc7dc6832322ed93c345534f7f00a176253ba4c49"
+      }
     },
     {
       "id": "doc-555fdf3f038a6f86211b",
@@ -1313,10 +1454,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "df6bd3c20f1cadd741ef4d9b8f3b2c6c8eb12cf82adf53e1ad9da054332af50b",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "df6bd3c20f1cadd741ef4d9b8f3b2c6c8eb12cf82adf53e1ad9da054332af50b"
+      }
     },
     {
       "id": "doc-666978b3e8db3048b4df",
@@ -1337,10 +1481,13 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8096b3612277340e556e881ac884a3f8e5acf5426497c0b8104705c78b0f9323",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "8096b3612277340e556e881ac884a3f8e5acf5426497c0b8104705c78b0f9323"
+      }
     },
     {
       "id": "doc-d29f9bb1dbdb3a267d99",
@@ -1361,10 +1508,13 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "db0ae1b2932df12508174ee88a24ec33800c3eff67c25e9dda5222e405049076",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "db0ae1b2932df12508174ee88a24ec33800c3eff67c25e9dda5222e405049076"
+      }
     },
     {
       "id": "doc-20120cec8048c1252046",
@@ -1381,10 +1531,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "2e4d5d569dd6885a9fa6b5a106b0222c3a96f70319fbbfad0a974a5fa42cf36f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "2e4d5d569dd6885a9fa6b5a106b0222c3a96f70319fbbfad0a974a5fa42cf36f"
+      }
     },
     {
       "id": "doc-daa391c226945e4a77e7",
@@ -1401,10 +1554,13 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "0cc4e4834f4928db2fb9f6d6c34476e6085774639d028ad1451645d412acf1e1",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "0cc4e4834f4928db2fb9f6d6c34476e6085774639d028ad1451645d412acf1e1"
+      }
     },
     {
       "id": "doc-2ebc35ac4690fade6ce8",
@@ -1422,10 +1578,13 @@
         "guarantor"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "6983f7bfa58e3cfa09ef75a42e806f5b148be510b7bff3bfbb7fd26c68f1cab1",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "6983f7bfa58e3cfa09ef75a42e806f5b148be510b7bff3bfbb7fd26c68f1cab1"
+      }
     },
     {
       "id": "doc-66a59015a24bec2a4565",
@@ -1440,10 +1599,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "75cf2b38ea0bb4144c1da4ba824b5daf5fcaa4dae4ff7ce7ad816fe1fa733eb1",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "75cf2b38ea0bb4144c1da4ba824b5daf5fcaa4dae4ff7ce7ad816fe1fa733eb1"
+      }
     },
     {
       "id": "doc-ab71484d9fee6ce3226d",
@@ -1458,10 +1620,13 @@
       "amendment": 2,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "58dd10a8c461e243f6f6e5412824772925d3a79f160acb7ade4fa34cdeb9cb7f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "58dd10a8c461e243f6f6e5412824772925d3a79f160acb7ade4fa34cdeb9cb7f"
+      }
     },
     {
       "id": "doc-fe5eb457ae250b9cc0b1",
@@ -1476,10 +1641,13 @@
       "amendment": 2,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d0652ce0768c7e2bc24340cd1d74fca9b513b1e4baf05a8e0139c589f98ea5c6",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "d0652ce0768c7e2bc24340cd1d74fca9b513b1e4baf05a8e0139c589f98ea5c6"
+      }
     },
     {
       "id": "doc-2a2ce0f39eb6d8f23577",
@@ -1494,10 +1662,13 @@
       "amendment": 3,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8273a356dcdd345666280eb2c6e1d01d0341527f34db75fa391466b2964936a8",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "8273a356dcdd345666280eb2c6e1d01d0341527f34db75fa391466b2964936a8"
+      }
     },
     {
       "id": "doc-7c491fbd060e0bb780c9",
@@ -1512,10 +1683,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "bc23bf73f331ea740e9098d5a17b8a0e8945a8052e7e863f3b43b1d380dc1603",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "bc23bf73f331ea740e9098d5a17b8a0e8945a8052e7e863f3b43b1d380dc1603"
+      }
     },
     {
       "id": "doc-0cab03c4ac04d11cc975",
@@ -1530,10 +1704,13 @@
       "amendment": 2,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "bf64325afd07f57ee3ef9e666c002799233ad305858c500dd0cb216d16b43621",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "bf64325afd07f57ee3ef9e666c002799233ad305858c500dd0cb216d16b43621"
+      }
     },
     {
       "id": "doc-98ad97a19f8e6754c01e",
@@ -1548,10 +1725,13 @@
       "amendment": 3,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "6a7fcd136689878a881e8407058e5c890600034d7175e8818be1ef48263922d3",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "6a7fcd136689878a881e8407058e5c890600034d7175e8818be1ef48263922d3"
+      }
     },
     {
       "id": "doc-137eb998fe193376691b",
@@ -1566,10 +1746,13 @@
       "amendment": 4,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "e42808aec8d836cf0c8272e5358bfc3fd98f55772130c29c2ba7943fc7c321c9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "e42808aec8d836cf0c8272e5358bfc3fd98f55772130c29c2ba7943fc7c321c9"
+      }
     },
     {
       "id": "doc-11c9c2ec0960da0a1597",
@@ -1584,10 +1767,13 @@
       "amendment": 4,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "07d3aacd9c29e595a0ebd7276426f144632360346fd7e0b2f50977bddb92f178",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "07d3aacd9c29e595a0ebd7276426f144632360346fd7e0b2f50977bddb92f178"
+      }
     },
     {
       "id": "doc-490ee14777c0f4fb3708",
@@ -1602,10 +1788,13 @@
       "amendment": 5,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "a080dc20cef28d2ced8fb134b8d552907c7d8b6524aceace0d5396071abca0c9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "a080dc20cef28d2ced8fb134b8d552907c7d8b6524aceace0d5396071abca0c9"
+      }
     },
     {
       "id": "doc-616a800147825a51a137",
@@ -1620,10 +1809,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d3ad834e6854c66f47e32a80717f23eddebd540a8e01cedca465eb064fde670f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "d3ad834e6854c66f47e32a80717f23eddebd540a8e01cedca465eb064fde670f"
+      }
     },
     {
       "id": "doc-a0b1d32034b7f67b9f8a",
@@ -1638,10 +1830,13 @@
       "amendment": 2,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "e9c8e602307fc5782990af868fcb0d357bf82f162ef432ba6d19765b274aade7",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "e9c8e602307fc5782990af868fcb0d357bf82f162ef432ba6d19765b274aade7"
+      }
     },
     {
       "id": "doc-34c0723f699fe7b87d1f",
@@ -1656,10 +1851,13 @@
       "amendment": 2,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "37e4a3c100958128eaee9f4dcab4bc855bc74c080dad091257b6ae6c3d300f29",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "37e4a3c100958128eaee9f4dcab4bc855bc74c080dad091257b6ae6c3d300f29"
+      }
     },
     {
       "id": "doc-070bc1813f9f44f6a0a8",
@@ -1674,10 +1872,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "43d140a3ba1f53c38ebf8b761de68a5edae94adce33f4cff4a1b9950a54b639a",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "43d140a3ba1f53c38ebf8b761de68a5edae94adce33f4cff4a1b9950a54b639a"
+      }
     },
     {
       "id": "doc-8f5db96571073adbb7e6",
@@ -1692,10 +1893,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "c35855cc2e60392558d34c42358e8b0e4119d18292451c5ba6c4381986d2ee9f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "c35855cc2e60392558d34c42358e8b0e4119d18292451c5ba6c4381986d2ee9f"
+      }
     },
     {
       "id": "doc-d1c0e52653be48a155ca",
@@ -1710,10 +1914,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "f4ae922489f83231e92f62dfeabe1910f46c9147c41d8063e4af40924bceefa6",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "f4ae922489f83231e92f62dfeabe1910f46c9147c41d8063e4af40924bceefa6"
+      }
     },
     {
       "id": "doc-9726fbabd5b757a4b048",
@@ -1728,10 +1935,13 @@
       "amendment": 2,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8873407c02a80e9d7f68e9fe052a207a9b2a4cd8d8c8e7828253fa76faead170",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "8873407c02a80e9d7f68e9fe052a207a9b2a4cd8d8c8e7828253fa76faead170"
+      }
     },
     {
       "id": "doc-af207a7320545099f775",
@@ -1746,10 +1956,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "6239d7152624fb10f5b4589cfdcbd3301e6efed6cca75d36c897b3e2c2c303a6",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "6239d7152624fb10f5b4589cfdcbd3301e6efed6cca75d36c897b3e2c2c303a6"
+      }
     },
     {
       "id": "doc-0a7ac871ba8bdd04c2ea",
@@ -1764,10 +1977,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "41da85dd2247f9299e916019baa6eba8b2b3d4aa8e632881d9334b971e40c606",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "41da85dd2247f9299e916019baa6eba8b2b3d4aa8e632881d9334b971e40c606"
+      }
     },
     {
       "id": "doc-459263fae29684b900f6",
@@ -1782,10 +1998,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "cb76bcb07bc997609f1a51dd6cfff36f4ec68a19d33e5c37ab78fd0d033b5a35",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "cb76bcb07bc997609f1a51dd6cfff36f4ec68a19d33e5c37ab78fd0d033b5a35"
+      }
     },
     {
       "id": "doc-bc5fd17109ac26793134",
@@ -1800,10 +2019,13 @@
       "amendment": 2,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "72b1d6472eba5d45749b18b4bfa040e35a9c2a06dc5b11a961369e3631fbb242",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "72b1d6472eba5d45749b18b4bfa040e35a9c2a06dc5b11a961369e3631fbb242"
+      }
     },
     {
       "id": "doc-4f97c7a24809618342a1",
@@ -1818,10 +2040,13 @@
       "amendment": 3,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "58b1a1d9cdd2a54897f7d1fbd158d76ad8f992d319ca5d42c61e5a87dbb66e91",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "58b1a1d9cdd2a54897f7d1fbd158d76ad8f992d319ca5d42c61e5a87dbb66e91"
+      }
     },
     {
       "id": "doc-24c6c3870cd865bad84c",
@@ -1836,10 +2061,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "deaa6f24c1b3fdf42758f272ed31298b713c790d1b2786cfab80f21976d8d40e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "deaa6f24c1b3fdf42758f272ed31298b713c790d1b2786cfab80f21976d8d40e"
+      }
     },
     {
       "id": "doc-5d2df1fc58bb3f2e540c",
@@ -1854,10 +2082,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5147f5825106b672420be96a16cb3d2a015d23263db3944cd663b459cad5d314",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "5147f5825106b672420be96a16cb3d2a015d23263db3944cd663b459cad5d314"
+      }
     },
     {
       "id": "doc-148c8f2d831c6b48e33f",
@@ -1875,10 +2106,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "79dc50f2b5c94b64eacc698174a2e68e226c5abc04dae5ca899aa87a17868475",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "procedure": "79dc50f2b5c94b64eacc698174a2e68e226c5abc04dae5ca899aa87a17868475"
+      }
     },
     {
       "id": "doc-f99480a21f96dce697dd",
@@ -1896,10 +2130,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d472537e5e565b6c362e4e0b373bb467c27a8cf9b2a1151f59a27f27249fc079",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "9d73e12e772fba5e4f5813276da86b6f2f75737e70ee62fb2ddac1b04f1e2493"
+      }
     },
     {
       "id": "doc-4e62094821f7af8fd87e",
@@ -1914,10 +2151,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "b48bc774a726fa6d127a9e1e03206a2fcd246e977cd3e5bc37493de4a70a2be6",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "b48bc774a726fa6d127a9e1e03206a2fcd246e977cd3e5bc37493de4a70a2be6"
+      }
     },
     {
       "id": "doc-10acc4c69c0809a29a0f",
@@ -1934,10 +2174,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5670d0660cbd72040b6b7a2f0ffca10ee154b8ea073fd14e2cc1ea1b672381a9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "5670d0660cbd72040b6b7a2f0ffca10ee154b8ea073fd14e2cc1ea1b672381a9"
+      }
     },
     {
       "id": "doc-63e7c75a6c1bffc18f81",
@@ -1955,10 +2198,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5023ad1e1582ae1daf0160504f2537be37ab695f804e4f6cc9fbbb949d056348",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "5023ad1e1582ae1daf0160504f2537be37ab695f804e4f6cc9fbbb949d056348"
+      }
     },
     {
       "id": "doc-58c4bb42a3df7df35f01",
@@ -1973,10 +2219,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "2f3ae9f1ab375bbdeb4f6dfe37fbc133fdd7b56889f78d6f23477debd1e58215",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "2f3ae9f1ab375bbdeb4f6dfe37fbc133fdd7b56889f78d6f23477debd1e58215"
+      }
     },
     {
       "id": "doc-30b254530ff6dc503f08",
@@ -1991,10 +2240,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "2a853f0ba2d55faf1da30cce1c2fef90958964838ea9bb6d90a96357f651d65c",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "2a853f0ba2d55faf1da30cce1c2fef90958964838ea9bb6d90a96357f651d65c"
+      }
     },
     {
       "id": "doc-04ffa9b9ee07937353c9",
@@ -2011,10 +2263,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "2f43d3949778be0d550a6eb26b058530669beab73ffebcf954aa96554f6d23d9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "2f43d3949778be0d550a6eb26b058530669beab73ffebcf954aa96554f6d23d9"
+      }
     },
     {
       "id": "doc-c5854ce6683883a17f9e",
@@ -2033,10 +2288,13 @@
         "guarantor"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "a7794a7f8d355276235f7690aea2fa026a2757cf7be601d6e611024064d40aef",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "a7794a7f8d355276235f7690aea2fa026a2757cf7be601d6e611024064d40aef"
+      }
     },
     {
       "id": "doc-979940a11e73c88882d7",
@@ -2051,10 +2309,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "c9375d03b807cf5c3ebe91ca132d43d71350ebdd1a55ddd960e1e7f13833f61c",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "c9375d03b807cf5c3ebe91ca132d43d71350ebdd1a55ddd960e1e7f13833f61c"
+      }
     },
     {
       "id": "doc-2c176ff510fb974b07aa",
@@ -2072,10 +2333,13 @@
         "dividendPatronage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "57d28e28741100e6850f237f2e03401b2cf6339be00806a65ac45220dc2f151e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "57d28e28741100e6850f237f2e03401b2cf6339be00806a65ac45220dc2f151e"
+      }
     },
     {
       "id": "doc-1b8b1efdaa83c1b06210",
@@ -2090,10 +2354,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "e7618f064c955e5be16b6f3e9becea39d4f0472601745286e22c72ecb6afc413",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "e7618f064c955e5be16b6f3e9becea39d4f0472601745286e22c72ecb6afc413"
+      }
     },
     {
       "id": "doc-a1fdbfe5fd35a821b0cb",
@@ -2111,10 +2378,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "67ba7c21047e21fba4f6a5c43aac2c0616991c5d94ee4ef25ee7332c5a93eeec",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "67ba7c21047e21fba4f6a5c43aac2c0616991c5d94ee4ef25ee7332c5a93eeec"
+      }
     },
     {
       "id": "doc-104988cd9212220458b4",
@@ -2131,10 +2401,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8d1a8b967b75c38ad77c02ea06e667455c57bee35d4fe198f828595722d03e2a",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "8d1a8b967b75c38ad77c02ea06e667455c57bee35d4fe198f828595722d03e2a"
+      }
     },
     {
       "id": "doc-19bbc3f20b975985dd04",
@@ -2149,10 +2422,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "c48480504c6bee40f0c3bb5f26edbc44028170aa1f085eff9e30cbe5d3b1e29d",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "c48480504c6bee40f0c3bb5f26edbc44028170aa1f085eff9e30cbe5d3b1e29d"
+      }
     },
     {
       "id": "doc-0e747c9c5efe3c94157f",
@@ -2167,10 +2443,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5b0651d6ad2ba6a468f5c919108cd432705ebd1ce57323d0c9752158e843a713",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "5b0651d6ad2ba6a468f5c919108cd432705ebd1ce57323d0c9752158e843a713"
+      }
     },
     {
       "id": "doc-e5073c4db518961cb018",
@@ -2188,10 +2467,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8786fa4ad1674ba0b364270a52160d382c29ff4fe937973ab40567572dca792b",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "8786fa4ad1674ba0b364270a52160d382c29ff4fe937973ab40567572dca792b"
+      }
     },
     {
       "id": "doc-a36a9bf3b5b5e5f79e4b",
@@ -2208,10 +2490,13 @@
         "qualityOfLife"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5f14d2a6f5a461fa3f3ffe9dd0a1a0d2cee121467d6b5ea05f6a9d1628810235",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "5f14d2a6f5a461fa3f3ffe9dd0a1a0d2cee121467d6b5ea05f6a9d1628810235"
+      }
     },
     {
       "id": "doc-8455c9486f7167972341",
@@ -2228,10 +2513,13 @@
         "shares"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "c1a0718fb8c2e26a9acc478eac6d52b26945d4c55da16d644465069587b12ece",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "c1a0718fb8c2e26a9acc478eac6d52b26945d4c55da16d644465069587b12ece"
+      }
     },
     {
       "id": "doc-25074c5a4cceef13751f",
@@ -2246,10 +2534,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "a402b994fd5323d4159df785175650c3f615e38d19ec3ebed3c3f1c9f232e88e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "a402b994fd5323d4159df785175650c3f615e38d19ec3ebed3c3f1c9f232e88e"
+      }
     },
     {
       "id": "doc-1c93ef013d3b7acf1e19",
@@ -2264,10 +2555,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "f53356ecfe7ee3f6914b4697c4d50142eacdd3926d2d6edf4d5ed6824bdb3f1e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "f53356ecfe7ee3f6914b4697c4d50142eacdd3926d2d6edf4d5ed6824bdb3f1e"
+      }
     },
     {
       "id": "doc-7d3217b0f143e008f4dd",
@@ -2282,10 +2576,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d8118303c55ac122ea72a83936b76f615370a3e16e8a7c92e21a89227be2f8bf",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "d8118303c55ac122ea72a83936b76f615370a3e16e8a7c92e21a89227be2f8bf"
+      }
     },
     {
       "id": "doc-96ba5f2b2707349905a6",
@@ -2303,10 +2600,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "6757c57b08c7ffaaa6c21da7c8fed693a25520087a9c84be4e35280f92359c31",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "6757c57b08c7ffaaa6c21da7c8fed693a25520087a9c84be4e35280f92359c31"
+      }
     },
     {
       "id": "doc-35ff74a254736cb77fb2",
@@ -2321,10 +2621,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "657b9b110130ff237b10dcbd30da7876b7cc50d25ea1f116549254594efb3b3d",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "657b9b110130ff237b10dcbd30da7876b7cc50d25ea1f116549254594efb3b3d"
+      }
     },
     {
       "id": "doc-fc577012699a24aafc81",
@@ -2342,10 +2645,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "3005e933afb00ebbbf881be938c7597f090451ce6077316de5e20dd002f9e8d8",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "3005e933afb00ebbbf881be938c7597f090451ce6077316de5e20dd002f9e8d8"
+      }
     },
     {
       "id": "doc-13c984dab4abfaf1e835",
@@ -2360,10 +2666,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "e79487fe5b4f4cd952e8ffe245e86a9601a395ac4e3c587e4c6f91bceded4f47",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "e79487fe5b4f4cd952e8ffe245e86a9601a395ac4e3c587e4c6f91bceded4f47"
+      }
     },
     {
       "id": "doc-40ce0012d970ca3e5876",
@@ -2378,10 +2687,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5fa0f15a9451fbc8f75894cb6a3590edfed4c89a0a98631d7c8c9d66a93df3ae",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "5fa0f15a9451fbc8f75894cb6a3590edfed4c89a0a98631d7c8c9d66a93df3ae"
+      }
     },
     {
       "id": "doc-5c17a57abc1ccbbca259",
@@ -2399,10 +2711,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "0836aa6dcfb50056dc914d959f044e8cb7309fa8ab4cba2924823672b588c0b0",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "0836aa6dcfb50056dc914d959f044e8cb7309fa8ab4cba2924823672b588c0b0"
+      }
     },
     {
       "id": "doc-57b740e19084ecc3068d",
@@ -2417,10 +2732,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8c8c38c7ec680ef91e8836a0bd2d0d7ac062e73594fa216c26270df454f1ec91",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "8c8c38c7ec680ef91e8836a0bd2d0d7ac062e73594fa216c26270df454f1ec91"
+      }
     },
     {
       "id": "doc-68f1403176c5863f01db",
@@ -2437,10 +2755,13 @@
         "shares"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d2e5b4c48b472cd98a3569cff77fd7fda13b817c3cda9b8018dfbcf7d58978cf",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "d2e5b4c48b472cd98a3569cff77fd7fda13b817c3cda9b8018dfbcf7d58978cf"
+      }
     },
     {
       "id": "doc-0f063ef7443f1cd71701",
@@ -2461,10 +2782,13 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5658f4764aa80108c4b111409eb0fe6a2960fc8e003dd9c44fc71dfd4bcfbb6f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "5658f4764aa80108c4b111409eb0fe6a2960fc8e003dd9c44fc71dfd4bcfbb6f"
+      }
     },
     {
       "id": "doc-6d8db22a980a7583fdfc",
@@ -2479,10 +2803,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "4204178e2f87ca6f369d4b34d673e45633cc59c0d0353ad5cf9cc56d762135a2",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "4204178e2f87ca6f369d4b34d673e45633cc59c0d0353ad5cf9cc56d762135a2"
+      }
     },
     {
       "id": "doc-0b135ee801ea59780c30",
@@ -2497,10 +2824,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "7a5a00b30f35bb697fe4ef9af92c0020dd6819eb4a565b4e30d86ed1f323d7a9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "7a5a00b30f35bb697fe4ef9af92c0020dd6819eb4a565b4e30d86ed1f323d7a9"
+      }
     },
     {
       "id": "doc-78b82a6f6a8e3f1b0bc8",
@@ -2518,10 +2848,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "c611e67c3658bbc2109f1f440a9fec902f860f2c01fe59f9a189ef587ef8bcca",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "c611e67c3658bbc2109f1f440a9fec902f860f2c01fe59f9a189ef587ef8bcca"
+      }
     },
     {
       "id": "doc-ff47d961cfd642feaa8f",
@@ -2536,10 +2869,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d2d98121f156b96bdf59eebbdd0b6f4a6219363a349831b869b8b6fa09e749db",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "d2d98121f156b96bdf59eebbdd0b6f4a6219363a349831b869b8b6fa09e749db"
+      }
     },
     {
       "id": "doc-92929ab6fe2bf25bac85",
@@ -2554,10 +2890,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "eaf023355a741c35db984e73daa0c17fb33b881e73a0d7b7be1674dc206f17f0",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "eaf023355a741c35db984e73daa0c17fb33b881e73a0d7b7be1674dc206f17f0"
+      }
     },
     {
       "id": "doc-776e46ec457ab2fb9c37",
@@ -2574,10 +2913,13 @@
         "qualityOfLife"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "842ffa28e3bf401877590d4c18e2178f17e552de07bad167f9ac709b1a989c28",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "842ffa28e3bf401877590d4c18e2178f17e552de07bad167f9ac709b1a989c28"
+      }
     },
     {
       "id": "doc-4d3daf8696ba6c551e37",
@@ -2592,10 +2934,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "3a1ca6449e9ac588cff21bb1be74ad0657eb7523e69760c5269f616d59f527fe",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "3a1ca6449e9ac588cff21bb1be74ad0657eb7523e69760c5269f616d59f527fe"
+      }
     },
     {
       "id": "doc-230338ca335a1f754edd",
@@ -2610,10 +2955,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "ced7b7d1c32862312f77e7163ba3379f4fffe2ea7af9b970a95c1786fa01578e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "ced7b7d1c32862312f77e7163ba3379f4fffe2ea7af9b970a95c1786fa01578e"
+      }
     },
     {
       "id": "doc-6a33c87096f1a03cfc7e",
@@ -2631,10 +2979,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "527006acb4cf6a9389cb026beb5f66ca670c1e21f28597d2d4575eb73051518b",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "527006acb4cf6a9389cb026beb5f66ca670c1e21f28597d2d4575eb73051518b"
+      }
     },
     {
       "id": "doc-d209129c61c8e7968994",
@@ -2649,10 +3000,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "b595c3e09d900a6e6ed3de13313bdf9f25c5019d040c0540182c44cb41dc9a22",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "notices": "b595c3e09d900a6e6ed3de13313bdf9f25c5019d040c0540182c44cb41dc9a22"
+      }
     },
     {
       "id": "doc-dc84a706a3d7c33e4c2f",
@@ -2669,10 +3023,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "4afd816ccd207e392cdcb77660cafb953e1da820b55b27b6efbaac77d1a7e20c",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "4afd816ccd207e392cdcb77660cafb953e1da820b55b27b6efbaac77d1a7e20c"
+      }
     },
     {
       "id": "doc-ccec0cbdfebb8855f19c",
@@ -2689,10 +3046,13 @@
         "educationLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5301f30eb5228aa1264c4ec94f81b9730718bb2618eea51ba62c62b0c8596c34",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "5301f30eb5228aa1264c4ec94f81b9730718bb2618eea51ba62c62b0c8596c34"
+      }
     },
     {
       "id": "doc-c36a49e913e11f2aaa7c",
@@ -2710,10 +3070,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "ab44901edb9c1bce08650986bf4aedd2c7570cf87e1c3748943784dcc32248f9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "ab44901edb9c1bce08650986bf4aedd2c7570cf87e1c3748943784dcc32248f9"
+      }
     },
     {
       "id": "doc-ecc6a879773c7da4cf22",
@@ -2730,10 +3093,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5796ace73c942a810d31429b6d8a9653550b47851803114d5c804a3fa11f36a9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "5796ace73c942a810d31429b6d8a9653550b47851803114d5c804a3fa11f36a9"
+      }
     },
     {
       "id": "doc-637ad19f4dc9be32adcc",
@@ -2750,10 +3116,13 @@
         "disasterLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "e1e3b249e1aac88caab382a867cad7b98886de0dfb022416d5f599ecdb46d3f9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "e1e3b249e1aac88caab382a867cad7b98886de0dfb022416d5f599ecdb46d3f9"
+      }
     },
     {
       "id": "doc-ac9bf65a6478bb94cd64",
@@ -2771,10 +3140,13 @@
         "guarantor"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "4cf62a2f21c7bcd825906eda7e8d2d69993970caaa0d772e82bc122dd01970b0",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "4cf62a2f21c7bcd825906eda7e8d2d69993970caaa0d772e82bc122dd01970b0"
+      }
     },
     {
       "id": "doc-3ed7cc53e63f3184571a",
@@ -2791,10 +3163,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "061f8d6c05cc14651dbeeee474532069dfd806b18971d7f36de592f8d8e6aecd",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "a10ffcc8248c50c72faf09d0f3823424e37e4236bc3db109ef1fe1fb3a90126a"
+      }
     },
     {
       "id": "doc-c4ec70e384c890ae62c7",
@@ -2813,10 +3188,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "465bc3895202f51a5421baa82a832741b3246b802f8569dfa0f2556618020114",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "0f8db084db6cf37d30a84adbd5ac54b5e6b642cec4bb7d966d3e8ad22218fbd6"
+      }
     },
     {
       "id": "doc-2103ba4da2cf1f68a64c",
@@ -2834,10 +3212,13 @@
         "guarantor"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "ac3e952844cf75c638e7f3616d59c75f8415fe4e992d7b87f60cfc49bcdae251",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "2dee971b0a0d0e48f9b9bd0b5bc0345b9b185e72a82bb776195ffe298664eb3a"
+      }
     },
     {
       "id": "doc-2b74a1ba4639975aaeb1",
@@ -2854,10 +3235,13 @@
         "educationLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d65d5d2047dc0ec7ebd8431bcf999dd70199c2f39f8711c85b20b64405bc2ddd",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "0cdb330f0c9b5f7c13aca68750b2a25a8982d571f4f8c8e43d3f2ccd7aad5a04"
+      }
     },
     {
       "id": "doc-1f7a9387ebb04f2f81f1",
@@ -2874,10 +3258,13 @@
         "disasterLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "17177b8f8eb4986bd6f9ad20cdc02f75b67653d49566f3cd54265e8fcd352858",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "fdf4959352829a0626be22acf9a2f27ebc8001f0e8e723008a387d52a7bbe481"
+      }
     },
     {
       "id": "doc-8158348139edda052c52",
@@ -2899,12 +3286,17 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "fc6889410842aafdc9809628b366166d21e5145224ebc703a0f640cb40b05461",
       "pendingReason": "SAME_PRIMARY_URL_LINK_LABEL_DIFFERS_BETWEEN_INDEXES",
       "review": {
         "basis": "Index label difference only; URL matches existing interestRatesCurrent source"
+      },
+      "indexFingerprints": {
+        "ordinary": "cd844169b855a186f381cf2ec4e5d0aef1bfb8346dfd821b4e1b9ffd27a87311",
+        "emergency": "cd844169b855a186f381cf2ec4e5d0aef1bfb8346dfd821b4e1b9ffd27a87311",
+        "special": "e2bcb95aa863027fafe5f161091cdf8c78cef47be551ed2ec5c79166d0058ecc"
       }
     },
     {
@@ -2923,10 +3315,13 @@
         "guarantor"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "36fc4af1aaee1e8772d34a97dad25fd72e842e25ad26ff6ee0540db5a34a63d9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "36fc4af1aaee1e8772d34a97dad25fd72e842e25ad26ff6ee0540db5a34a63d9"
+      }
     },
     {
       "id": "doc-60aa0e2f4a3ac1b0ce8d",
@@ -2944,10 +3339,13 @@
         "guarantor"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "6092cf421e153cdfb4dfcd7d672ead8371bb43a789ba534e96455e7a8ca5c0d2",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "6092cf421e153cdfb4dfcd7d672ead8371bb43a789ba534e96455e7a8ca5c0d2"
+      }
     },
     {
       "id": "doc-309064b5ff9812e9cc40",
@@ -2964,10 +3362,13 @@
         "disasterLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "98464426258abc6990e086bc67a9172de84adffbfdc72dfc7ac2e71196d40e9e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "98464426258abc6990e086bc67a9172de84adffbfdc72dfc7ac2e71196d40e9e"
+      }
     },
     {
       "id": "doc-6749fb5f49dc69d12745",
@@ -2984,10 +3385,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "35be07daba50232c78d282d4613dd458a672eaa63c83899d98a0962bf53aa41e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "fda696325463b89a749e7dcd4f3364d4fcc4eac18ba1d59b97f6d1567a521c36"
+      }
     },
     {
       "id": "doc-ee9fa051316b28caaf25",
@@ -3004,10 +3408,13 @@
         "educationLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d5da96bbbcba2ac1426af299754be8a1d64fd78b3cee815760a2a882ba02b4fe",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "d5da96bbbcba2ac1426af299754be8a1d64fd78b3cee815760a2a882ba02b4fe"
+      }
     },
     {
       "id": "doc-5b80e49f5d21619df5ca",
@@ -3026,10 +3433,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "fbcc173667edb137a872f48d287491b251668ce0920f4195e2d66c8cb4e3e8cd",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "fbcc173667edb137a872f48d287491b251668ce0920f4195e2d66c8cb4e3e8cd"
+      }
     },
     {
       "id": "doc-d74669bfcd3b22599390",
@@ -3046,10 +3456,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "9de3aeee74815a67536188105c023cc75661dd056697273611a786bf087d0e98",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "9de3aeee74815a67536188105c023cc75661dd056697273611a786bf087d0e98"
+      }
     },
     {
       "id": "doc-c8483abba8ddc7d55fc6",
@@ -3067,10 +3480,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8fc66f50d761073974f1eee0d76d31c03a3eed72974499f141f9d52ac0fe339b",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "8fc66f50d761073974f1eee0d76d31c03a3eed72974499f141f9d52ac0fe339b"
+      }
     },
     {
       "id": "doc-614d0d6ed294d3554c98",
@@ -3087,10 +3503,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "07e6470f199e7f9fdb4723bdf53639d5de6e54f1cd6b32a2ac78e0ab854a150e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "07e6470f199e7f9fdb4723bdf53639d5de6e54f1cd6b32a2ac78e0ab854a150e"
+      }
     },
     {
       "id": "doc-2df5a1137693c42d8326",
@@ -3108,10 +3527,13 @@
         "guarantor"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "6cb6b93706253f9b22dc6690fdabcd39e8f187923b443ddd0a8b095c952e663e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "6cb6b93706253f9b22dc6690fdabcd39e8f187923b443ddd0a8b095c952e663e"
+      }
     },
     {
       "id": "doc-19c69a8cda1e4c407e6b",
@@ -3126,10 +3548,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "dbc9e891bff98e66efa9b19c9a158fc5a472d13e3bb283c9f3c9f10952bd8f68",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "ordinary": "dbc9e891bff98e66efa9b19c9a158fc5a472d13e3bb283c9f3c9f10952bd8f68"
+      }
     },
     {
       "id": "doc-6a67de8617dc3a5eba1e",
@@ -3146,10 +3571,13 @@
         "emergencyLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "2ed2fc991b4b59b662b0b44052cab496250471c8c225829550085ea7f769e86e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "emergency": "59b7489f956247f7dc6bbbf0008682734b1ce72a50909f30bee645d8e3516ad8"
+      }
     },
     {
       "id": "doc-929ef166b401e6e6d99d",
@@ -3167,9 +3595,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "684fe96810cb0e449aa16fd9206a27b050517c3ac7f715bac4ebe2580d17a42b",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-6faade127f8072968d44",
@@ -3187,9 +3615,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "9fb971058fe233c9c24204bd5e23b8b695e02a9428b4d937b563148ab4a9cece",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-d1e619f18051a46838aa",
@@ -3206,10 +3634,13 @@
         "emergencyLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8c4cb540641dedff2507afe6cf541296b20315742a37728d93e6000b0f6cc33f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "emergency": "8c4cb540641dedff2507afe6cf541296b20315742a37728d93e6000b0f6cc33f"
+      }
     },
     {
       "id": "doc-e5c7a5b77f2a20c8f253",
@@ -3226,10 +3657,13 @@
         "specialHousing"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "03f85ef5a8c77915c57e527c9354bbb8e8a8f2a6910be671f7146f987597417e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "03f85ef5a8c77915c57e527c9354bbb8e8a8f2a6910be671f7146f987597417e"
+      }
     },
     {
       "id": "doc-14b75c8788f17335ebcc",
@@ -3246,10 +3680,13 @@
         "specialHousing"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "3d1153944ee982a40299bf5fc525b756780008706eba918052edfe8061558ea7",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "3d1153944ee982a40299bf5fc525b756780008706eba918052edfe8061558ea7"
+      }
     },
     {
       "id": "doc-3b42bf2c26b9c2c352e1",
@@ -3267,9 +3704,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "0eddb6097bc3b7bfeee1482fdeec94271dbcd1f914b49c4948c8c2e36eb04d83",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-22d26d603411651c4ade",
@@ -3287,9 +3724,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "5bdf1f9d5019110abb0c5a5ad64748b475bdeb505f02fc2fc828eccb8693250d",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-6eec34aa5d2384904844",
@@ -3306,10 +3743,13 @@
         "specialHousing"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "459d9d7b5efea8170c5c354ec5b80c4bf696b04f2e7426e780250ca00199f85b",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "b3b4e81a26c976ef2840aab3d70c529971ca29efaf1779b6d0cdfb507d2d8652"
+      }
     },
     {
       "id": "doc-10b4de67336525aae0d9",
@@ -3324,10 +3764,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "c560f7fa6f9ba2c7ae319b407b8d31788e2a15a61bed0fc794ee9e46c0d9e7ae",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "c560f7fa6f9ba2c7ae319b407b8d31788e2a15a61bed0fc794ee9e46c0d9e7ae"
+      }
     },
     {
       "id": "doc-059f96cb933b3747177f",
@@ -3342,10 +3785,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "83365b8af0703ca8aff83ea10f55e4e212c07cbdf918cab9e950e8602faa58f3",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "83365b8af0703ca8aff83ea10f55e4e212c07cbdf918cab9e950e8602faa58f3"
+      }
     },
     {
       "id": "doc-6c5037ae3463820e3c12",
@@ -3362,10 +3808,13 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "a43bc452277c69fefc56fbce68a8f7fb397ec7a597ea686cc2d7ab3bfb5f1f70",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "a43bc452277c69fefc56fbce68a8f7fb397ec7a597ea686cc2d7ab3bfb5f1f70"
+      }
     },
     {
       "id": "doc-a896b9cc6ca13e54cb79",
@@ -3383,9 +3832,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "0c75387c1611e70e79d758d194169f96d46148d62619e249d4f00440e7354879",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-ae2368ed41f382dad76c",
@@ -3403,9 +3852,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "7875459759c72883156ba9fed6fcbfc0b922ca67e799434c88fa0b6439181788",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-c27ab7cac7381afb6ac4",
@@ -3422,10 +3871,13 @@
         "redeemMortgage"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "0b22725866f32b1986503f82fec0809e692d75b34e73461ddb6395c7425fefbb",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "0b22725866f32b1986503f82fec0809e692d75b34e73461ddb6395c7425fefbb"
+      }
     },
     {
       "id": "doc-4dd3710056e2126b1004",
@@ -3442,10 +3894,13 @@
         "qualityOfLife"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8ba0cfcde6a86200c441ebabe9174c7c8bfc7785548be5c8f9a5350c6dfe478f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "8ba0cfcde6a86200c441ebabe9174c7c8bfc7785548be5c8f9a5350c6dfe478f"
+      }
     },
     {
       "id": "doc-c4b7865377b56cabc608",
@@ -3464,9 +3919,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "96449e19bdbdad32e51da24b75bcc98831c6c1296c0c5d542eec1422b7e08bcd",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-19e555fabf66c2e87ee9",
@@ -3485,9 +3940,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "fda0706c2a37459482bfa5f9dea66c2b2336b1d6cc4535429bdacbfaf2f18539",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-207bd7f5f81fdff63657",
@@ -3505,10 +3960,13 @@
         "guarantor"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5816c0da1af64405fed826f5d54e4a9b215b89090616a1f9cd0755a4e266d652",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "special": "5816c0da1af64405fed826f5d54e4a9b215b89090616a1f9cd0755a4e266d652"
+      }
     },
     {
       "id": "doc-f4b8fa8489c6e518c21b",
@@ -3527,9 +3985,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "eddac44e6c41a638f6d960c24727b84752ce7accc32ce92024f281ae5f53a9ef",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-8f7ccfcd0375a9c452f2",
@@ -3548,9 +4006,9 @@
       ],
       "status": "PENDING",
       "lastCheckedAt": "2026-10-06T01:39:19.895Z",
-      "mayAffectRules": false,
+      "mayAffectRules": true,
       "fingerprint": "a02ff6dde04638266dede379aaa698258f97c29a6525fb75898f53f03a83129e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "PRIMARY_LINK_REMOVED"
     },
     {
       "id": "doc-651c9a89ca928aeb1cf3",
@@ -3589,10 +4047,13 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "97b1c8eabd7ff7022e5c56565bf87ca2975761d9edb72f7981da78743f45705f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "97b1c8eabd7ff7022e5c56565bf87ca2975761d9edb72f7981da78743f45705f"
+      }
     },
     {
       "id": "doc-18e1f298ed7705d92a45",
@@ -3629,10 +4090,13 @@
         "membership"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "0d47f9995d40c397cea628083bfbd4109efeabc5bd804c127aed28a2a0db2404",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "0d47f9995d40c397cea628083bfbd4109efeabc5bd804c127aed28a2a0db2404"
+      }
     },
     {
       "id": "doc-6e0905cb6da5c6ed2fa7",
@@ -3649,10 +4113,13 @@
         "ordinaryLoan"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "cd1544a171c1b49e1e58e3d2f83352851f63101e87381b03253637756fcd4551",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "cd1544a171c1b49e1e58e3d2f83352851f63101e87381b03253637756fcd4551"
+      }
     },
     {
       "id": "doc-07f0bd26b2f4ea2c1854",
@@ -3667,10 +4134,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "0c44a65da359b5f25a55a0313d9d44110b6161a28d2f3ed08c1199fefe717f6d",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "0c44a65da359b5f25a55a0313d9d44110b6161a28d2f3ed08c1199fefe717f6d"
+      }
     },
     {
       "id": "doc-4dfb698037878008c095",
@@ -3687,10 +4157,13 @@
         "resignation"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "e15f2c22d3ec8232a4df29f0a6dba5ed91ea4cb5d78235b672348bba77492ee9",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "e15f2c22d3ec8232a4df29f0a6dba5ed91ea4cb5d78235b672348bba77492ee9"
+      }
     },
     {
       "id": "doc-0f171620684a2c903f74",
@@ -3705,10 +4178,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "800364f1f501a672b1de413867f63e3de3fec250fad2e5d98e59917dbf918f40",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "800364f1f501a672b1de413867f63e3de3fec250fad2e5d98e59917dbf918f40"
+      }
     },
     {
       "id": "doc-d0d34f6860418c426d52",
@@ -3725,10 +4201,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "4ac3e05f9da3f635507bed5adbe6a2a06dc325d63fc69da451636d0e07282995",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "4ac3e05f9da3f635507bed5adbe6a2a06dc325d63fc69da451636d0e07282995"
+      }
     },
     {
       "id": "doc-3b20ee5666352307103f",
@@ -3745,10 +4224,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "8f6f8fb1009b73638fe4b2d1f5499011fa38e770c026bc2c679cfd7b083a77cd",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "8f6f8fb1009b73638fe4b2d1f5499011fa38e770c026bc2c679cfd7b083a77cd"
+      }
     },
     {
       "id": "doc-b6e13f4916b70048704a",
@@ -3783,10 +4265,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "2929b1fc5df8012dc673494c4e74dcb5260a94af0f0622814f366c7a018b631d",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "2929b1fc5df8012dc673494c4e74dcb5260a94af0f0622814f366c7a018b631d"
+      }
     },
     {
       "id": "doc-e9304766271a0fcf7714",
@@ -3801,10 +4286,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "e346342fd87ad0cd07106c4f73b8a31060f2727210f2b34121c4a317463e3232",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "e346342fd87ad0cd07106c4f73b8a31060f2727210f2b34121c4a317463e3232"
+      }
     },
     {
       "id": "doc-6094524de18c1eec862f",
@@ -3819,10 +4307,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "1b320c3646c7afeb9e9eab544a898509fd3a5db24d0b134df6094bc713a3bd4c",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "1b320c3646c7afeb9e9eab544a898509fd3a5db24d0b134df6094bc713a3bd4c"
+      }
     },
     {
       "id": "doc-dd4e4fad27c78d121dbb",
@@ -3839,10 +4330,13 @@
         "shares"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "4c76f5b3d0a6643a0580e2c6994d7a535e29bcedd2f8ef98c2cf20af6c6b8f46",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "4c76f5b3d0a6643a0580e2c6994d7a535e29bcedd2f8ef98c2cf20af6c6b8f46"
+      }
     },
     {
       "id": "doc-306567542d9ca14885cd",
@@ -3859,10 +4353,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "4d92c6653e3a817f48e432ced685f94016155d9f26891e2ec6a0c1c13110262d",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "member": "4d92c6653e3a817f48e432ced685f94016155d9f26891e2ec6a0c1c13110262d"
+      }
     },
     {
       "id": "doc-0bdee7a1211d9f36ac5f",
@@ -3879,10 +4376,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "aeb0de01008ab98fae0845c076389e612013c6a767e804cc04f1faf828e3f2aa",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "aeb0de01008ab98fae0845c076389e612013c6a767e804cc04f1faf828e3f2aa"
+      }
     },
     {
       "id": "doc-641b6c35c87d893b9f81",
@@ -3899,10 +4399,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "5883e05d5479f2e4807dfb64b68e53fa5c6cc0cfa11c62f0ebe2a61aab8f653e",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "5883e05d5479f2e4807dfb64b68e53fa5c6cc0cfa11c62f0ebe2a61aab8f653e"
+      }
     },
     {
       "id": "doc-c797f7304e5a2eeed536",
@@ -3919,10 +4422,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "0d785efeb478fdd3ba6c90252b173956b79ee911b23e7bd3e872499ac0ac6e26",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "0d785efeb478fdd3ba6c90252b173956b79ee911b23e7bd3e872499ac0ac6e26"
+      }
     },
     {
       "id": "doc-1d1b823f62367b8ac76b",
@@ -3939,10 +4445,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "9ac8983cd73c12f09e963f24d66fc59817201256026e1a2bda636161c0506577",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "9ac8983cd73c12f09e963f24d66fc59817201256026e1a2bda636161c0506577"
+      }
     },
     {
       "id": "doc-6d2dd2b4c2ff9bb52767",
@@ -3959,10 +4468,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "47fd2db1d36fbf615cc65e3e9e70e29bc086406768ccc7091523547ca9f23dde",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "47fd2db1d36fbf615cc65e3e9e70e29bc086406768ccc7091523547ca9f23dde"
+      }
     },
     {
       "id": "doc-2bda8b150e6ede30db0b",
@@ -3977,10 +4489,13 @@
       "amendment": null,
       "affects": [],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "c3d8cbfa2bef196ae12009d9f8a7b928ca17fab7047a8c90dc1be86475ff04f2",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "c3d8cbfa2bef196ae12009d9f8a7b928ca17fab7047a8c90dc1be86475ff04f2"
+      }
     },
     {
       "id": "doc-c95397058d0a257d5975",
@@ -3997,10 +4512,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "6d2cb100919c4d633b3872a867e8a404b9425f340252209c5108870b41c05c88",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "6d2cb100919c4d633b3872a867e8a404b9425f340252209c5108870b41c05c88"
+      }
     },
     {
       "id": "doc-ae58b7e1deb33c8a092f",
@@ -4017,10 +4535,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "414d93dd1122655b07c05db8ecc1528b2c57b946eff4f0c20de98a6cd9d72f1a",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "414d93dd1122655b07c05db8ecc1528b2c57b946eff4f0c20de98a6cd9d72f1a"
+      }
     },
     {
       "id": "doc-292aec9754a67cfe66a3",
@@ -4037,10 +4558,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "a276f570427445efe09b639882eade500666effa97d2c3fa14f3ad05b1a8f321",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "a276f570427445efe09b639882eade500666effa97d2c3fa14f3ad05b1a8f321"
+      }
     },
     {
       "id": "doc-b34482b0b36c4d291e88",
@@ -4057,10 +4581,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "fbf2989f1ab3940bb44b986e17c4ae3c69f2eaca2810532303861f141481aeb6",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "fbf2989f1ab3940bb44b986e17c4ae3c69f2eaca2810532303861f141481aeb6"
+      }
     },
     {
       "id": "doc-787ca12f33b15dda3b93",
@@ -4077,10 +4604,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "423cfb4c43b42ca40141993c3f7e0d8410e01eef172497bed2571ce9a72b4c82",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "423cfb4c43b42ca40141993c3f7e0d8410e01eef172497bed2571ce9a72b4c82"
+      }
     },
     {
       "id": "doc-b9424edb5f684b8e006a",
@@ -4097,10 +4627,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "73f32d2755577f414ee1d9c8151385e50e60658af5f1aa3748cf3170e63f585f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "73f32d2755577f414ee1d9c8151385e50e60658af5f1aa3748cf3170e63f585f"
+      }
     },
     {
       "id": "doc-fc2538abe94c6ec5bcad",
@@ -4117,10 +4650,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "bdc1fd14ddfedb06195d369ea01bf84b109e4ac0a24364e7bbc9bf1103096f36",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "bdc1fd14ddfedb06195d369ea01bf84b109e4ac0a24364e7bbc9bf1103096f36"
+      }
     },
     {
       "id": "doc-e909a93ea5d8fd9416a9",
@@ -4137,10 +4673,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "852c6b43634b83999c6b2d2415fd2d63ef24fea4a1b5aa45d27cf0181c8190e0",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "852c6b43634b83999c6b2d2415fd2d63ef24fea4a1b5aa45d27cf0181c8190e0"
+      }
     },
     {
       "id": "doc-7be441d9175bba3b9789",
@@ -4157,10 +4696,13 @@
         "welfare"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "d388b5cc82b78b4d46646812e1dc78631931ad0d054d4836547f8cff228bae99",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "welfare": "d388b5cc82b78b4d46646812e1dc78631931ad0d054d4836547f8cff228bae99"
+      }
     },
     {
       "id": "doc-a05483994056ab1db639",
@@ -4178,10 +4720,13 @@
         "interest"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "62dc0f142f19568e4e821a057b81584d5112c39ebc0c9a3abe623e06e73f5a8a",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "deposits": "62dc0f142f19568e4e821a057b81584d5112c39ebc0c9a3abe623e06e73f5a8a"
+      }
     },
     {
       "id": "doc-b29de6f21c9c8ae45e6d",
@@ -4198,10 +4743,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "a330759e814894ce82b375b261231436e963f08762a555c3c9f78e495d5420f1",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "deposits": "a330759e814894ce82b375b261231436e963f08762a555c3c9f78e495d5420f1"
+      }
     },
     {
       "id": "doc-1edbe379a94a7a640e2e",
@@ -4218,10 +4766,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "7eac32da7af9f22de8956d1b486e02082ce8fcac4e74e7a544b09591be1dc510",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "deposits": "7eac32da7af9f22de8956d1b486e02082ce8fcac4e74e7a544b09591be1dc510"
+      }
     },
     {
       "id": "doc-c40f0c99d19d943a0ba1",
@@ -4238,10 +4789,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "78390ed981697fc00fbc88aab1eb629fe6a5aec0c0045f5b7e880635b6661a0f",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "deposits": "78390ed981697fc00fbc88aab1eb629fe6a5aec0c0045f5b7e880635b6661a0f"
+      }
     },
     {
       "id": "doc-f4dea28c23c7857d323d",
@@ -4258,10 +4812,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "def81e0f4cb6501b31bcd4aa762cdf5f41f3e354e9fde625afdeb7ec21136344",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "deposits": "def81e0f4cb6501b31bcd4aa762cdf5f41f3e354e9fde625afdeb7ec21136344"
+      }
     },
     {
       "id": "doc-93f29e053952f2d64e63",
@@ -4278,10 +4835,13 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "303fd04f8e779d7d5a0930d5aa9ff336a0da825618c43433ce7d5e80151a9ffb",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "deposits": "303fd04f8e779d7d5a0930d5aa9ff336a0da825618c43433ce7d5e80151a9ffb"
+      }
     },
     {
       "id": "doc-d793f7d138b9b0b78418",
@@ -4298,10 +4858,127 @@
         "deposits"
       ],
       "status": "PENDING",
-      "lastCheckedAt": "2026-10-06T01:39:19.895Z",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
       "mayAffectRules": false,
       "fingerprint": "c7890a5bb7f7c5098f677d517e99919ada82a192209474cf01be8599ee315e32",
-      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION"
+      "pendingReason": "BASELINE_INVENTORY_NOT_RULE_PROMOTION",
+      "indexFingerprints": {
+        "deposits": "c7890a5bb7f7c5098f677d517e99919ada82a192209474cf01be8599ee315e32"
+      }
+    },
+    {
+      "id": "doc-258e7ad69dddf3785eb2",
+      "title": "ระเบียบว่าด้วยการรับฝากเงินจากสมาคมฌาปนกิจสงเคราะห์ พ.ศ. 2569",
+      "type": "REGULATION",
+      "originalUrl": "https://drive.google.com/file/d/1p2B8nBrWoLELvfaorf3QX9ku3kzYQTrF/view",
+      "officialIndexUrl": "https://www.dlasavingcoop.com/show.php?Category=procedure",
+      "linkVerified": true,
+      "announcementDate": null,
+      "effectiveDate": null,
+      "version": "2569",
+      "amendment": null,
+      "affects": [
+        "deposits",
+        "welfare"
+      ],
+      "status": "PENDING",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
+      "mayAffectRules": true,
+      "fingerprint": "6546dcc2a2d36e4c71b0987667347090435ccd96236d1913f0fc2b95833e102a",
+      "indexFingerprints": {
+        "procedure": "6546dcc2a2d36e4c71b0987667347090435ccd96236d1913f0fc2b95833e102a"
+      },
+      "pendingReason": "NEW_OFFICIAL_DOCUMENT"
+    },
+    {
+      "id": "doc-5c893b2d819d747e4a6c",
+      "title": "หลักเกณฑ์การให้เงินกู้สามัญ เพื่อการพักผ่อน พ.ศ.2569",
+      "type": "CRITERIA",
+      "originalUrl": "https://drive.google.com/file/d/1PlpK5Cprkz3NV5ey23Ix60Uo10F7IlFS/view",
+      "officialIndexUrl": "https://www.dlasavingcoop.com/show.php?No=774",
+      "linkVerified": true,
+      "announcementDate": null,
+      "effectiveDate": null,
+      "version": "2569",
+      "amendment": null,
+      "affects": [
+        "ordinaryLoan"
+      ],
+      "status": "PENDING",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
+      "mayAffectRules": true,
+      "fingerprint": "964e7424beccb4cd2b9712eb718ae8708ed3b6a48850e654eda30611d1bd7254",
+      "indexFingerprints": {
+        "ordinary": "964e7424beccb4cd2b9712eb718ae8708ed3b6a48850e654eda30611d1bd7254"
+      },
+      "pendingReason": "NEW_OFFICIAL_DOCUMENT"
+    },
+    {
+      "id": "doc-f86d3cf4c093807584a9",
+      "title": "&raquo; ใบสมัครสมาชิก (สมาชิกสามัญ)",
+      "type": "NEWS",
+      "originalUrl": "https://drive.google.com/file/d/1XLoN80mFYLqZ7RSuMUnKbYPil6itu6rL/view",
+      "officialIndexUrl": "https://www.dlasavingcoop.com/show.php?No=772",
+      "linkVerified": true,
+      "announcementDate": null,
+      "effectiveDate": null,
+      "version": null,
+      "amendment": null,
+      "affects": [
+        "ordinaryLoan",
+        "membership"
+      ],
+      "status": "PENDING",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
+      "mayAffectRules": false,
+      "fingerprint": "ba4b1aae77316f5eab13400f37a5a3dd8ef28468fd284622bf5813cf92716f0b",
+      "indexFingerprints": {
+        "member": "ba4b1aae77316f5eab13400f37a5a3dd8ef28468fd284622bf5813cf92716f0b"
+      }
+    },
+    {
+      "id": "doc-6f1bd1701dfd24fb9c52",
+      "title": "&raquo; ใบสมัครสมาชิก (สมาชิกสมทบ)",
+      "type": "NEWS",
+      "originalUrl": "https://drive.google.com/file/d/1kDZDeiWhudB25l8eKb_IBNwfSBU68AMD/view",
+      "officialIndexUrl": "https://www.dlasavingcoop.com/show.php?No=772",
+      "linkVerified": true,
+      "announcementDate": null,
+      "effectiveDate": null,
+      "version": null,
+      "amendment": null,
+      "affects": [
+        "membership"
+      ],
+      "status": "PENDING",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
+      "mayAffectRules": false,
+      "fingerprint": "b0842d3f3d774d40494e9f27b61ca04f6d131bacd7ba620d04b4467d8c2a357a",
+      "indexFingerprints": {
+        "member": "b0842d3f3d774d40494e9f27b61ca04f6d131bacd7ba620d04b4467d8c2a357a"
+      }
+    },
+    {
+      "id": "doc-11cb7905e014a6ebd26e",
+      "title": "&raquo; แบบขอเปลี่ยนแปลงอัตราหุ้นรายเดือน",
+      "type": "NEWS",
+      "originalUrl": "https://drive.google.com/file/d/1iueQYQ6f4PwzE4IO9Yun2mRq1SjPcEhC/view",
+      "officialIndexUrl": "https://www.dlasavingcoop.com/show.php?No=772",
+      "linkVerified": true,
+      "announcementDate": null,
+      "effectiveDate": null,
+      "version": null,
+      "amendment": null,
+      "affects": [
+        "shares"
+      ],
+      "status": "PENDING",
+      "lastCheckedAt": "2026-10-09T08:50:22.292Z",
+      "mayAffectRules": false,
+      "fingerprint": "aa778f778036ae742cafe5a14a9262da1c8627d9a26ac0eefbb2032148b304a2",
+      "indexFingerprints": {
+        "member": "aa778f778036ae742cafe5a14a9262da1c8627d9a26ac0eefbb2032148b304a2"
+      }
     }
   ],
   "ruleVersions": [
@@ -5156,5 +5833,5 @@
       }
     }
   ],
-  "lastSyncAt": "2026-10-06T01:53:18.800Z"
+  "lastSyncAt": "2026-10-09T08:50:22.292Z"
 }
