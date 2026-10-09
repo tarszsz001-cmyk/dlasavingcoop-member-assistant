@@ -1,34 +1,9 @@
 {
-  "checkedAt": "2026-10-09T08:50:22.292Z",
-  "processed": 14,
-  "unchanged": 2,
-  "changes": [
-    "doc-258e7ad69dddf3785eb2",
-    "doc-5c893b2d819d747e4a6c",
-    "doc-5ca322b7780219a8d617",
-    "doc-929ef166b401e6e6d99d",
-    "doc-6faade127f8072968d44",
-    "doc-2e7c1c2be78fa7db7d6d",
-    "doc-0ae5b17a9f255aa6c03e",
-    "doc-3b42bf2c26b9c2c352e1",
-    "doc-22d26d603411651c4ade",
-    "doc-a896b9cc6ca13e54cb79",
-    "doc-ae2368ed41f382dad76c",
-    "doc-c4b7865377b56cabc608",
-    "doc-19e555fabf66c2e87ee9",
-    "doc-f4b8fa8489c6e518c21b",
-    "doc-8f7ccfcd0375a9c452f2"
-  ],
-  "impactedDomains": [
-    "emergencyLoan",
-    "specialHousing",
-    "redeemMortgage",
-    "qualityOfLife",
-    "guarantor",
-    "deposits",
-    "welfare",
-    "ordinaryLoan"
-  ],
+  "checkedAt": "2026-10-09T08:53:41.115Z",
+  "processed": 8,
+  "unchanged": 8,
+  "changes": [],
+  "impactedDomains": [],
   "errors": [],
   "policy": "Detection never promotes or rewrites Rule Master"
 }
