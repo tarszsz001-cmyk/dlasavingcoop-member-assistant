@@ -1,9 +1,14 @@
 {
-  "checkedAt": "2026-10-09T18:25:28.252Z",
-  "processed": 8,
+  "checkedAt": "2026-10-10T06:02:40.117Z",
+  "processed": 7,
   "unchanged": 8,
   "changes": [],
   "impactedDomains": [],
-  "errors": [],
+  "errors": [
+    {
+      "document": "doc-20120cec8048c1252046",
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-QuoGL3/headers --output /tmp/official-sync-QuoGL3/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
+    }
+  ],
   "policy": "Detection never promotes or rewrites Rule Master"
 }
