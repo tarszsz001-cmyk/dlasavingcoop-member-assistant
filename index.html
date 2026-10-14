@@ -2058,6 +2058,11 @@ globalThis.OFFICIAL_SOURCE_REGISTRY={"schemaVersion":"1.0","policy":{"maxIndexAg
       ]
     });
 
+    if(/^(?:เงิน)?กู้พิเศษ$/.test(q)) return res('loan_special','หลักเกณฑ์เงินกู้พิเศษมี 3 หัวข้อ กดเลือกหัวข้อที่ต้องการดูสรุปหลักเกณฑ์ได้เลยครับ',{
+      details:['ขั้นตอน: 1) เลือกหัวข้อที่ตรงกับวัตถุประสงค์ 2) ดูสรุปหลักเกณฑ์ 3) เปิดหลักเกณฑ์ฉบับเต็มและแบบคำขอ 4) ตรวจหลักประกัน/การประเมิน/ประกันตามประเภท 5) เตรียมเอกสารและยื่นคำขอ 6) ติดตามผลกับงานเงินกู้พิเศษ'],
+      actions:[...SPECIAL_TOPICS.map(([,title])=>[title,'#ask:'+encodeURIComponent(title),'topic']),['📘 หน้ารวมเงินกู้พิเศษ',S.specialLoanForms],['☎️ งานเงินกู้พิเศษ 092-391-7912','tel:0923917912']],
+      sources:[src('หน้ารวมเงินกู้พิเศษทางการ',S.specialLoanForms)]
+    });
     if(/กู้พิเศษ|เงินกู้พิเศษ/i.test(q)) return res('loan_special','เงินกู้พิเศษมี 3 กลุ่มในหน้าทางการ: เคหะ / ไถ่ถอนจำนองบ้านพร้อมที่ดิน / พัฒนาคุณภาพชีวิต (รวมหนี้) ครับ',{
       details:['เลือกประเภทที่ตรงกับวัตถุประสงค์ก่อน ระบบจะพาไปหลักเกณฑ์และแบบที่ตรงเรื่อง','ขั้นตอน: 1) เลือกประเภท 2) เปิดหลักเกณฑ์และแบบ 3) ตรวจหลักประกัน/การประเมิน/ประกันตามประเภท 4) เตรียมเอกสาร 5) ยื่นคำขอ 6) ติดตามกับงานเงินกู้พิเศษ'],
       actions:[
@@ -2146,7 +2151,7 @@ globalThis.OFFICIAL_SOURCE_REGISTRY={"schemaVersion":"1.0","policy":{"maxIndexAg
   function contextualize(q,previousTopic){
     q=norm(q);
     // การกดเลือกหัวข้อเงินกู้ (3 หัวข้อหลัก / 7 หัวข้อเงินกู้สามัญ) เป็นการเปลี่ยนหัวข้อ ไม่ใช่คำถามต่อเนื่อง
-    if(LOAN_HEADINGS.includes(q)||q==='เงินกู้มีกี่แบบ'||ORDINARY_TOPICS.some(([,t])=>norm(t)===q)) return q;
+    if(LOAN_HEADINGS.includes(q)||q==='เงินกู้มีกี่แบบ'||LOAN_TOPICS.some(([,t])=>norm(t)===q)) return q;
     if(!previousTopic) return q;
     if(previousTopic==='resignation' && /^(?:แล้ว)?(?:ถ้า)?(?:มี)?(?:ภาระ|หนี้|ค้ำ|คนค้ำ|ผู้ค้ำ)(?:ล่ะ|ละ|ครับ|คะ|ไหม|มั้ย)?$/i.test(q)) return 'ผมมีหนี้และค้ำคนอื่นอยู่ ลาออกได้ไหม';
     if(previousTopic==='dividend' && /^(?:แล้ว)?(?:ออก|จ่าย|ได้)(?:เมื่อไร|เดือนไหน|วันไหน|ตอนไหน)(?:ครับ|คะ)?$/i.test(q)) return 'ปันผลปี 2569 ออกเมื่อไร';
@@ -2170,7 +2175,7 @@ globalThis.OFFICIAL_SOURCE_REGISTRY={"schemaVersion":"1.0","policy":{"maxIndexAg
     let query=raw,result,lastFact=null;
     const guardQuery=prior?.requiredFact&&!newQuestion||options.continuation||correction?(state.question||contextualize(raw,state?.topic)):contextualize(raw,state?.topic);
     const guard=freshnessStatus(guardQuery);
-    if(!guard.allowed){result=F.lock(guard,sourceRegistry);const lockedTopic=ORDINARY_TOPICS.find(([,title])=>norm(title)===norm(guardQuery));if(lockedTopic)result.topicIntent=lockedTopic[0];return {result,state:{...state,result},query:guardQuery};}
+    if(!guard.allowed&&!NAV_ONLY_HEADINGS.includes(norm(guardQuery))){result=F.lock(guard,sourceRegistry);const lockedTopic=LOAN_TOPICS.find(([,title])=>norm(title)===norm(guardQuery));if(lockedTopic)result.topicIntent=lockedTopic[0];return {result,state:{...state,result},query:guardQuery};}
     if(prior?.requiredFact==='loanProduct'&&loanProduct(raw)&&choice){
       query=raw+' '+state.question;result=answer(query);
     }else if(prior?.requiredFact==='welfareKind'&&choice&&(welfareKindFromQuestion(raw)||/ทุน|การศึกษา/.test(raw))){
@@ -2227,12 +2232,20 @@ globalThis.OFFICIAL_SOURCE_REGISTRY={"schemaVersion":"1.0","policy":{"maxIndexAg
     ['ordloan_disaster','สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญจากภัยพิบัติ'],
     ['ordloan_guarantor','สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญกรณีชำระหนี้สหกรณ์ในฐานะผู้ค้ำประกัน']
   ];
+  const SPECIAL_TOPICS=[
+    ['splloan_housing','เงินกู้พิเศษเพื่อการเคหะ'],
+    ['splloan_redeem','เงินกู้พิเศษเพื่อไถ่ถอนจำนองบ้านพร้อมที่ดิน'],
+    ['splloan_quality','เงินกู้พิเศษเพื่อพัฒนาคุณภาพชีวิต (รวมหนี้)']
+  ];
+  const LOAN_TOPICS=[...ORDINARY_TOPICS,...SPECIAL_TOPICS];
+  // หน้ารายการหัวข้อ (ไม่มีตัวเลขกฎ) แสดงได้แม้ระบบล็อกอยู่ เพื่อให้เข้าไปดูรูปสรุปของแต่ละหัวข้อได้
+  const NAV_ONLY_HEADINGS=['เงินกู้สามัญ','เงินกู้พิเศษ'];
   function answer(input){
     const q=norm(input),check=freshnessStatus(q);
-    if(!check.allowed){
+    if(!check.allowed&&!NAV_ONLY_HEADINGS.includes(q)){
       const locked=F.lock(check,sourceRegistry);
       // หัวข้อเงินกู้สามัญ 7 หัวข้อ: ยังล็อกข้อความไว้ตามเดิม แต่แนบรูปสรุปให้ (ดู render)
-      const lockedTopic=ORDINARY_TOPICS.find(([,title])=>norm(title)===q);
+      const lockedTopic=LOAN_TOPICS.find(([,title])=>norm(title)===q);
       if(lockedTopic)locked.topicIntent=lockedTopic[0];
       return locked;
     }
@@ -2246,6 +2259,19 @@ globalThis.OFFICIAL_SOURCE_REGISTRY={"schemaVersion":"1.0","policy":{"maxIndexAg
     if(ordTopic)return res(ordTopic[0],ordTopic[1],{status:'สรุปหลักเกณฑ์เงินกู้สามัญ',
       actions:[['⬅️ กลับไปเลือกหัวข้อเงินกู้สามัญ','#ask:'+encodeURIComponent('เงินกู้สามัญ')],['📢 ประกาศหลักเกณฑ์กู้สามัญ 2569',S.loanGeneralAnnouncement2569],['📄 แบบฟอร์มเงินกู้สามัญ',S.ordinaryLoanForms],['☎️ งานเงินกู้สามัญ 083-928-8638','tel:0839288638'],['☎️ รายชื่อเจ้าหน้าที่','#staff-directory']],
       sources:[src('ประกาศหลักเกณฑ์กู้สามัญ 2569',S.loanGeneralAnnouncement2569),src('เงินกู้สามัญ-แบบฟอร์มทางการ',S.ordinaryLoanForms)]});
+    // เงินกู้พิเศษ: 3 คำตอบย่อย (ตอบเป็นรูป) — จับเฉพาะชื่อหัวข้อตรงตัว
+    const splTopic=SPECIAL_TOPICS.find(([,title])=>norm(title)===q);
+    if(splTopic){
+      const L={
+        splloan_housing:[['📢 หลักเกณฑ์กู้พิเศษเพื่อการเคหะ 2569',S.loanSpecialHousingAnnouncement],['📄 แบบคำขอกู้พิเศษเพื่อการเคหะ',S.loanSpecialHousingForm]],
+        splloan_redeem:[['📢 หลักเกณฑ์ไถ่ถอนจำนองบ้านพร้อมที่ดิน',S.loanSpecialRedeemAnnouncement],['📄 แบบคำขอไถ่ถอนจำนอง',S.loanSpecialRedeemForm]],
+        splloan_quality:[['📢 หลักเกณฑ์พัฒนาคุณภาพชีวิต (รวมหนี้)',S.loanSpecialQualityAnnouncement],['📄 แบบกู้พิเศษพัฒนาคุณภาพชีวิต',S.loanSpecialQualityForm]]
+      }[splTopic[0]];
+      return res(splTopic[0],splTopic[1],{status:'สรุปหลักเกณฑ์เงินกู้พิเศษ',
+        actions:[['⬅️ กลับไปเลือกหัวข้อเงินกู้พิเศษ','#ask:'+encodeURIComponent('เงินกู้พิเศษ')],...L,['📘 หน้ารวมเงินกู้พิเศษ',S.specialLoanForms],['☎️ งานเงินกู้พิเศษ 092-391-7912','tel:0923917912']],
+        sources:[src(L[0][0].replace(/^[^\s]+\s/,''),L[0][1]),src(L[1][0].replace(/^[^\s]+\s/,''),L[1][1]),src('หน้ารวมเงินกู้พิเศษทางการ',S.specialLoanForms)]});
+    }
+
     // หัวข้อหลัก "เงินกู้เพื่อฉุกเฉิน" ใช้คำตอบเงินกู้ฉุกเฉินเดิม (มีรูปอินโฟกราฟิกอยู่แล้ว)
     if(/^เงินกู้เพื่อ(?:เหตุ)?ฉุกเฉิน$/.test(q))return answer('กู้ฉุกเฉิน');
     if(!/(?:ผู้ค้ำ|ค้ำประกัน)/.test(q)&&/(?:เปลี่ยนแปลงข้อมูลสมาชิก|แก้ไขข้อมูลสมาชิก|(?:คำขอ|แบบ)[^\n]{0,25}เปลี่ยนแปลง|กรอก[^\n]{0,25}เปลี่ยนแปลง)/.test(q)&&/(?:แนบ|เอกสาร|ส่ง|ที่ไหน|ช่องทาง|กรอก)/.test(q)){
@@ -2343,6 +2369,9 @@ const ANSWER_IMAGES={
   ordloan_vacation:{src:'assets/infographics/loan-vacation.jpg',w:848,h:1200,alt:'อินโฟกราฟิกสรุปหลักเกณฑ์การให้กู้เงินกู้สามัญเพื่อการพักผ่อน'},
   ordloan_refinance:{src:'assets/infographics/loan-restructure.jpg',w:1055,h:1491,alt:'อินโฟกราฟิกสรุปหลักเกณฑ์การให้กู้เงินกู้สามัญปรับโครงสร้างหนี้'},
   ordloan_disaster:{src:'assets/infographics/loan-disaster.jpg',w:1055,h:1491,alt:'อินโฟกราฟิกสรุปหลักเกณฑ์การให้กู้เงินกู้สามัญจากภัยพิบัติ'},
+  splloan_housing:{src:'assets/infographics/loan-special-housing.jpg',w:1055,h:1491,alt:'อินโฟกราฟิกหลักเกณฑ์การให้เงินกู้พิเศษเพื่อการเคหะ พ.ศ. 2569'},
+  splloan_redeem:{src:'assets/infographics/loan-special-redeem.jpg',w:1055,h:1491,alt:'อินโฟกราฟิกหลักเกณฑ์การให้เงินกู้พิเศษเพื่อไถ่ถอนจำนองบ้านพร้อมที่ดิน พ.ศ. 2569'},
+  splloan_quality:{src:'assets/infographics/loan-special-quality.jpg',w:1054,h:1492,alt:'อินโฟกราฟิกหลักเกณฑ์การให้เงินกู้พิเศษเพื่อพัฒนาคุณภาพชีวิต (รวมหนี้) โดยใช้สังหาริมทรัพย์ค้ำประกัน พ.ศ. 2569'},
   ordloan_guarantor:{src:'assets/infographics/loan-guarantor.jpg',w:1024,h:1536,alt:'อินโฟกราฟิกสรุปหลักเกณฑ์การให้กู้เงินกู้สามัญกรณีชำระหนี้สหกรณ์ในฐานะผู้ค้ำประกัน'},
   loan_emergency:{src:'assets/infographics/loan-emergency.jpg',w:1024,h:1536,alt:'อินโฟกราฟิกเงินกู้เพื่อเหตุฉุกเฉิน: คุณสมบัติผู้กู้ กู้ได้ไม่เกิน 4 เท่าของเงินได้รายเดือน สูงสุด 30,000 บาท (สมาชิกไม่น้อยกว่า 3 เดือน) หรือ 60,000 บาท (ไม่น้อยกว่า 6 เดือน) ผ่อนไม่เกิน 15 งวด ดอกเบี้ย 7.50%'}
 };

@@ -35,7 +35,7 @@ const cases=[
  ['สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญ','ordloan_general'],['สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญเพื่อการศึกษา','ordloan_education'],
  ['สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญไม่เกินทุนเรือนหุ้น','ordloan_share'],['สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญเพื่อการพักผ่อน','ordloan_vacation'],
  ['สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญปรับโครงสร้างหนี้','ordloan_refinance'],['สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญจากภัยพิบัติ','ordloan_disaster'],
- ['สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญกรณีชำระหนี้สหกรณ์ในฐานะผู้ค้ำประกัน','ordloan_guarantor'],['เงินกู้พิเศษ','loan_special'],['กู้บ้าน','loan_special_housing'],['ซื้อบ้าน','loan_special_housing'],['สร้างบ้าน','loan_special_housing'],['ต่อเติมบ้าน','loan_special_housing'],['เคหะ','loan_special_housing'],['รีไฟแนนซ์บ้าน','loan_special_redeem'],['ไถ่ถอนจำนองบ้าน','loan_special_redeem'],['รวมหนี้','loan_special_quality'],['กู้เพื่อการศึกษา','loan_education'],['กู้กรณีน้ำท่วม','loan_disaster'],['ชำระหนี้แทนผู้กู้','loan_guarantor_debt'],['กู้น้ำท่วม','loan_disaster'],
+ ['สรุปหลักเกณฑ์การให้กู้เงินกู้สามัญกรณีชำระหนี้สหกรณ์ในฐานะผู้ค้ำประกัน','ordloan_guarantor'],['เงินกู้พิเศษ','loan_special'],['เงินกู้พิเศษเพื่อการเคหะ','splloan_housing'],['เงินกู้พิเศษเพื่อไถ่ถอนจำนองบ้านพร้อมที่ดิน','splloan_redeem'],['เงินกู้พิเศษเพื่อพัฒนาคุณภาพชีวิต (รวมหนี้)','splloan_quality'],['กู้บ้าน','loan_special_housing'],['ซื้อบ้าน','loan_special_housing'],['สร้างบ้าน','loan_special_housing'],['ต่อเติมบ้าน','loan_special_housing'],['เคหะ','loan_special_housing'],['รีไฟแนนซ์บ้าน','loan_special_redeem'],['ไถ่ถอนจำนองบ้าน','loan_special_redeem'],['รวมหนี้','loan_special_quality'],['กู้เพื่อการศึกษา','loan_education'],['กู้กรณีน้ำท่วม','loan_disaster'],['ชำระหนี้แทนผู้กู้','loan_guarantor_debt'],['กู้น้ำท่วม','loan_disaster'],
 
  ['สมัครสมาชิกใหม่','member_apply'],['สมาชิกย้าย','transfer'],['ลาออกจากสหกรณ์','resignation'],
  ['เปิดบัญชีเงินฝาก','deposit_open'],['วิธีฝากเงิน','deposit_add'],['ถอนเงินฝาก','deposit_withdraw'],['เงินฝาก','deposit'],
@@ -90,7 +90,7 @@ for(const q of homeQueries){
   if(r.intent==='fallback'||r.intent==='empty') failures.push({q,actual:r.intent,group:'homepage'});
 }
 
-for(const f of ['assets/infographics/loan-emergency.jpg']){
+for(const f of ['assets/infographics/loan-emergency.jpg','assets/infographics/loan-special-housing.jpg','assets/infographics/loan-special-redeem.jpg','assets/infographics/loan-special-quality.jpg']){
   if(!html.includes(f)) failures.push({f,group:'infographic-not-referenced'});
   if(!fs.existsSync(new URL('../'+f,import.meta.url))) failures.push({f,group:'infographic-file-missing'});
 }
