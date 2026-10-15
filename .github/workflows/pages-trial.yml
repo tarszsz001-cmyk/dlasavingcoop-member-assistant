@@ -1,0 +1,46 @@
+name: Deploy trial site (manual, skips release gate)
+
+# ใช้กดเองเท่านั้น (Run workflow) เพื่อให้คนในทีมลองเว็บก่อน
+# ข้ามชุดตรวจก่อนปล่อย และใส่แถบ "เว็บทดสอบ" บนหน้าเว็บ
+# ไม่ใช่เว็บสำหรับสมาชิกทั่วไป — ใช้ pages.yml เมื่อชุดตรวจผ่านแล้ว
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Use latest official-source monitor state
+        run: |
+          if git fetch origin official-source-monitor; then
+            git show origin/official-source-monitor:data/official-source-monitor.json > /tmp/latest-monitor.json && cp /tmp/latest-monitor.json data/official-source-monitor.json
+          else
+            echo "official-source-monitor branch not found; using the checked-in copy"
+          fi
+      - name: Stage trial files with banner
+        run: |
+          mkdir -p _site/data
+          cp index.html .nojekyll _site/
+          cp -r assets _site/
+          cp data/current-events.json data/official-rule-master.json data/official-source-registry.json data/official-source-monitor.json _site/data/
+          sed -i 's|<body>|<body><div style="background:#fff3cd;color:#7a5200;text-align:center;padding:8px 12px;font:700 14px/1.4 sans-serif;border-bottom:1px solid #f0d58a">เว็บทดสอบ — ข้อมูลบางข้อกำลังตรวจสอบ ยังไม่ใช่เว็บทางการสำหรับสมาชิก</div>|' _site/index.html
+          grep -c "เว็บทดสอบ" _site/index.html
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+      - id: deployment
+        uses: actions/deploy-pages@v4
