@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-17T15:43:34.165Z",
+  "checkedAt": "2026-10-18T04:45:54.456Z",
   "processed": 0,
   "unchanged": 8,
   "changes": [],
@@ -7,11 +7,11 @@
   "errors": [
     {
       "document": "doc-20120cec8048c1252046",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-a0J0D6/headers --output /tmp/official-sync-a0J0D6/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-NtrVki/headers --output /tmp/official-sync-NtrVki/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
     },
     {
       "document": "doc-070bc1813f9f44f6a0a8",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-vTmMYZ/headers --output /tmp/official-sync-vTmMYZ/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1qDA2FylIDxUQk3d4whSrMDWvq0rpN-Nf&export=download\ncurl: (63) Maximum file size exceeded\n"
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-NJOUxs/headers --output /tmp/official-sync-NJOUxs/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1qDA2FylIDxUQk3d4whSrMDWvq0rpN-Nf&export=download\ncurl: (63) Maximum file size exceeded\n"
     },
     {
       "document": "doc-ae58b7e1deb33c8a092f",
@@ -27,7 +27,7 @@
     },
     {
       "document": "doc-787ca12f33b15dda3b93",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-XCn1NA/headers --output /tmp/official-sync-XCn1NA/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1t2zQO8phbXRIsFg0v7ge8sejL3bdtaq9&export=download\ncurl: (28) Operation timed out after 25002 milliseconds with 0 bytes received\n"
+      "error": "Attachment is not a PDF; login/HTML cannot verify evidence"
     },
     {
       "document": "doc-b9424edb5f684b8e006a",
