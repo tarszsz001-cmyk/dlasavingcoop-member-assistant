@@ -1,21 +1,17 @@
 {
-  "checkedAt": "2026-10-26T18:44:06.314Z",
+  "checkedAt": "2026-10-27T05:16:48.789Z",
   "processed": 0,
-  "unchanged": 7,
+  "unchanged": 8,
   "changes": [],
   "impactedDomains": [],
   "errors": [
     {
-      "monitor": "special",
-      "error": "Official page has no parseable document links; do not mark fresh"
-    },
-    {
       "document": "doc-20120cec8048c1252046",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-RNKVR3/headers --output /tmp/official-sync-RNKVR3/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-Utedsw/headers --output /tmp/official-sync-Utedsw/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
     },
     {
       "document": "doc-070bc1813f9f44f6a0a8",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-nnCYOw/headers --output /tmp/official-sync-nnCYOw/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1qDA2FylIDxUQk3d4whSrMDWvq0rpN-Nf&export=download\ncurl: (63) Maximum file size exceeded\n"
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-aFZY1T/headers --output /tmp/official-sync-aFZY1T/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1qDA2FylIDxUQk3d4whSrMDWvq0rpN-Nf&export=download\ncurl: (63) Maximum file size exceeded\n"
     },
     {
       "document": "doc-ae58b7e1deb33c8a092f",
