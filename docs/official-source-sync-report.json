@@ -1,5 +1,5 @@
 {
-  "checkedAt": "2026-10-31T17:17:24.987Z",
+  "checkedAt": "2026-11-01T06:25:09.872Z",
   "processed": 0,
   "unchanged": 8,
   "changes": [],
@@ -7,11 +7,11 @@
   "errors": [
     {
       "document": "doc-20120cec8048c1252046",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-RLPkLt/headers --output /tmp/official-sync-RLPkLt/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-HeXvag/headers --output /tmp/official-sync-HeXvag/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
     },
     {
       "document": "doc-070bc1813f9f44f6a0a8",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-FxE6i2/headers --output /tmp/official-sync-FxE6i2/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1qDA2FylIDxUQk3d4whSrMDWvq0rpN-Nf&export=download\ncurl: (63) Maximum file size exceeded\n"
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-dGKeY3/headers --output /tmp/official-sync-dGKeY3/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1qDA2FylIDxUQk3d4whSrMDWvq0rpN-Nf&export=download\ncurl: (63) Maximum file size exceeded\n"
     },
     {
       "document": "doc-ae58b7e1deb33c8a092f",
