@@ -1,17 +1,23 @@
 {
-  "checkedAt": "2026-11-04T06:41:48.491Z",
-  "processed": 0,
-  "unchanged": 8,
-  "changes": [],
-  "impactedDomains": [],
+  "checkedAt": "2026-11-04T19:53:31.968Z",
+  "processed": 2,
+  "unchanged": 6,
+  "changes": [
+    "doc-acf9a3839ef540bdef7b",
+    "doc-962b92d846a254c0bf7c"
+  ],
+  "impactedDomains": [
+    "dividendPatronage",
+    "shares"
+  ],
   "errors": [
     {
       "document": "doc-20120cec8048c1252046",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-E61MDR/headers --output /tmp/official-sync-E61MDR/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-ymHVVX/headers --output /tmp/official-sync-ymHVVX/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1hcVCP8NcKw8c-hWvQQFdFxzVrBGcanNN&export=download\ncurl: (63) Maximum file size exceeded\n"
     },
     {
       "document": "doc-070bc1813f9f44f6a0a8",
-      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-H48sBy/headers --output /tmp/official-sync-H48sBy/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1qDA2FylIDxUQk3d4whSrMDWvq0rpN-Nf&export=download\ncurl: (63) Maximum file size exceeded\n"
+      "error": "Command failed: curl --silent --show-error --max-time 25 --max-filesize 12582912 --dump-header /tmp/official-sync-YM7wlC/headers --output /tmp/official-sync-YM7wlC/body --header user-agent: DLASavingCoop-Official-Sync/1.0 --url https://drive.usercontent.google.com/download?id=1qDA2FylIDxUQk3d4whSrMDWvq0rpN-Nf&export=download\ncurl: (63) Maximum file size exceeded\n"
     },
     {
       "document": "doc-ae58b7e1deb33c8a092f",
